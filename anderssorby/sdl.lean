@@ -1,1 +1,1 @@
-anderssorby/sdl
+{"alias": {"from": "Anderssorby/SDL.lean", "to": "Anderssorby/SDL"}}

@@ -1,1 +1,1 @@
-jeswr/rustffi
+{"alias": {"from": "jeswr/RDF.lean", "to": "jeswr/RustFFI"}}
