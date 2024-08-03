@@ -1,1 +1,1 @@
-{"alias": {"from": "lurk-lab/yatimastdlib.lean", "to": "lurk-lab/YatimaStdLib"}}
+{"alias": {"from": "lurk-lab/yatimastdlib.lean", "to": "argumentcomputer/YatimaStdLib"}}
