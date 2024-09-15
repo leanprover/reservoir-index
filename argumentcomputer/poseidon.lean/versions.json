@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "bc0152fae89babac48328efe449a9cbfc965e1a5",
+      "date": "2023-03-24T14:35:36Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:nightly-2023-01-10",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "YatimaStdLib",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "92e5f1d578e307668a00036845ddebc7685134a2"
+        },
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "88f7d23e56a061d32c7173cea5befa4b2c248b41"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fde95b16907bf38ea3f310af406868fc6bcf48d1"
+        }
+      ]
+    }
+  ]
+}

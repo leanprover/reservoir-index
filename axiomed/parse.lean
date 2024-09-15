@@ -1,1 +1,1 @@
-{"alias": {"from": "axiomed/Parse.lean", "to": "axiomed/Parse"}}
+{"alias": {"from": "axiomed/Parse.lean", "to": "algebraic-dev/Parse"}}

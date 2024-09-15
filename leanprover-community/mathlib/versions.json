@@ -1,0 +1,2066 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "481029b76d518193f86895b568a1a4888c9bfa58",
+      "date": "2024-09-15T20:20:18Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.12.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "46fed98b5cac2b1ea64e363b420c382ed1af0d85"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "662f986ad3c5ad6ab1a1726b3c04f5ec425aa9f7"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "fb7841a6f4fb389ec0e47dd4677844d49906af3c"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c260ed920e2ebd23ef9fc8ca3fd24115e04c18b1"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "20c73142afa995ac9c8fb80a9bb585a55ca38308",
+      "date": "2024-09-02T03:07:16Z",
+      "tag": "v4.11.0",
+      "toolchain": "leanprover/lean4:v4.11.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "9d0bdd07bdfe53383567509348b1fe917fc08de4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a96aee5245720f588876021b6a0aa73efee49c76"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "1ef0b288623337cb37edd1222b9c26b4b77c6620"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5025874dc5f9f8dd1598190e60ef20dda7b42566",
+      "date": "2024-08-05T08:52:12Z",
+      "tag": "v4.11.0-rc1",
+      "toolchain": "leanprover/lean4:v4.11.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "dc167d260ff7ee9849b436037add06bed15104be"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "01ad33937acd996ee99eb74eefb39845e4e4b9f5"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "ae6ea60e9d8bc2d4b37ff02115854da2e1b710d0"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a96aee5245720f588876021b6a0aa73efee49c76"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "68cd8ae0f5b996176d1243d94c56e17de570e3bf"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "a719ba5c3115d47b68bf0497a9dd1bcbb21ea663",
+      "date": "2024-07-31T11:08:55Z",
+      "tag": "v4.10.0",
+      "toolchain": "leanprover/lean4:v4.10.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "0f3e143dffdc3a591662f3401ce1d7a3405227c0"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "01ad33937acd996ee99eb74eefb39845e4e4b9f5"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "209712c78b16c795453b6da7f7adbda4589a8f21"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "c87908619cccadda23f71262e6898b9893bffa36"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "543725b3bfed792097fc134adca628406f6145f5"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "23c87df3dc33f21c40279c894022a37b71ffa918",
+      "date": "2024-07-19T11:08:58Z",
+      "tag": "v3-eol",
+      "toolchain": "leanprover/lean4:v4.10.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "f27beb10b53350d6c1257ba3a8899df369135cc3"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "622d52c803db99ff4ea4fb442c1db9e91aed944c"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "d1b33202c3a29a079f292de65ea438648123b635"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "68b518c9b352fbee16e6d632adcb7a6d0760e2b7"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "09d33efc68d3ad52db77b731d7253675395a14aa",
+      "date": "2024-07-10T00:26:33Z",
+      "tag": "v4.9.1",
+      "toolchain": "leanprover/lean4:v4.9.1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "dcea9ce8aba248927fb2ea8d5752bfe1e3fe7b44"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "06cca4bd36b2af743d4858c5cc31604aa9da26bc"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "87c1e7a427d8e21b6eaf8401f12897f52e2c3be9"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c29c3cdce415240e9dcec5c583ad5d36f83f9c71"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "984c68d7773ac133c74543b99b82c33e53baea6b",
+      "date": "2024-07-09T17:37:18Z",
+      "tag": "v4.10.0-rc2",
+      "toolchain": "leanprover/lean4:v4.10.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "c0efc1fd2a0bec51bd55c5b17348af13d7419239"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "deb5bd446a108da8aa8c1a1b62dd50722b961b73"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "d1b33202c3a29a079f292de65ea438648123b635"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "68b518c9b352fbee16e6d632adcb7a6d0760e2b7"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f5c3f06aa7f6d6c221786d2890c345a00e6341f8",
+      "date": "2024-07-01T02:54:34Z",
+      "tag": "v4.10.0-rc1",
+      "toolchain": "leanprover/lean4:v4.10.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2ead90d24b4fac3a05c9c4294daa39bd8686fb98"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a64fe24aa94e21404940e9217363a9a1ed9a33a6"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "d1b33202c3a29a079f292de65ea438648123b635"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "d366a602cc4a325a6f9db3a3991dfa6d6cf409c5"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f0957a7575317490107578ebaee9efaf8e62a4ab",
+      "date": "2024-07-01T02:02:25Z",
+      "tag": "v4.9.0",
+      "toolchain": "leanprover/lean4:v4.9.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "54bb04c3119f24fde14b9068c4b2e69db52a1450"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "06cca4bd36b2af743d4858c5cc31604aa9da26bc"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "87c1e7a427d8e21b6eaf8401f12897f52e2c3be9"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c29c3cdce415240e9dcec5c583ad5d36f83f9c71"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f9caf98dbed0eb3bb593396501ffebe61bda333b",
+      "date": "2024-06-24T10:09:39Z",
+      "tag": "v4.9.0-rc3",
+      "toolchain": "leanprover/lean4:v4.9.0-rc3",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "47e4cc5c5800c07d9bf232173c9941fa5bf68589"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "882561b77bd2aaa98bd8665a56821062bdb3034c"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1588be870b9c76fe62286e8f42f0b4dafa154c96"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5ef3a830c97744118453efe44e7ddde3d4632385",
+      "date": "2024-06-14T06:16:22Z",
+      "tag": "v4.9.0-rc2",
+      "toolchain": "leanprover/lean4:v4.9.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "15d42e1a92a80d0db5ca1c12123866ba392b9d76"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "3e1025b53ab7a8c8e6b82a72eccf2b109f09349e"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "7983e959f8f4a79313215720de3ef1eca2d6d474"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "bbf0d1e39b5faac9276413942ac15bd64de65c1e",
+      "date": "2024-06-07T03:20:39Z",
+      "tag": "v4.9.0-rc1",
+      "toolchain": "leanprover/lean4:v4.9.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "af2dda22771c59db026c48ac0aabc73b72b7a4de"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "44f57616b0d9b8f9e5606f2c58d01df54840eba7"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "f744aab6fc4e06553464e6ae66730a3b14b8e615"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "7983e959f8f4a79313215720de3ef1eca2d6d474"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "b5eba595428809e96f3ed113bc7ba776c5f801ac",
+      "date": "2024-06-05T22:41:07Z",
+      "tag": "v4.8.0",
+      "toolchain": "leanprover/lean4:v4.8.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "551ff2d7dffd7af914cdbd01abbd449fe3e3d428"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "53156671405fbbd5402ed17a79bd129b961bd8d6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "53ba96ad7666d4a2515292974631629b5ea5dfee"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "77e081815b30b0d30707e1c5b0c6a6761f7a2404"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "e091c88348ddd5acceddd4320811a926d4cf19d0",
+      "date": "2024-05-22T03:42:30Z",
+      "tag": "v4.8.0-rc2",
+      "toolchain": "leanprover/lean4:v4.8.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "7b3c48b58fa0ae1c8f27889bdb086ea5e4b27b06"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "53156671405fbbd5402ed17a79bd129b961bd8d6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e8c8a42642ceb5af33708b79ae8a3148b681c236"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "35e38eb320982cfd2fcc864e0e0467ca223c8cdb"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "db651742f2c631e5b8525e9aabcf3d61ed094a4a",
+      "date": "2024-05-02T13:42:26Z",
+      "tag": "v4.8.0-rc1",
+      "toolchain": "leanprover/lean4:v4.8.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "3025cb124492b423070f20cf0a70636f757d117f"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "64365c656d5e1bffa127d2a1795f471529ee0178"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "0a21a48c286c4a4703c0be6ad2045f601f31b1d0"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fe1eff53bd0838c657aa6126fe4dd75ad9939d9a"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "188eb34fcf1125e89d651ad462d02598219718ca"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "a45ae63747140c1b2cbad9d46f518015c047047a",
+      "date": "2024-04-04T08:32:09Z",
+      "tag": "v4.7.0",
+      "toolchain": "leanprover/lean4:v4.7.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "32983874c1b897d78f20d620fe92fc8fd3f06c3a"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "64365c656d5e1bffa127d2a1795f471529ee0178"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "5fefb40a7c9038a7150e7edd92e43b1b94c49e79"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fb65c476595a453a9b8ffc4a1cea2db3a89b9cd8"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "be8fa79a28b8b6897dce0713ef50e89c4a0f6ef5"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "61a79185b6582573d23bf7e17f2137cd49e7e662"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "59fdb6b04d7d16825a54483d550d9572ff473abf",
+      "date": "2024-03-06T09:17:16Z",
+      "tag": "v4.7.0-rc2",
+      "toolchain": "leanprover/lean4:v4.7.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ff9850c4726f6b9fb8d8e96980c3fcb2900be8bd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fd760831487e6835944e7eeed505522c9dd47563"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "056ca0fa8f5585539d0b940f532d9750c3a2270f"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fb65c476595a453a9b8ffc4a1cea2db3a89b9cd8"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "64d082eeaad1a8e6bbb7c23b7a16b85a1715a02f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5bb630b0e53879b30dc48637d83822677a64065b",
+      "date": "2024-03-05T22:32:03Z",
+      "tag": "v4.6.1",
+      "toolchain": "leanprover/lean4:v4.6.1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a7543d1a6934d52086971f510e482d743fe30cf3"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fd760831487e6835944e7eeed505522c9dd47563"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ae76973be902b1da1589b28d10648c4e57333cad"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "16cae05860b208925f54e5581ec5fd264823440c"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "64d082eeaad1a8e6bbb7c23b7a16b85a1715a02f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "fa48894a5d2780c6593a224003a660ca039e3e8f",
+      "date": "2024-03-05T04:47:26Z",
+      "tag": "v4.7.0-rc1",
+      "toolchain": "leanprover/lean4:v4.7.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ff9850c4726f6b9fb8d8e96980c3fcb2900be8bd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fd760831487e6835944e7eeed505522c9dd47563"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "056ca0fa8f5585539d0b940f532d9750c3a2270f"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fb65c476595a453a9b8ffc4a1cea2db3a89b9cd8"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "64d082eeaad1a8e6bbb7c23b7a16b85a1715a02f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "7ca43cbd6aa34058a1afad8e47190af3ec1f9bdb",
+      "date": "2024-02-29T02:46:33Z",
+      "tag": "v4.6.0",
+      "toolchain": "leanprover/lean4:v4.6.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a7543d1a6934d52086971f510e482d743fe30cf3"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fd760831487e6835944e7eeed505522c9dd47563"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c51fa8ea4de8b203f64929cba19d139e555f9f6b"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "16cae05860b208925f54e5581ec5fd264823440c"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "64d082eeaad1a8e6bbb7c23b7a16b85a1715a02f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "490d2d4820d3ed2dea34f47f3cdfe9d72b8fbc80",
+      "date": "2024-02-02T04:48:09Z",
+      "tag": "v4.6.0-rc1",
+      "toolchain": "leanprover/lean4:v4.6.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "276953b13323ca151939eafaaec9129bf7970306"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1c88406514a636d241903e2e288d21dc6d861e01"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "6beed82dcfbb7731d173cd517675df27d62ad0f4"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "af1e86cf7a37389632a02f4a111e6b501b2b818f"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "8079d2d1d0e073bde42eab159c24f4c2d0d3a871"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "feec58a7ee9185f92abddcf7631643b53181a7d3",
+      "date": "2024-02-01T04:47:03Z",
+      "tag": "v4.5.0",
+      "toolchain": "leanprover/lean4:v4.5.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "08ec2584b1892869e3a5f4122b029989bcb4ca79"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1c88406514a636d241903e2e288d21dc6d861e01"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "cebd10ba6d22457e364ba03320cfd9fc7511e520"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "8dd18350791c85c0fc9adbd6254c94a81d260d35"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "8079d2d1d0e073bde42eab159c24f4c2d0d3a871"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "0c9d4118caa615ee8c9592a1da2e3fd79d682cf8",
+      "date": "2024-01-01T07:00:57Z",
+      "tag": "v2024",
+      "toolchain": "leanprover/lean4:v4.5.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ee49cf8fada1bf5a15592c399a925c401848227f"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ccba5d35d07a448fab14c0e391c8105df6e2564c"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "69404390bdc1de946bf0a2e51b1a69f308e56d7a"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "31d41415d5782a196999d4fd8eeaef3cae386a5f"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "58eef79b1520d17ff085f58b599690c112a47e6b",
+      "date": "2023-12-22T00:30:57Z",
+      "tag": "v4.5.0-rc1",
+      "toolchain": "leanprover/lean4:v4.5.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ee49cf8fada1bf5a15592c399a925c401848227f"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ccba5d35d07a448fab14c0e391c8105df6e2564c"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "69404390bdc1de946bf0a2e51b1a69f308e56d7a"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "bf61e90de075abfa27f638922e7aafafdce77c44"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "cf8e23a62939ed7cc530fbb68e83539730f32f86",
+      "date": "2023-12-21T23:05:32Z",
+      "tag": "v4.4.0",
+      "toolchain": "leanprover/lean4:v4.4.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "af7f36db6e7e9e395710a70635f915e8e3a0e69b"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ccba5d35d07a448fab14c0e391c8105df6e2564c"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "646be3a3604d0f2a3c1800cb4279a36493474b18"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "909febc72b4f64628f8d35cd0554f8a90b6e0749"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "75641abe702d35c946b6e59b8dc672c7e6d80b13",
+      "date": "2023-12-02T07:05:28Z",
+      "tag": "v4.4.0-rc1",
+      "toolchain": "leanprover/lean4:v4.4.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "9e37a01f8590f81ace095b56710db694b5bf8ca0"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "d3a1d25f3eba0d93a58d5d3d027ffa78ece07755"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c7cff4551258d31c0d2d453b3f9cbca757d445f1"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "909febc72b4f64628f8d35cd0554f8a90b6e0749"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f04afed5ac9fea0e1355bc6f6bee2bd01f4a888d",
+      "date": "2023-12-01T21:17:51Z",
+      "tag": "v4.3.0",
+      "toolchain": "leanprover/lean4:v4.3.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2e4a3586a8f16713f16b2d2b3af3d8e65f3af087"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "d3a1d25f3eba0d93a58d5d3d027ffa78ece07755"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c7cff4551258d31c0d2d453b3f9cbca757d445f1"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "909febc72b4f64628f8d35cd0554f8a90b6e0749"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "83d4f222771f491b351d70b070406481f5d2b2ba",
+      "date": "2023-11-26T22:11:30Z",
+      "tag": "v4.3.0-rc2",
+      "toolchain": "leanprover/lean4:v4.3.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a652e09bd81bcb43ea132d64ecc16580b0c7fa50"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "d3a1d25f3eba0d93a58d5d3d027ffa78ece07755"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c7cff4551258d31c0d2d453b3f9cbca757d445f1"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "909febc72b4f64628f8d35cd0554f8a90b6e0749"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "1ff3bf341c6a14611bd2f7f689853d12f06c1694",
+      "date": "2023-10-31T09:38:50Z",
+      "tag": "v4.3.0-rc1",
+      "toolchain": "leanprover/lean4:v4.3.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a71c160b1934814837d37f377efaf2964e55c433"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a387c0eb611857e2460cf97a8e861c944286e6b2"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ed733adcb79e54e157fafb805ce3518d4411ab70"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "39229f3630d734af7d9cfb5937ddc6b41d3aa6aa"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "f1a5c7808b001305ba07d8626f45ee054282f589"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "753159252c585df6b6aa7c48d2b8828d58388b79",
+      "date": "2023-10-31T05:35:43Z",
+      "tag": "v4.2.0",
+      "toolchain": "leanprover/lean4:v4.2.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a387c0eb611857e2460cf97a8e861c944286e6b2"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "39229f3630d734af7d9cfb5937ddc6b41d3aa6aa"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "f1a5c7808b001305ba07d8626f45ee054282f589"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "6747f41f28627bed83e6d5891683538211caa2c1"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "6749fa4e776919514dae85bfc0ad62a511bc42a7"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "4de9b983b6933d0fac3dacd97efd1744a3d5badb",
+      "date": "2023-10-17T03:33:30Z",
+      "tag": "v4.2.0-rc3",
+      "toolchain": "leanprover/lean4:v4.2.0-rc3",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a387c0eb611857e2460cf97a8e861c944286e6b2"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "39229f3630d734af7d9cfb5937ddc6b41d3aa6aa"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "27715d1daf32b9657dc38cd52172d77b19bde4ba"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "85a0d4891518518edfccee16cbceac139efa460c"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "0bd8465d8a5cfdd53c1ff0fd57ca5eaa53eb455c"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "26eb2b0ade1d7e252d07b13ea9253f9c8652facd",
+      "date": "2023-10-16T04:14:16Z",
+      "tag": "v4.2.0-rc2",
+      "toolchain": "leanprover/lean4:v4.2.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a387c0eb611857e2460cf97a8e861c944286e6b2"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "39229f3630d734af7d9cfb5937ddc6b41d3aa6aa"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "27715d1daf32b9657dc38cd52172d77b19bde4ba"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "85a0d4891518518edfccee16cbceac139efa460c"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "0bd8465d8a5cfdd53c1ff0fd57ca5eaa53eb455c"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "b2f9c24b60fadee88f6172e2e0685850f323e1c7",
+      "date": "2023-09-26T10:21:49Z",
+      "tag": "v4.2.0-rc1",
+      "toolchain": "leanprover/lean4:v4.2.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "21dac2e9cc7e3cf7da5800814787b833e680b2fd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e75daed95ad1c92af4e577fea95e234d7a8401c1"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1a0cded2be292b5496e659b730d2accc742de098"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "67855403d60daf181775fa1ec63b04e70bcc3921"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "65bba7286e2395f3163fd0277110578f19b8170f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f203f2e0caf1d9ea25b7f2e4b8c2afebd2c6967b",
+      "date": "2023-09-26T08:43:02Z",
+      "tag": "v4.1.0",
+      "toolchain": "leanprover/lean4:v4.1.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "21dac2e9cc7e3cf7da5800814787b833e680b2fd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e75daed95ad1c92af4e577fea95e234d7a8401c1"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1a0cded2be292b5496e659b730d2accc742de098"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "67855403d60daf181775fa1ec63b04e70bcc3921"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "65bba7286e2395f3163fd0277110578f19b8170f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "bfaffcf10e6d088ae7c1c22462cbd7ae46f6c358",
+      "date": "2023-09-17T11:27:10Z",
+      "tag": "v4.1.0-rc1",
+      "toolchain": "leanprover/lean4:v4.1.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "44e6673a20fc0449d003983d1e1f472df40f7107"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "21dac2e9cc7e3cf7da5800814787b833e680b2fd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e75daed95ad1c92af4e577fea95e234d7a8401c1"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1a0cded2be292b5496e659b730d2accc742de098"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "80089ff4cd1808ad1506a62dac557517d9b875ff"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "d56176f12b78a0cf8454d9c2a6e9e8d4954dc58a",
+      "date": "2023-09-08T06:14:16Z",
+      "tag": "v4.0.0",
+      "toolchain": "leanprover/lean4:v4.0.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a0c2cd0ac3245a0dade4f925bcfa97e06dd84229"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "21dac2e9cc7e3cf7da5800814787b833e680b2fd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e75daed95ad1c92af4e577fea95e234d7a8401c1"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1a0cded2be292b5496e659b730d2accc742de098"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e8c27f7d90ee71470558efd1bc197fe55068c748"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "2d4a7e079332b99e4f147f75c35a9eab971ec1af",
+      "date": "2023-08-30T13:20:23Z",
+      "tag": "v4.0.0-rc4",
+      "toolchain": "leanprover/lean4:v4.0.0-rc4",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a0c2cd0ac3245a0dade4f925bcfa97e06dd84229"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "21dac2e9cc7e3cf7da5800814787b833e680b2fd"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "e75daed95ad1c92af4e577fea95e234d7a8401c1"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "1a0cded2be292b5496e659b730d2accc742de098"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "dd3a248c2a22c37644ad21029ecfa38f6a36d813"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "a80d330cac8f1d82b69767e1412893ac36ca6c00",
+      "date": "2023-08-28T07:27:07Z",
+      "tag": "v4.0.0-rc2",
+      "toolchain": "leanprover/lean4:v4.0.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a0c2cd0ac3245a0dade4f925bcfa97e06dd84229"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "5a858c32963b6b19be0d477a30a1f4b6c120be7e"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "81cc13c524a68d0072561dbac276cd61b65872a6"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "086c98bb129ca856381d4414dc0afd6e3e4ae2ef"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "b5f7bd40d2162fe148e585543f284a5d8cc0ef26"
+        }
+      ]
+    }
+  ]
+}

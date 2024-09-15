@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "f0619d3af695e26d1c634bad6a939c68e0e0b6c8",
+      "date": "2024-09-03T10:37:23Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.11.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "9d0bdd07bdfe53383567509348b1fe917fc08de4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "a96aee5245720f588876021b6a0aa73efee49c76"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "1ef0b288623337cb37edd1222b9c26b4b77c6620"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "20c73142afa995ac9c8fb80a9bb585a55ca38308"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "9fda7bae3f2a1b53cd307651efe4c12d4e0fa8f1",
+      "date": "2022-08-07T14:26:10Z",
+      "tag": "v2.0-uc",
+      "toolchain": "leanprover/lean4:nightly-2022-07-24",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": []
+    },
+    {
+      "version": "0.0.0",
+      "revision": "03ef8b3744a499e8f4a58ab538fbb400ad57f020",
+      "date": "2022-05-31T03:43:02Z",
+      "tag": "v1.0",
+      "toolchain": "leanprover/lean4:nightly-2022-05-10",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": "README.md",
+      "dependencies": []
+    }
+  ]
+}

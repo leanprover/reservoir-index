@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "baa86fb7b3e6de2cf9c6413b6e51974d47856eb8",
+      "date": "2023-11-27T17:27:01Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.2.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "parsec-extra",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c8ac57143628b87fd418b04d3d1c59ceea978fd0"
+        },
+        {
+          "type": "git",
+          "name": "lspec",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "3b6023654b917c8641ec5e626724a43380cff8f0"
+        }
+      ]
+    }
+  ]
+}

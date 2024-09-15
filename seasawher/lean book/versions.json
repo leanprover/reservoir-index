@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "4e24bedd606f6d273351b8340219a1b37d776a9c",
+      "date": "2024-09-12T11:04:21Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.12.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "mdgen",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a6f34a4da30b8284ab295da918022b51b68f7e13"
+        }
+      ]
+    }
+  ]
+}

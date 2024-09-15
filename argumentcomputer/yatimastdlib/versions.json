@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "3037f0c14128751b95510c2723f067ec7a494f08",
+      "date": "2023-12-07T18:25:55Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.4.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "9e37a01f8590f81ace095b56710db694b5bf8ca0"
+        },
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "3388be5a1d1390594a74ec469fd54a5d84ff6114"
+        }
+      ]
+    }
+  ]
+}

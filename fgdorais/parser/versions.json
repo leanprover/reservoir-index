@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "78da911dde7f845eea21d2d083f9b2fc93f82360",
+      "date": "2024-09-03T21:24:30Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.12.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "8feac540abb781cb1349688c816dc02fae66b49c"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "7afce91e4fcee25c1ed06dca8d71b82bed396776"
+        }
+      ]
+    }
+  ]
+}

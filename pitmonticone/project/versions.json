@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "b6d835ce88029f6a56366d5d4a97e2fcdc973f25",
+      "date": "2024-09-13T14:10:20Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.12.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "46fed98b5cac2b1ea64e363b420c382ed1af0d85"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "662f986ad3c5ad6ab1a1726b3c04f5ec425aa9f7"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "fb7841a6f4fb389ec0e47dd4677844d49906af3c"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "c260ed920e2ebd23ef9fc8ca3fd24115e04c18b1"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "7dc356972a5b83c078eae60f24578be0859cd7be"
+        }
+      ]
+    }
+  ]
+}

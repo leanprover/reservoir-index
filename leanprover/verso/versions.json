@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "add5d37e1229382ea61b8dca44ac6b62d6dfe881",
+      "date": "2024-09-13T13:15:19Z",
+      "tag": "latest",
+      "toolchain": "leanprover/lean4:nightly-2024-09-03",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "82bdbe1dbb4df2e666e9a62d7f1302ac5cc23768"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2b381ee8dceba3b934d3d4aea4a2702a61e5664f"
+        }
+      ]
+    }
+  ]
+}
