@@ -3,14 +3,41 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "add5d37e1229382ea61b8dca44ac6b62d6dfe881",
-      "date": "2024-09-13T13:15:19Z",
+      "revision": "0b5edc2c55f31821edb5ba13c2914d623b8d853a",
+      "date": "2024-09-17T12:39:32Z",
       "tag": "latest",
-      "toolchain": "leanprover/lean4:nightly-2024-09-03",
+      "toolchain": "leanprover/lean4:v4.11.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "82bdbe1dbb4df2e666e9a62d7f1302ac5cc23768"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2b381ee8dceba3b934d3d4aea4a2702a61e5664f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "0b5edc2c55f31821edb5ba13c2914d623b8d853a",
+      "date": "2024-09-17T12:39:32Z",
+      "tag": "v4.11.0",
+      "toolchain": "leanprover/lean4:v4.11.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
