@@ -3,42 +3,44 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "58215c03286e07c706d6ea0c962a1e08a43c39be",
-      "date": "2024-09-22T13:10:03Z",
+      "revision": "3791d40af74f4d962e4f966a29bf0618586e6c89",
+      "date": "2024-09-22T14:02:37Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.11.0",
+      "toolchain": "leanprover/lean4:v4.12.0-rc1",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f"
+          "rev": "2ce0037d487217469a1efeb9ea8196fe15ab9c46"
         },
         {
           "type": "git",
           "name": "Qq",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "9d0bdd07bdfe53383567509348b1fe917fc08de4"
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
         },
         {
           "type": "git",
           "name": "aesop",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738"
+          "rev": "61fb4d1a2a6a4fe4be260ca31c58af1234ff298b"
         },
         {
           "type": "git",
           "name": "proofwidgets",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "a96aee5245720f588876021b6a0aa73efee49c76"
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
         },
         {
           "type": "git",
@@ -52,14 +54,21 @@
           "name": "importGraph",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "1ef0b288623337cb37edd1222b9c26b4b77c6620"
+          "rev": "fb7841a6f4fb389ec0e47dd4677844d49906af3c"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2ba60fa2c384a94735454db11a2d523612eaabff"
         },
         {
           "type": "git",
           "name": "mathlib",
           "scope": "",
           "version": "0.0.0",
-          "rev": "20c73142afa995ac9c8fb80a9bb585a55ca38308"
+          "rev": "87c93626b51f79de48f5fdca516f3a0b2deb9cfd"
         }
       ]
     }

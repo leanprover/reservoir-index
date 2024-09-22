@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "917c72ceea1b11b55ef9c71f0233f2ba56948856",
-      "date": "2024-08-04T12:35:12Z",
+      "revision": "1d4074590fe4e7df3e341defcb26839391b9a28e",
+      "date": "2024-09-22T12:23:03Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.10.0",
+      "toolchain": "leanprover/lean4:v4.11.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [],
@@ -14,10 +14,31 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "Colorized",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+        },
+        {
+          "type": "git",
+          "name": "Specs",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891"
+        },
+        {
+          "type": "git",
           "name": "pod",
           "scope": "",
           "version": "0.0.0",
-          "rev": "b8c9094cdc70b8015178be8ca57ccf407fc16f3b"
+          "rev": "66b36ed01285bb22f6c3703227fe2565c902b9f8"
         }
       ]
     }
