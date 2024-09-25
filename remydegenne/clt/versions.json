@@ -3,84 +3,100 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7809a595668522c02d7d3ecb0ef62c94261f1f97",
-      "date": "2024-01-18T07:54:07Z",
+      "revision": "c9ae89a26912712c9bc26785e71ea3da91c4b2f4",
+      "date": "2024-09-25T08:12:07Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.5.0-rc1",
+      "toolchain": "leanprover/lean4:v4.12.0-rc1",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
-          "name": "std",
-          "scope": "",
+          "name": "batteries",
+          "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "ee49cf8fada1bf5a15592c399a925c401848227f"
+          "rev": "6d5e1c81277e960372c94f19172440e39b3c5980"
         },
         {
           "type": "git",
           "name": "Qq",
-          "scope": "",
+          "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "ccba5d35d07a448fab14c0e391c8105df6e2564c"
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "69404390bdc1de946bf0a2e51b1a69f308e56d7a"
+          "rev": "a895713f7701e295a015b1087f3113fd3d615272"
         },
         {
           "type": "git",
           "name": "proofwidgets",
-          "scope": "",
+          "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "31d41415d5782a196999d4fd8eeaef3cae386a5f"
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
         },
         {
           "type": "git",
           "name": "Cli",
           "scope": "",
           "version": "0.0.0",
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "fb7841a6f4fb389ec0e47dd4677844d49906af3c"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2ba60fa2c384a94735454db11a2d523612eaabff"
         },
         {
           "type": "git",
           "name": "mathlib",
           "scope": "",
           "version": "0.0.0",
-          "rev": "499d53818b170da7d91a3c0a7ec2073e66dc409f"
+          "rev": "f7eb186981d26df6a660ad65bc92771d8bcf146b"
         },
         {
           "type": "git",
-          "name": "CMark",
+          "name": "MD4Lean",
           "scope": "",
           "version": "0.0.0",
-          "rev": "0077cbbaa92abf855fc1c0413e158ffd8195ec77"
+          "rev": "5e95f4776be5e048364f325c7e9d619bb56fb005"
         },
         {
           "type": "git",
           "name": "UnicodeBasic",
           "scope": "",
           "version": "0.0.0",
-          "rev": "280d75fdfe7be8eb337be7f1bf8479b4aac09f71"
+          "rev": "7afce91e4fcee25c1ed06dca8d71b82bed396776"
         },
         {
           "type": "git",
-          "name": "leanInk",
+          "name": "BibtexQuery",
           "scope": "",
           "version": "0.0.0",
-          "rev": "2447df5cc6e48eb965c3c3fba87e46d353b5e9f1"
+          "rev": "0a294fe9bf23b396c5cc955054c50b9b652ec5ad"
         },
         {
           "type": "git",
           "name": "doc-gen4",
           "scope": "",
           "version": "0.0.0",
-          "rev": "86d5c219a9ad7aa686c9e0e704af030e203c63a1"
+          "rev": "1b0072fea2aa6a0ef8ef8b506ec5223b184cb4d0"
         }
       ]
     }
