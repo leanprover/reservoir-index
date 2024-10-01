@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "1b0072fea2aa6a0ef8ef8b506ec5223b184cb4d0",
-      "date": "2024-09-04T11:16:18Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.12.0-rc1",
+      "revision": "5119580cd7510a440d54f67834c9024cc03a3e32",
+      "date": "2024-10-01T06:19:40Z",
+      "tag": "v4.12.0",
+      "toolchain": "leanprover/lean4:v4.12.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -26,14 +26,57 @@
           "name": "UnicodeBasic",
           "scope": "",
           "version": "0.0.0",
-          "rev": "7afce91e4fcee25c1ed06dca8d71b82bed396776"
+          "rev": "6d2e06515f1ed1f74208d5a1da3a9cc26c60a7a0"
         },
         {
           "type": "git",
           "name": "BibtexQuery",
           "scope": "",
           "version": "0.0.0",
-          "rev": "0a294fe9bf23b396c5cc955054c50b9b652ec5ad"
+          "rev": "85e1e7143dd4cfa2b551826c27867bada60858e8"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "bf066c328bcff19aa93adf4d24c4e896c0d4eaca"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5119580cd7510a440d54f67834c9024cc03a3e32",
+      "date": "2024-10-01T06:19:40Z",
+      "tag": "v4.12.0",
+      "toolchain": "leanprover/lean4:v4.12.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "5e95f4776be5e048364f325c7e9d619bb56fb005"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "6d2e06515f1ed1f74208d5a1da3a9cc26c60a7a0"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "85e1e7143dd4cfa2b551826c27867bada60858e8"
         },
         {
           "type": "git",
