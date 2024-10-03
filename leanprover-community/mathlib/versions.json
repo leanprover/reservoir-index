@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "66e06b65522f07278db73e0947d72d8ae31ae1f8",
-      "date": "2024-10-02T12:51:05Z",
+      "revision": "81d4159870a16f4ae3253172f5d203bfa004b8e0",
+      "date": "2024-10-03T10:58:26Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.12.0",
       "platformIndependent": null,
@@ -19,7 +19,7 @@
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6"
+          "rev": "34e690ec07f6f6375668adba5a16d0d723226c2c"
         },
         {
           "type": "git",
@@ -62,6 +62,70 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "rev": "781beceb959c68b36d3d96205b3531e341879d2c"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "809c3fb3b5c8f5d7dace56e200b426187516535a",
+      "date": "2024-10-01T08:15:40Z",
+      "tag": "v4.12.0",
+      "toolchain": "leanprover/lean4:v4.12.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "28fa80508edc97d96ed6342c9a771a67189e0baa"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "e285a7ade149c551c17a4b24f127e1ef782e4bb1"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "rev": "2ba60fa2c384a94735454db11a2d523612eaabff"
         }
       ]
     },

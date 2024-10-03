@@ -3,17 +3,25 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "be10399ef3a510d1ea14ad5ae935d9cbf4f60d87",
-      "date": "2024-10-02T11:34:40Z",
+      "revision": "5e50a399518e7e43842cada3b13e80d4a2efcd3a",
+      "date": "2024-10-03T12:35:03Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.12.0-rc1",
+      "toolchain": "leanprover/lean4:v4.12.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
         "././LICENSE"
       ],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "calcify",
+          "scope": "nomeata",
+          "version": "0.0.0",
+          "rev": "6e870afb3a470b113b11b6809ba5ce45aee1dfd1"
+        }
+      ]
     }
   ]
 }

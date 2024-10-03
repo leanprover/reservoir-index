@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "ff420521a0c098891f4f44ecda9dd7ff57b50bad",
-      "date": "2024-10-01T13:22:53Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.12.0",
+      "revision": "b20a88676fd00affb90cbc9f1ff004ae588103b3",
+      "date": "2024-10-03T12:21:04Z",
+      "tag": "v4.13.0-rc1",
+      "toolchain": "leanprover/lean4:v4.13.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -19,7 +19,29 @@
           "name": "batteries",
           "scope": "",
           "version": "0.0.0",
-          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6"
+          "rev": "fc871f7039ac6d8ab993335bb35aba43286004a0"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "b20a88676fd00affb90cbc9f1ff004ae588103b3",
+      "date": "2024-10-03T12:21:04Z",
+      "tag": "v4.13.0-rc1",
+      "toolchain": "leanprover/lean4:v4.13.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "",
+          "version": "0.0.0",
+          "rev": "fc871f7039ac6d8ab993335bb35aba43286004a0"
         }
       ]
     },
