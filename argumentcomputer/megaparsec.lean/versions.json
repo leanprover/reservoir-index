@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,30 +15,42 @@
         {
           "type": "git",
           "name": "YatimaStdLib",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "5b64c5150e371fb280728cbb5b7c225b9c96b348"
+          "transitive": false,
+          "rev": "5b64c5150e371fb280728cbb5b7c225b9c96b348",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/YatimaStdLib.lean"
         },
         {
           "type": "git",
           "name": "Straume",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "053d9feccbface9a0b2c1a72447914376aac74ea"
+          "transitive": false,
+          "rev": "053d9feccbface9a0b2c1a72447914376aac74ea",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/straume"
         },
         {
           "type": "git",
           "name": "LSpec",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "3b6023654b917c8641ec5e626724a43380cff8f0"
+          "transitive": false,
+          "rev": "3b6023654b917c8641ec5e626724a43380cff8f0",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/LSpec"
         },
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "642cbc9960b49a65a779b8fce56b05ff83cf9e35"
+          "transitive": true,
+          "rev": "642cbc9960b49a65a779b8fce56b05ff83cf9e35",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/std4/"
         }
       ]
     }

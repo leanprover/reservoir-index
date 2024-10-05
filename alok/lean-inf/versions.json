@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -19,70 +19,100 @@
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "8feac540abb781cb1349688c816dc02fae66b49c"
+          "transitive": true,
+          "rev": "8feac540abb781cb1349688c816dc02fae66b49c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "Qq",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
+          "transitive": true,
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "e291aa4de57079b3d2199b9eb7b4b00922b85a7c"
+          "transitive": false,
+          "rev": "e291aa4de57079b3d2199b9eb7b4b00922b85a7c",
+          "inputRev": null,
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "proofwidgets",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
+          "transitive": true,
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c",
+          "inputRev": "v0.0.42",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+          "transitive": true,
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "importGraph",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "8e530857b9be633a8cefaaff756534d219e7b06b"
+          "transitive": true,
+          "rev": "8e530857b9be633a8cefaaff756534d219e7b06b",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph"
         },
         {
           "type": "git",
           "name": "mathlib",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "f35c1df2822548d523991ab2c84ccfe85450145c"
+          "transitive": false,
+          "rev": "f35c1df2822548d523991ab2c84ccfe85450145c",
+          "inputRev": null,
+          "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
           "type": "git",
           "name": "UnicodeBasic",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "7afce91e4fcee25c1ed06dca8d71b82bed396776"
+          "transitive": true,
+          "rev": "7afce91e4fcee25c1ed06dca8d71b82bed396776",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
         },
         {
           "type": "git",
           "name": "Parser",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "78da911dde7f845eea21d2d083f9b2fc93f82360"
+          "transitive": false,
+          "rev": "78da911dde7f845eea21d2d083f9b2fc93f82360",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-parser"
         },
         {
           "type": "git",
           "name": "LeanCopilot",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "91dbe27e3fe90ff42f8363a20d4b901bbd2d9187"
+          "transitive": false,
+          "rev": "91dbe27e3fe90ff42f8363a20d4b901bbd2d9187",
+          "inputRev": "v1.4.1",
+          "url": "https://github.com/lean-dojo/LeanCopilot.git"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -17,23 +17,32 @@
         {
           "type": "git",
           "name": "mk-exercise",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "1ace0f6613c1d9ac95c83d8a0b5df2465c00f1d7"
+          "transitive": false,
+          "rev": "1ace0f6613c1d9ac95c83d8a0b5df2465c00f1d7",
+          "inputRev": "lean/v4.10.0",
+          "url": "https://github.com/Seasawher/mk-exercise"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+          "transitive": true,
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
         },
         {
           "type": "git",
           "name": "mdgen",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a6f34a4da30b8284ab295da918022b51b68f7e13"
+          "transitive": false,
+          "rev": "a6f34a4da30b8284ab295da918022b51b68f7e13",
+          "inputRev": "main",
+          "url": "https://github.com/Seasawher/mdgen"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,16 +15,22 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f"
+          "transitive": true,
+          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738"
+          "transitive": false,
+          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738",
+          "inputRev": "v4.11.0",
+          "url": "https://github.com/JLimperg/aesop"
         }
       ]
     },
@@ -44,16 +50,22 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f"
+          "transitive": true,
+          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738"
+          "transitive": false,
+          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738",
+          "inputRev": "v4.11.0",
+          "url": "https://github.com/JLimperg/aesop"
         }
       ]
     }

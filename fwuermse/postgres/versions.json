@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,16 +15,22 @@
         {
           "type": "git",
           "name": "alloy",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "04e2bae7838072ad6d0793cef68dc11fa6519d18"
+          "transitive": false,
+          "rev": "04e2bae7838072ad6d0793cef68dc11fa6519d18",
+          "inputRev": "master",
+          "url": "https://github.com/tydeu/lean4-alloy/"
         },
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "e840c18f7334c751efbd4cfe531476e10c943cdb"
+          "transitive": false,
+          "rev": "e840c18f7334c751efbd4cfe531476e10c943cdb",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4.git"
         }
       ]
     }

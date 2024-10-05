@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,30 +15,42 @@
         {
           "type": "git",
           "name": "Colorized",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b"
+          "transitive": true,
+          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
+          "inputRev": null,
+          "url": "https://github.com/axiomed/Colorized.lean.git"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+          "transitive": true,
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/lean4-cli.git"
         },
         {
           "type": "git",
           "name": "Specs",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891"
+          "transitive": true,
+          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891",
+          "inputRev": "ab52219",
+          "url": "https://github.com/axiomed/Specs.lean"
         },
         {
           "type": "git",
           "name": "pod",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "66b36ed01285bb22f6c3703227fe2565c902b9f8"
+          "transitive": false,
+          "rev": "66b36ed01285bb22f6c3703227fe2565c902b9f8",
+          "inputRev": "66b36ed",
+          "url": "https://github.com/KislyjKisel/lean-pod"
         }
       ]
     }

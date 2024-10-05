@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,9 +15,12 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "32983874c1b897d78f20d620fe92fc8fd3f06c3a"
+          "transitive": false,
+          "rev": "32983874c1b897d78f20d620fe92fc8fd3f06c3a",
+          "inputRev": "v4.7.0",
+          "url": "https://github.com/leanprover/std4"
         }
       ]
     }

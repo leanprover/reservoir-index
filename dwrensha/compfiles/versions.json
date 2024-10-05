@@ -1,12 +1,12 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
-      "revision": "9b6d657017556e9f0519a972d8f553613a76f197",
-      "date": "2024-10-03T18:24:44Z",
+      "revision": "4618b4cce76de0b7da6b42e9d5be942d3fa87d4f",
+      "date": "2024-10-04T17:00:02Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.12.0",
+      "toolchain": "leanprover/lean4:v4.13.0-rc3",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -19,63 +19,90 @@
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6"
+          "transitive": true,
+          "rev": "13f9b00769bdac2c0041406a6c2524a361e8d660",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "Qq",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9"
+          "transitive": true,
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
           "name": "aesop",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "28fa80508edc97d96ed6342c9a771a67189e0baa"
+          "transitive": true,
+          "rev": "b20a88676fd00affb90cbc9f1ff004ae588103b3",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "proofwidgets",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c"
+          "transitive": true,
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c",
+          "inputRev": "v0.0.42",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0"
+          "transitive": true,
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "importGraph",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "e285a7ade149c551c17a4b24f127e1ef782e4bb1"
+          "transitive": true,
+          "rev": "63a7d4a353f48f6c5f1bc19d0f018b0513cb370a",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph"
         },
         {
           "type": "git",
           "name": "LeanSearchClient",
           "scope": "leanprover-community",
           "version": "0.0.0",
-          "rev": "2ba60fa2c384a94735454db11a2d523612eaabff"
+          "transitive": true,
+          "rev": "781beceb959c68b36d3d96205b3531e341879d2c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
         },
         {
           "type": "git",
           "name": "mathlib",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "809c3fb3b5c8f5d7dace56e200b426187516535a"
+          "transitive": false,
+          "rev": "5ddd0ae2d57a887d36d8c99db785285cbf154439",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
           "type": "git",
           "name": "tryAtEachStep",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "91b116a9486cd2aedadc35ebe1417770d08da66d"
+          "transitive": false,
+          "rev": "88678746b932bdbfd3433081f044d210bfd88972",
+          "inputRev": "main",
+          "url": "https://github.com/dwrensha/tryAtEachStep"
         }
       ]
     }

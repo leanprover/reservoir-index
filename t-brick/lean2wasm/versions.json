@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,23 +15,32 @@
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+          "transitive": true,
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "2a1b7546b2df0f8e65a70d3b228c30d91752acc4"
+          "transitive": true,
+          "rev": "2a1b7546b2df0f8e65a70d3b228c30d91752acc4",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "importGraph",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "bbcffbcc19d69e13d5eea716283c76169db524ba"
+          "transitive": false,
+          "rev": "bbcffbcc19d69e13d5eea716283c76169db524ba",
+          "inputRev": "v4.6.1",
+          "url": "https://github.com/leanprover-community/import-graph"
         }
       ]
     }

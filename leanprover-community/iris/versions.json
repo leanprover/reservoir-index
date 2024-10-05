@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,16 +15,22 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "ae9ae7f279421e45a9b87d67f2d28aaef299de5c"
+          "transitive": false,
+          "rev": "ae9ae7f279421e45a9b87d67f2d28aaef299de5c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "Qq",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "fd760831487e6835944e7eeed505522c9dd47563"
+          "transitive": false,
+          "rev": "fd760831487e6835944e7eeed505522c9dd47563",
+          "inputRev": "master",
+          "url": "https://github.com/gebner/quote4"
         }
       ]
     }

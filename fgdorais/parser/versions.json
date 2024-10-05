@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -17,16 +17,22 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6"
+          "transitive": false,
+          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "UnicodeBasic",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "6d2e06515f1ed1f74208d5a1da3a9cc26c60a7a0"
+          "transitive": false,
+          "rev": "6d2e06515f1ed1f74208d5a1da3a9cc26c60a7a0",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
         }
       ]
     }

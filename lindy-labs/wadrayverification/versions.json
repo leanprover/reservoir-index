@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,65 +15,92 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "47e4cc5c5800c07d9bf232173c9941fa5bf68589"
+          "transitive": true,
+          "rev": "47e4cc5c5800c07d9bf232173c9941fa5bf68589",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "Qq",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6"
+          "transitive": true,
+          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "882561b77bd2aaa98bd8665a56821062bdb3034c"
+          "transitive": true,
+          "rev": "882561b77bd2aaa98bd8665a56821062bdb3034c",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "proofwidgets",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5"
+          "transitive": true,
+          "rev": "e6b6247c61280c77ade6bbf0bc3c66a44fe2e0c5",
+          "inputRev": "v0.0.36",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29"
+          "transitive": true,
+          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "importGraph",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "1588be870b9c76fe62286e8f42f0b4dafa154c96"
+          "transitive": true,
+          "rev": "1588be870b9c76fe62286e8f42f0b4dafa154c96",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph.git"
         },
         {
           "type": "git",
           "name": "mathlib",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "b142583f50bdaa5ba595320863b81a48a68f8d84"
+          "transitive": true,
+          "rev": "b142583f50bdaa5ba595320863b81a48a68f8d84",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
           "type": "git",
           "name": "aegis",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "6318bf040875c0d6687a754924f74fed8ed4da9d"
+          "transitive": true,
+          "rev": "6318bf040875c0d6687a754924f74fed8ed4da9d",
+          "inputRev": "main",
+          "url": "https://github.com/lindy-labs/aegis.git"
         },
         {
           "type": "git",
           "name": "corelib_verification",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a51002cc35a0220f4c2c6a781e002a1ff6222050"
+          "transitive": false,
+          "rev": "a51002cc35a0220f4c2c6a781e002a1ff6222050",
+          "inputRev": "main",
+          "url": "https://github.com/lindy-labs/corelib_verification.git"
         }
       ]
     }

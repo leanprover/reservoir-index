@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -17,9 +17,12 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6"
+          "transitive": false,
+          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         }
       ]
     },
@@ -39,9 +42,12 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "e403f680f0beb8610c29e6f799132e8be880554e"
+          "transitive": false,
+          "rev": "e403f680f0beb8610c29e6f799132e8be880554e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
         }
       ]
     }

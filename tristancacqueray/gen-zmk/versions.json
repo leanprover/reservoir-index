@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,9 +15,12 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "54bb04c3119f24fde14b9068c4b2e69db52a1450"
+          "transitive": false,
+          "rev": "54bb04c3119f24fde14b9068c4b2e69db52a1450",
+          "inputRev": "v4.9.0",
+          "url": "https://github.com/leanprover-community/batteries"
         }
       ]
     }

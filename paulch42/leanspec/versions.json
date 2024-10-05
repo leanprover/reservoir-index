@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,16 +15,22 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "0b2e962a80b98df1c6455f8ae11f2bd16809067c"
+          "transitive": false,
+          "rev": "0b2e962a80b98df1c6455f8ae11f2bd16809067c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "mdgen",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "c501f6b8fa2502362bf94678d404857e46e2b65d"
+          "transitive": false,
+          "rev": "c501f6b8fa2502362bf94678d404857e46e2b65d",
+          "inputRev": "c501f6b8fa2502362bf94678d404857e46e2b65d",
+          "url": "https://github.com/Seasawher/mdgen"
         }
       ]
     }

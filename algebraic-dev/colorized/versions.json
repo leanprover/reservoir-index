@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -17,23 +17,32 @@
         {
           "type": "git",
           "name": "Cats",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "d5cd5c0260fb984841d8da6fcf8e657acff72f93"
+          "transitive": true,
+          "rev": "d5cd5c0260fb984841d8da6fcf8e657acff72f93",
+          "inputRev": null,
+          "url": "https://github.com/axiomed/Cats.lean.git"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+          "transitive": true,
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/lean4-cli.git"
         },
         {
           "type": "git",
           "name": "Specs",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "0bb30e2ee70d71bcc72e457c09811d1a2f76f5a8"
+          "transitive": false,
+          "rev": "0bb30e2ee70d71bcc72e457c09811d1a2f76f5a8",
+          "inputRev": null,
+          "url": "https://github.com/axiomed/Specs.lean.git"
         }
       ]
     }

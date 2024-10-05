@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,44 +15,62 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "2e4a3586a8f16713f16b2d2b3af3d8e65f3af087"
+          "transitive": false,
+          "rev": "2e4a3586a8f16713f16b2d2b3af3d8e65f3af087",
+          "inputRev": "v4.3.0",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "Qq",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "d3a1d25f3eba0d93a58d5d3d027ffa78ece07755"
+          "transitive": true,
+          "rev": "d3a1d25f3eba0d93a58d5d3d027ffa78ece07755",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "c7cff4551258d31c0d2d453b3f9cbca757d445f1"
+          "transitive": true,
+          "rev": "c7cff4551258d31c0d2d453b3f9cbca757d445f1",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "proofwidgets",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "909febc72b4f64628f8d35cd0554f8a90b6e0749"
+          "transitive": true,
+          "rev": "909febc72b4f64628f8d35cd0554f8a90b6e0749",
+          "inputRev": "v0.0.23",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec"
+          "transitive": true,
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "mathlib",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "f04afed5ac9fea0e1355bc6f6bee2bd01f4a888d"
+          "transitive": false,
+          "rev": "f04afed5ac9fea0e1355bc6f6bee2bd01f4a888d",
+          "inputRev": "v4.3.0",
+          "url": "https://github.com/leanprover-community/mathlib4"
         }
       ]
     }

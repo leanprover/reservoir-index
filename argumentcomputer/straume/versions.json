@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,23 +15,32 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "af7f36db6e7e9e395710a70635f915e8e3a0e69b"
+          "transitive": false,
+          "rev": "af7f36db6e7e9e395710a70635f915e8e3a0e69b",
+          "inputRev": "v4.4.0",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "LSpec",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "3388be5a1d1390594a74ec469fd54a5d84ff6114"
+          "transitive": false,
+          "rev": "3388be5a1d1390594a74ec469fd54a5d84ff6114",
+          "inputRev": "3388be5a1d1390594a74ec469fd54a5d84ff6114",
+          "url": "https://github.com/lurk-lab/LSpec"
         },
         {
           "type": "git",
           "name": "YatimaStdLib",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "3037f0c14128751b95510c2723f067ec7a494f08"
+          "transitive": false,
+          "rev": "3037f0c14128751b95510c2723f067ec7a494f08",
+          "inputRev": "3037f0c14128751b95510c2723f067ec7a494f08",
+          "url": "https://github.com/lurk-lab/YatimaStdLib.lean"
         }
       ]
     }

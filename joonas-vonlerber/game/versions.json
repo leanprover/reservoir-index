@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,23 +15,32 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "a7543d1a6934d52086971f510e482d743fe30cf3"
+          "transitive": true,
+          "rev": "a7543d1a6934d52086971f510e482d743fe30cf3",
+          "inputRev": "v4.6.0",
+          "url": "https://github.com/leanprover/std4.git"
         },
         {
           "type": "git",
           "name": "i18n",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "c5b84feffb28dbd5b1ac74b3bf63271296fabfa5"
+          "transitive": true,
+          "rev": "c5b84feffb28dbd5b1ac74b3bf63271296fabfa5",
+          "inputRev": "v4.6.0",
+          "url": "https://github.com/hhu-adam/lean-i18n.git"
         },
         {
           "type": "git",
           "name": "GameServer",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "68f84a3426684914f834342854bf4963ba2d8d57"
+          "transitive": false,
+          "rev": "68f84a3426684914f834342854bf4963ba2d8d57",
+          "inputRev": "v4.6.0",
+          "url": "https://github.com/leanprover-community/lean4game.git"
         }
       ]
     }

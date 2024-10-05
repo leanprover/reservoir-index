@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,23 +15,32 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "276953b13323ca151939eafaaec9129bf7970306"
+          "transitive": true,
+          "rev": "276953b13323ca151939eafaaec9129bf7970306",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "6beed82dcfbb7731d173cd517675df27d62ad0f4"
+          "transitive": true,
+          "rev": "6beed82dcfbb7731d173cd517675df27d62ad0f4",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "LeanCopilot",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "4bc4e6c09689472e5523b0acc724c666baf51e6e"
+          "transitive": false,
+          "rev": "4bc4e6c09689472e5523b0acc724c666baf51e6e",
+          "inputRev": "v1.1.1",
+          "url": "https://github.com/lean-dojo/LeanCopilot.git"
         }
       ]
     },
@@ -51,23 +60,32 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "276953b13323ca151939eafaaec9129bf7970306"
+          "transitive": true,
+          "rev": "276953b13323ca151939eafaaec9129bf7970306",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "6beed82dcfbb7731d173cd517675df27d62ad0f4"
+          "transitive": true,
+          "rev": "6beed82dcfbb7731d173cd517675df27d62ad0f4",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "LeanCopilot",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "4bc4e6c09689472e5523b0acc724c666baf51e6e"
+          "transitive": false,
+          "rev": "4bc4e6c09689472e5523b0acc724c666baf51e6e",
+          "inputRev": "v1.1.1",
+          "url": "https://github.com/lean-dojo/LeanCopilot.git"
         }
       ]
     }

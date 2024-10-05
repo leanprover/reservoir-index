@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "data": [
     {
       "version": "0.0.0",
@@ -15,16 +15,22 @@
         {
           "type": "git",
           "name": "std",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "9e37a01f8590f81ace095b56710db694b5bf8ca0"
+          "transitive": false,
+          "rev": "9e37a01f8590f81ace095b56710db694b5bf8ca0",
+          "inputRev": "9e37a01f8590f81ace095b56710db694b5bf8ca0",
+          "url": "https://github.com/leanprover/std4/"
         },
         {
           "type": "git",
           "name": "LSpec",
-          "scope": "",
+          "scope": null,
           "version": "0.0.0",
-          "rev": "3388be5a1d1390594a74ec469fd54a5d84ff6114"
+          "transitive": false,
+          "rev": "3388be5a1d1390594a74ec469fd54a5d84ff6114",
+          "inputRev": "3388be5a1d1390594a74ec469fd54a5d84ff6114",
+          "url": "https://github.com/lurk-lab/LSpec"
         }
       ]
     }
