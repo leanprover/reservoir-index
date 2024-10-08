@@ -3,12 +3,12 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "63a7d4a353f48f6c5f1bc19d0f018b0513cb370a",
-      "date": "2024-10-04T07:01:19Z",
+      "revision": "9b4088ccf0f44ddd7b1132bb1348aef8cf481e12",
+      "date": "2024-10-08T10:45:22Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.13.0-rc1",
       "platformIndependent": null,
-      "license": null,
+      "license": "Apache-2.0",
       "licenseFiles": [
         "././LICENSE"
       ],
@@ -17,7 +17,7 @@
         {
           "type": "git",
           "name": "Cli",
-          "scope": null,
+          "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
           "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
@@ -27,10 +27,10 @@
         {
           "type": "git",
           "name": "batteries",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fc871f7039ac6d8ab993335bb35aba43286004a0",
+          "rev": "daf1ed91789811cf6bbb7bf2f4dad6b3bad8fbf4",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         }
@@ -115,7 +115,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "././LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
