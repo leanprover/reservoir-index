@@ -3,53 +3,55 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5413c5a3c951ff9d29ef2fd8b4a0d1ea03521e7f",
-      "date": "2024-08-22T14:26:58Z",
+      "revision": "ccb042d5260e6af8f5e81fa33db83ebf0c4e093f",
+      "date": "2024-10-09T04:47:10Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.7.0",
+      "toolchain": "leanprover/lean4:v4.12.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
-          "name": "std",
-          "scope": null,
+          "name": "batteries",
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "32983874c1b897d78f20d620fe92fc8fd3f06c3a",
+          "rev": "4756e0fc48acce0cc808df0ad149de5973240df6",
           "inputRev": "main",
-          "url": "https://github.com/leanprover/std4"
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "Qq",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "64365c656d5e1bffa127d2a1795f471529ee0178",
+          "rev": "2c8ae451ce9ffc83554322b14437159c1a9703f9",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
           "name": "aesop",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "5fefb40a7c9038a7150e7edd92e43b1b94c49e79",
+          "rev": "28fa80508edc97d96ed6342c9a771a67189e0baa",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "proofwidgets",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "fb65c476595a453a9b8ffc4a1cea2db3a89b9cd8",
-          "inputRev": "v0.0.30",
+          "rev": "eb08eee94098fe530ccd6d8751a86fe405473d4c",
+          "inputRev": "v0.0.42",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
@@ -58,19 +60,29 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "be8fa79a28b8b6897dce0713ef50e89c4a0f6ef5",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "importGraph",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "61a79185b6582573d23bf7e17f2137cd49e7e662",
+          "rev": "e285a7ade149c551c17a4b24f127e1ef782e4bb1",
           "inputRev": "main",
-          "url": "https://github.com/leanprover-community/import-graph.git"
+          "url": "https://github.com/leanprover-community/import-graph"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "2ba60fa2c384a94735454db11a2d523612eaabff",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
         },
         {
           "type": "git",
@@ -78,8 +90,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "a45ae63747140c1b2cbad9d46f518015c047047a",
-          "inputRev": "v4.7.0",
+          "rev": "809c3fb3b5c8f5d7dace56e200b426187516535a",
+          "inputRev": "v4.12.0",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         }
       ]
