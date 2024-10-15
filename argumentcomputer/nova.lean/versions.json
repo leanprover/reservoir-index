@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "cd62d4c40225446a9e6515a3e7a203b0bbdb0afe",
+      "date": "2023-12-13T21:22:25Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:nightly-2023-01-10",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "FFaCiL",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "9a4c77f8b703b60ae4e353b957e858a2e1de2e83",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/FFaCiL.lean"
+        },
+        {
+          "type": "git",
+          "name": "YatimaStdLib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "533d71efa5853ff014f42c174d6321d74251209f",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/YatimaStdLib.lean"
+        },
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "88f7d23e56a061d32c7173cea5befa4b2c248b41",
+          "inputRev": null,
+          "url": "https://github.com/yatima-inc/lspec/"
+        },
+        {
+          "type": "git",
+          "name": "LightData",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "7492abeae41f3a469396c73e13f48cd2b8da4a02",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/LightData"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "fde95b16907bf38ea3f310af406868fc6bcf48d1",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/std4/"
+        },
+        {
+          "type": "git",
+          "name": "BellaNova",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "885f12bfb39620c8130498925ed948533650cbb3",
+          "inputRev": null,
+          "url": "https://github.com/lurk-lab/Bellanova.lean"
+        }
+      ]
+    }
+  ]
+}

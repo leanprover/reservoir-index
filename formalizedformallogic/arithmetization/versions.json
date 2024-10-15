@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "1bfdc1b5a1c5912433564e2aa0fb94efee0278d1",
-      "date": "2024-09-14T13:26:11Z",
+      "revision": "85e327734277b7f5b91d272d34a060ed21cbfdfa",
+      "date": "2024-10-15T03:46:28Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.10.0-rc2",
       "platformIndependent": null,
@@ -45,10 +45,10 @@
         {
           "type": "git",
           "name": "proofwidgets",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "bf1a80e92be21e3562dd618b95cc24b57a6d476a",
+          "transitive": true,
+          "rev": "d1b33202c3a29a079f292de65ea438648123b635",
           "inputRev": "v0.0.39",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
@@ -67,7 +67,7 @@
           "name": "importGraph",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
+          "transitive": true,
           "rev": "68b518c9b352fbee16e6d632adcb7a6d0760e2b7",
           "inputRev": "68b518c9b352fbee16e6d632adcb7a6d0760e2b7",
           "url": "https://github.com/leanprover-community/import-graph"
@@ -79,58 +79,18 @@
           "version": "0.0.0",
           "transitive": true,
           "rev": "ab9dec5b351bc7e92f30b47031edf13458bc7a1d",
-          "inputRev": null,
+          "inputRev": "ab9dec5b351bc7e92f30b47031edf13458bc7a1d",
           "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
           "type": "git",
-          "name": "logic",
+          "name": "foundation",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c14a269c27ee9ef7936bcbb84fc7c51056480479",
+          "rev": "33e08c2b47f966f772df9af60cbdbc5688295bbf",
           "inputRev": "master",
           "url": "https://github.com/FormalizedFormalLogic/Foundation"
-        },
-        {
-          "type": "git",
-          "name": "MD4Lean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "9148a0a7506099963925cf239c491fcda5ed0044",
-          "inputRev": "main",
-          "url": "https://github.com/acmepjz/md4lean"
-        },
-        {
-          "type": "git",
-          "name": "UnicodeBasic",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "f93115d0209de6db335725dee900d379f40c0317",
-          "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
-        },
-        {
-          "type": "git",
-          "name": "BibtexQuery",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "bd8747df9ee72fca365efa5bd3bd0d8dcd083b9f",
-          "inputRev": "master",
-          "url": "https://github.com/dupuisf/BibtexQuery"
-        },
-        {
-          "type": "git",
-          "name": "doc-gen4",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "b941c425f6f0f1dc45fe13b850ffa7db1bb20d04",
-          "inputRev": "b941c425f6f0f1dc45fe13b850ffa7db1bb20d04",
-          "url": "https://github.com/leanprover/doc-gen4"
         }
       ]
     }
