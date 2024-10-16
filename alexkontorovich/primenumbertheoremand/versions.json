@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "c7fae107fd9c18a16537b2681860f873d3390ae0",
-      "date": "2024-10-07T18:10:44Z",
+      "revision": "74272f2f36605cc09d38ef8ce1b944df50654f02",
+      "date": "2024-10-15T17:41:07Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.12.0",
       "platformIndependent": null,
@@ -103,6 +103,46 @@
           "rev": "024a9861b21bd1f40b6990a5e2889c18bfda9844",
           "inputRev": "024a986",
           "url": "https://github.com/MichaelStollBayreuth/EulerProducts.git"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5e95f4776be5e048364f325c7e9d619bb56fb005",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6d2e06515f1ed1f74208d5a1da3a9cc26c60a7a0",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "85e1e7143dd4cfa2b551826c27867bada60858e8",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "doc-gen4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5119580cd7510a440d54f67834c9024cc03a3e32",
+          "inputRev": "v4.12.0",
+          "url": "https://github.com/leanprover/doc-gen4.git"
         }
       ]
     }
