@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "a24edfe5becf7ac1b4f3eaf448ed22ed89377d58",
+      "date": "2024-10-13T22:23:43Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.12.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Colorized",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
+          "inputRev": null,
+          "url": "https://github.com/axiomed/Colorized.lean.git"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "Specs",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891",
+          "inputRev": "ab52219",
+          "url": "https://github.com/axiomed/Specs.lean"
+        }
+      ]
+    }
+  ]
+}
