@@ -3,14 +3,49 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "ad7b7d5385d7a6a961d8a9b30ef1e226d16771a8",
-      "date": "2024-10-29T08:43:35Z",
-      "tag": null,
+      "revision": "c7124b3dbc6fb8b38ed427b20a8dc43dd162435a",
+      "date": "2024-10-29T15:19:49Z",
+      "tag": "v4.11.0",
       "toolchain": "leanprover/lean4:v4.11.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [],
       "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "metalib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c27ab606918fadcaff38593ca566d26109fa49c1",
+          "inputRev": "main",
+          "url": "https://github.com/reaslab/metalib.git"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "c7124b3dbc6fb8b38ed427b20a8dc43dd162435a",
+      "date": "2024-10-29T15:19:49Z",
+      "tag": "v4.11.0",
+      "toolchain": "leanprover/lean4:v4.11.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",

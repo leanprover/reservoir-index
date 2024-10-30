@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "6c5348149e00648908f5a083d8eb7e961a202eb0",
+      "date": "2024-10-29T15:34:16Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.13.0-rc4",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "SHerLOC",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "cf77ce5f5b389a593f6ca0689e5d445010afc056",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/SHerLOC.git"
+        },
+        {
+          "type": "git",
+          "name": "NKL",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "cfe38f61d0606f1b408e654103fdbcb3db5cf064",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/NKL.git"
+        },
+        {
+          "type": "git",
+          "name": "TensorLib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d1d385414f665926e3a5f5c7eea3b724ff9d5c91",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/TensorLib.git"
+        }
+      ]
+    }
+  ]
+}
