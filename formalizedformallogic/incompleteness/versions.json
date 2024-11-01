@@ -3,14 +3,16 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a8ad9e0408c932c95aca6dc136cb081f789aeab9",
-      "date": "2024-10-15T03:58:53Z",
+      "revision": "ebafa2a385533589fab7f40b042ad6e41ed9c6eb",
+      "date": "2024-10-31T17:43:01Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.10.0-rc2",
+      "toolchain": "leanprover/lean4:v4.13.0-rc3",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
@@ -18,7 +20,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "937cd3219c0beffa7b623d2905707d1304da259e",
+          "rev": "422d1a5f608fccafeddab9748e8038ef346b59bf",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
@@ -28,7 +30,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "a7bfa63f5dddbcab2d4e0569c4cac74b2585e2c6",
+          "rev": "fa3d73a2cf077f4b14c7840352ac7b08aeb6eb41",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
         },
@@ -38,7 +40,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "622d52c803db99ff4ea4fb442c1db9e91aed944c",
+          "rev": "b20a88676fd00affb90cbc9f1ff004ae588103b3",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
@@ -48,57 +50,67 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "d1b33202c3a29a079f292de65ea438648123b635",
-          "inputRev": "v0.0.39",
+          "rev": "cd20dae87c48495f0220663014dff11671597fcf",
+          "inputRev": "v0.0.43-pre",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
           "type": "git",
           "name": "Cli",
-          "scope": null,
+          "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "a11566029bd9ec4f68a65394e8c3ff1af74c1a29",
+          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
           "name": "importGraph",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "68b518c9b352fbee16e6d632adcb7a6d0760e2b7",
-          "inputRev": "68b518c9b352fbee16e6d632adcb7a6d0760e2b7",
+          "rev": "9b4088ccf0f44ddd7b1132bb1348aef8cf481e12",
+          "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
         {
           "type": "git",
-          "name": "mathlib",
-          "scope": null,
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "ab9dec5b351bc7e92f30b47031edf13458bc7a1d",
-          "inputRev": "ab9dec5b351bc7e92f30b47031edf13458bc7a1d",
+          "rev": "7bedaed1ef024add1e171cc17706b012a9a37802",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a54be302d6fd476755ef0d77c2e4b3a7768e9c9c",
+          "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
           "type": "git",
           "name": "foundation",
-          "scope": null,
+          "scope": "FormalizedFormalLogic",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "10cdf9cf9d88117471d50a526b64e56b802714f3",
+          "rev": "8374be249f74f8aa57c3ae22777eb3be4781807d",
           "inputRev": "rename",
           "url": "https://github.com/FormalizedFormalLogic/Foundation"
         },
         {
           "type": "git",
           "name": "arithmetization",
-          "scope": null,
+          "scope": "FormalizedFormalLogic",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "1f22de24da72e8d4e8603b477eca1729e42c0d59",
+          "rev": "bb64ed6d177ed0ad96f4b409a5b85c3975ce4209",
           "inputRev": "master",
           "url": "https://github.com/FormalizedFormalLogic/Arithmetization"
         }
