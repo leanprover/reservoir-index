@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "8b37c053abde8812015e64df628e8cb0463a03c3",
-      "date": "2024-11-01T11:23:18Z",
-      "tag": "lean-v4.13.0",
+      "revision": "f7c78f2f4a03846ceb7cb443f0a2e34f55631d23",
+      "date": "2024-11-02T12:49:42Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.13.0",
       "platformIndependent": null,
       "license": null,
@@ -50,8 +50,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "baa65c6339a56bd22b7292aa4511c54b3cc7a6af",
-          "inputRev": "v0.0.43",
+          "rev": "23268f52d3505955de3c26a42032702c25cfcbf8",
+          "inputRev": "v0.0.44",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
@@ -86,12 +86,22 @@
         },
         {
           "type": "git",
+          "name": "plausible",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d212dd74414e997653cd3484921f4159c955ccca",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
           "name": "mathlib",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d5ab93e3a3afadaf265a583a92f7e7c47203b540",
-          "inputRev": "v4.13.0",
+          "rev": "773f9ce4948d99f05003d45bf728942a0863504d",
+          "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
@@ -101,7 +111,7 @@
           "version": "0.0.0",
           "transitive": false,
           "rev": "dd98b78b3fb4681922663beb1ce92ab04e48039a",
-          "inputRev": "lean-v4.13.0",
+          "inputRev": "main",
           "url": "https://github.com/dwrensha/tryAtEachStep"
         }
       ]
