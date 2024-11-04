@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a8e86b3e6d5ff2c037815a2df9af15afa3d09d06",
-      "date": "2024-10-30T10:36:29Z",
+      "revision": "12eee880747f62bd5c28423b00bf08228be28065",
+      "date": "2024-11-04T09:38:21Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.11.0",
       "platformIndependent": null,
@@ -81,6 +81,16 @@
           "rev": "20c73142afa995ac9c8fb80a9bb585a55ca38308",
           "inputRev": "v4.11.0",
           "url": "https://github.com/leanprover-community/mathlib4.git"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7bedaed1ef024add1e171cc17706b012a9a37802",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
         }
       ]
     },
