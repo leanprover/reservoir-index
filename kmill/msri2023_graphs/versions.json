@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "c87c12d835cabc843f7f9c83d4c947c11d8ff043",
+      "date": "2023-07-07T06:41:29Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:nightly-2023-06-10",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "c43db94a8f495dad37829e9d7ad65483d68c86b8",
+          "inputRev": null,
+          "url": "https://github.com/EdAyers/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "42b5fd46df82c0caa63c84fd3d8098bf307ed3d7",
+          "inputRev": null,
+          "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "c71f94e34c1cda52eef5c93dc9da409ab2727420",
+          "inputRev": null,
+          "url": "https://github.com/gebner/quote4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "ca73109cc40837bc61df8024c9016da4b4f99d4c",
+          "inputRev": null,
+          "url": "https://github.com/JLimperg/aesop"
+        },
+        {
+          "type": "git",
+          "name": "std",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": null,
+          "rev": "d5471b83378e8ace4845f9a029af92f8b0cf10cb",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/std4"
+        }
+      ]
+    }
+  ]
+}
