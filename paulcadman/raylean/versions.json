@@ -3,15 +3,26 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "27b4b3e4cc160f96f8ce5c625298b903e089026c",
-      "date": "2024-11-09T14:15:03Z",
+      "revision": "9e2499f54bc83ec4932cbe18c3b2fff699c44269",
+      "date": "2024-11-18T20:55:30Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.13.0",
+      "toolchain": "leanprover/lean4:v4.14.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "01f4969b6e861db6a99261ea5eadd5a9bb63011b",
+          "inputRev": "01f4969b6e861db6a99261ea5eadd5a9bb63011b",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        }
+      ]
     }
   ]
 }
