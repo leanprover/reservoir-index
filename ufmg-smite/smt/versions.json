@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a1b04be0218603f290409a34bc8504c4cc54dcbd",
-      "date": "2024-11-22T16:05:13Z",
+      "revision": "9cc24d57245cbf1c1192b1a9dae34c912098d00b",
+      "date": "2024-11-24T04:57:37Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.13.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5367bcd32133a50ee5c4c39fb6cfa345893387bf",
+          "inputRev": "5367bcd32133a50ee5c4c39fb6cfa345893387bf",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
+        },
         {
           "type": "git",
           "name": "cvc5",

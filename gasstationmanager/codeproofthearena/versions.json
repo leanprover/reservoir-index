@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "d7f251237803eb636bdf2f53401e951765b40f51",
-      "date": "2024-11-19T20:30:47Z",
+      "revision": "eb40db5fd108db95d8d5679857446defea0dc57e",
+      "date": "2024-11-24T12:43:21Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.14.0-rc2",
       "platformIndependent": null,
@@ -20,7 +20,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "11da075dd931360a652129305eb045e5b1126ffd",
+          "rev": "0dc51ac7947ff6aa2c16bcffb64c46c7149d1276",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
@@ -40,7 +40,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "39119d25ce6f40a6250b742c6b4e8d9b400af677",
+          "rev": "de91b59101763419997026c35a41432ac8691f15",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
@@ -70,7 +70,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "b0b73e5bc33f1bc4d3c0f254630dd0e262cecc08",
+          "rev": "119b022b3ea88ec810a677888528e50f8144a26e",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
@@ -80,7 +80,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "86d0d0584f5cd165353e2f8a30c455cd0e168ac2",
+          "rev": "d7caecce0d0f003fd5e9cce9a61f1dd6ba83142b",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/LeanSearchClient"
         },
@@ -100,9 +100,19 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "4ac7881bba2522f56411a175689efe7039731fb9",
+          "rev": "13f8b501146167f8c599e41a7f9b49054a16f6a7",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "SafeVerify",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "672dcbf11b2467a6c4c0a861c8bf33ec007a6222",
+          "inputRev": null,
+          "url": "https://github.com/GasStationManager/SafeVerify.git"
         }
       ]
     }
