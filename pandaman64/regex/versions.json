@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "846b080462eee29261cafcc0bf92130f9fc1eda3",
-      "date": "2024-11-16T09:17:41Z",
-      "tag": "v4.13.0",
+      "revision": "1bd0f19d5b08267781822551854ebd0d4ca3fa7c",
+      "date": "2024-11-25T14:13:36Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.13.0",
       "platformIndependent": null,
       "license": null,
@@ -123,6 +123,36 @@
           "rev": "176dab14ce044b48203d159ef604e04d7e050fa2",
           "inputRev": "176dab14ce044b48203d159ef604e04d7e050fa2",
           "url": "https://github.com/fgdorais/lean4-parser"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5e95f4776be5e048364f325c7e9d619bb56fb005",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "bdc2fc30b1e834b294759a5d391d83020a90058e",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "doc-gen4",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c2156beadb1a4d049ff3b19fe396c5403025aac5",
+          "inputRev": "v4.13.0",
+          "url": "https://github.com/leanprover/doc-gen4"
         }
       ]
     },
