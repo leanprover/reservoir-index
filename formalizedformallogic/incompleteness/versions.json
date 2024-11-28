@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5b497ea14b503068e90ed5d5409e981fa6eb2037",
-      "date": "2024-11-17T11:38:24Z",
+      "revision": "57edda8d1a2f56723fe76a102ed6b22870b32fee",
+      "date": "2024-11-28T12:51:57Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.13.0-rc3",
+      "toolchain": "leanprover/lean4:v4.14.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "422d1a5f608fccafeddab9748e8038ef346b59bf",
+          "rev": "0dc51ac7947ff6aa2c16bcffb64c46c7149d1276",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
@@ -30,7 +30,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "fa3d73a2cf077f4b14c7840352ac7b08aeb6eb41",
+          "rev": "303b23fbcea94ac4f96e590c1cad6618fd4f5f41",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
         },
@@ -40,7 +40,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "b20a88676fd00affb90cbc9f1ff004ae588103b3",
+          "rev": "de91b59101763419997026c35a41432ac8691f15",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
@@ -50,8 +50,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "cd20dae87c48495f0220663014dff11671597fcf",
-          "inputRev": "v0.0.43-pre",
+          "rev": "1383e72b40dd62a566896a6e348ffe868801b172",
+          "inputRev": "v0.0.46",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
@@ -60,7 +60,7 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
+          "rev": "726b3c9ad13acca724d4651f14afc4804a7b0e4d",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         },
@@ -70,7 +70,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "9b4088ccf0f44ddd7b1132bb1348aef8cf481e12",
+          "rev": "119b022b3ea88ec810a677888528e50f8144a26e",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
@@ -80,9 +80,19 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "7bedaed1ef024add1e171cc17706b012a9a37802",
+          "rev": "d7caecce0d0f003fd5e9cce9a61f1dd6ba83142b",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/LeanSearchClient"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "42dc02bdbc5d0c2f395718462a76c3d87318f7fa",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
         },
         {
           "type": "git",
@@ -90,7 +100,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "a54be302d6fd476755ef0d77c2e4b3a7768e9c9c",
+          "rev": "3ece930d0a4a55679efa52b1a825ac93b2469a06",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4"
         },
@@ -100,7 +110,7 @@
           "scope": "FormalizedFormalLogic",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "8374be249f74f8aa57c3ae22777eb3be4781807d",
+          "rev": "a1bfd1fa480026f05e476050030c0b2d17983bb0",
           "inputRev": "master",
           "url": "https://github.com/FormalizedFormalLogic/Foundation"
         },
@@ -110,7 +120,7 @@
           "scope": "FormalizedFormalLogic",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c452703ba2b6fd57a7eb511590b2ff9d7ba70a05",
+          "rev": "fe2c1952fc091a965b64e2aa5dbcc4581e7497a6",
           "inputRev": "master",
           "url": "https://github.com/FormalizedFormalLogic/Arithmetization"
         }
