@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5cf478f9e1220d336afe810cc9f3338360ac3885",
-      "date": "2024-11-21T23:35:54Z",
+      "revision": "8ffd4edc68cb25915c6656f799097ab7b40f1277",
+      "date": "2024-11-29T13:59:52Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.14.0-rc1",
+      "toolchain": "leanprover/lean4:v4.14.0-rc3",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,23 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "batteries",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "af731107d531b39cd7278c73f91c573f40340612",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/batteries"
-        },
-        {
-          "type": "git",
           "name": "UnicodeBasic",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "43e0fd738d15561548b5211bf12645bad362e009",
+          "rev": "d55279d2ff01759fa75752fcf1a93d1db8db18ff",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5de63200cb5bb3460e09225874a6e2fe6ca9da5d",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         }
       ]
     }
