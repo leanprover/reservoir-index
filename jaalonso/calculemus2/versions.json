@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "3411f4266c9cb9c8eeda914224655e8f9ccff222",
-      "date": "2024-11-29T13:33:52Z",
+      "revision": "15d2f0e75ff4e994e4b2c560acd35577ac7d56e8",
+      "date": "2024-12-02T17:24:13Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.14.0-rc3",
+      "toolchain": "leanprover/lean4:v4.15.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,63 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
+          "name": "mathlib",
+          "scope": null,
           "version": "0.0.0",
-          "transitive": true,
-          "rev": "dfbe9387054e2972449de7bf346059d3609529fa",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/batteries"
+          "transitive": false,
+          "rev": "5255add1b2ea28533d99d582c7cfcc20ad22939a",
+          "inputRev": null,
+          "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
           "type": "git",
-          "name": "Qq",
+          "name": "plausible",
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "303b23fbcea94ac4f96e590c1cad6618fd4f5f41",
-          "inputRev": "master",
-          "url": "https://github.com/leanprover-community/quote4"
-        },
-        {
-          "type": "git",
-          "name": "aesop",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "de91b59101763419997026c35a41432ac8691f15",
-          "inputRev": "master",
-          "url": "https://github.com/leanprover-community/aesop"
-        },
-        {
-          "type": "git",
-          "name": "proofwidgets",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "1383e72b40dd62a566896a6e348ffe868801b172",
-          "inputRev": "v0.0.46",
-          "url": "https://github.com/leanprover-community/ProofWidgets4"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": "leanprover",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "726b3c9ad13acca724d4651f14afc4804a7b0e4d",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "importGraph",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "119b022b3ea88ec810a677888528e50f8144a26e",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/import-graph"
+          "rev": "8e5cb8d424df462f84997dd68af6f40e347c3e35",
+          "inputRev": "v4.15.0-rc1",
+          "url": "https://github.com/leanprover-community/plausible"
         },
         {
           "type": "git",
@@ -86,23 +46,63 @@
         },
         {
           "type": "git",
-          "name": "plausible",
+          "name": "importGraph",
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "42dc02bdbc5d0c2f395718462a76c3d87318f7fa",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/plausible"
+          "rev": "ed3b856bd8893ade75cafe13e8544d4c2660f377",
+          "inputRev": "v4.15.0-rc1",
+          "url": "https://github.com/leanprover-community/import-graph"
         },
         {
           "type": "git",
-          "name": "mathlib",
-          "scope": null,
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "496527772ac807ef3d1ddd4868f2048f9ea478e1",
-          "inputRev": null,
-          "url": "https://github.com/leanprover-community/mathlib4.git"
+          "transitive": true,
+          "rev": "2b000e02d50394af68cfb4770a291113d94801b5",
+          "inputRev": "v0.0.48",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "8b6048aa0a4a4b6bcf83597802d8dee734e64b7e",
+          "inputRev": "v4.15.0-rc1",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "ad942fdf0b15c38bface6acbb01d63855a2519ac",
+          "inputRev": "v4.14.0",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7805acf1864ba1a2e359f86a8f092ccf1438ad83",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0c8ea32a15a4f74143e4e1e107ba2c412adb90fd",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     }

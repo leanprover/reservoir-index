@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f59fabafca95262932add06fda56160119a9409c",
-      "date": "2024-11-28T20:43:25Z",
+      "revision": "14584c1a9a60fe201ef2a57cc9a772bbd0702ef8",
+      "date": "2024-12-02T22:43:05Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.14.0-rc2",
       "platformIndependent": null,
@@ -123,6 +123,46 @@
           "rev": "11fa569b1b52f987dc5dcea97fd80eaff95c2fce",
           "inputRev": null,
           "url": "https://github.com/PatrickMassot/checkdecls.git"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fe8e6e649ac8251f43c6f6f934f095ebebce7e7c",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d55279d2ff01759fa75752fcf1a93d1db8db18ff",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "982700bcf78b93166e5b1af0b4b756b8acfdb54b",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "doc-gen4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "099b90e374ba73983c3fda87595be625f1931669",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/doc-gen4"
         }
       ]
     }
