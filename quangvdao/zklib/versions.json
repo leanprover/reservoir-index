@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "33d1b8431fce0601e07df908e8867c16a4460a0e",
-      "date": "2024-12-07T01:29:58Z",
+      "revision": "3d8a46477cb32a20f2b001e6f72f5b79a20b381c",
+      "date": "2024-12-11T13:26:16Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.15.0-rc1",
       "platformIndependent": null,
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "89fa2781ec6684b5b6285b39dc85d45577e6c052",
+          "rev": "32ab3cbeba3ba4801b70e44fd5bf36136e371180",
           "inputRev": "master",
           "url": "https://github.com/dtumad/VCV-io.git"
         },
@@ -93,6 +93,16 @@
           "rev": "fe8e6e649ac8251f43c6f6f934f095ebebce7e7c",
           "inputRev": "main",
           "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7805acf1864ba1a2e359f86a8f092ccf1438ad83",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
@@ -153,16 +163,6 @@
           "rev": "ad942fdf0b15c38bface6acbb01d63855a2519ac",
           "inputRev": "v4.14.0",
           "url": "https://github.com/leanprover-community/quote4"
-        },
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "7805acf1864ba1a2e359f86a8f092ccf1438ad83",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/batteries"
         }
       ]
     }
