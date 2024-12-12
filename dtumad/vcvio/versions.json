@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "32ab3cbeba3ba4801b70e44fd5bf36136e371180",
-      "date": "2024-12-06T03:45:03Z",
+      "revision": "66096382787b0bbbf1c81941aec7f0bd6e62fb01",
+      "date": "2024-12-12T04:10:47Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.15.0-rc1",
       "platformIndependent": null,
@@ -16,23 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "Cli",
-          "scope": null,
+          "name": "mathlib",
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "0c8ea32a15a4f74143e4e1e107ba2c412adb90fd",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/lean4-cli"
+          "rev": "7bdc7fa6e695707d4ee2bc8678437d65063827d8",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
           "type": "git",
-          "name": "mathlib",
-          "scope": null,
+          "name": "batteries",
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "561e050467d2caa2e4ea5d81ca62600bf268b747",
-          "inputRev": "master",
-          "url": "https://github.com/leanprover-community/mathlib4.git"
+          "rev": "74dffd1a83cdd2969a31c9892b0517e7c6f50668",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
@@ -80,8 +80,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "8b6048aa0a4a4b6bcf83597802d8dee734e64b7e",
-          "inputRev": "v4.15.0-rc1",
+          "rev": "43bcb1964528411e47bfa4edd0c87d1face1fce4",
+          "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
@@ -96,13 +96,13 @@
         },
         {
           "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
+          "name": "Cli",
+          "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "7805acf1864ba1a2e359f86a8f092ccf1438ad83",
+          "rev": "0c8ea32a15a4f74143e4e1e107ba2c412adb90fd",
           "inputRev": "main",
-          "url": "https://github.com/leanprover-community/batteries"
+          "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     }
