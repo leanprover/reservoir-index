@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "98c3d278dfd96882d471f16a9478ea01b98e35a0",
-      "date": "2024-12-11T14:21:08Z",
+      "revision": "5f0a47cf6ef0d31965154d92fd0d12453db65470",
+      "date": "2024-12-14T08:22:38Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.14.0-rc1",
+      "toolchain": "leanprover/lean4:v4.15.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,13 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "subverso",
+          "name": "verso",
           "scope": null,
           "version": "0.0.0",
-          "transitive": true,
-          "rev": "83bf19c22c4a2a6e9949f65841f88d6861d16f4a",
+          "transitive": false,
+          "rev": "86e64adb6a31bc87e0c512a7d5c2fda2eb31b807",
           "inputRev": "main",
-          "url": "https://github.com/leanprover/subverso.git"
+          "url": "https://github.com/leanprover/verso"
         },
         {
           "type": "git",
@@ -36,13 +36,13 @@
         },
         {
           "type": "git",
-          "name": "verso",
+          "name": "subverso",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "0929f830e7becb8c5100ac6c836d24ba995a9c8a",
+          "transitive": true,
+          "rev": "6e2fe670be67ad4e31c7b0ad0fe7141e59bd1d29",
           "inputRev": "main",
-          "url": "https://github.com/leanprover/verso"
+          "url": "https://github.com/leanprover/subverso.git"
         }
       ]
     }
