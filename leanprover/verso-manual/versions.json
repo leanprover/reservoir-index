@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f60c48587307fe583666b8533f14ae518e19b726",
-      "date": "2024-12-10T11:06:32Z",
+      "revision": "3ad872a3ff1040f5fa6b7d0eae9fcf64b1e0f65c",
+      "date": "2024-12-15T01:51:15Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.15.0-rc1",
       "platformIndependent": null,
@@ -16,13 +16,23 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6e2fe670be67ad4e31c7b0ad0fe7141e59bd1d29",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso.git"
+        },
+        {
+          "type": "git",
           "name": "verso",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "86e64adb6a31bc87e0c512a7d5c2fda2eb31b807",
+          "rev": "10bba0bf662a07938749d7764302d45cd6c06184",
           "inputRev": "main",
-          "url": "https://github.com/leanprover/verso"
+          "url": "https://github.com/leanprover/verso.git"
         },
         {
           "type": "git",
@@ -33,16 +43,6 @@
           "rev": "2b381ee8dceba3b934d3d4aea4a2702a61e5664f",
           "inputRev": "parser",
           "url": "https://github.com/david-christiansen/md4lean"
-        },
-        {
-          "type": "git",
-          "name": "subverso",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "6e2fe670be67ad4e31c7b0ad0fe7141e59bd1d29",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/subverso.git"
         }
       ]
     }
