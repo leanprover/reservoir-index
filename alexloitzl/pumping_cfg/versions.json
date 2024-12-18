@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "1b7fefe196c9206d0953dd1dd09e5d69e590e74e",
-      "date": "2024-12-16T10:23:55Z",
+      "revision": "267cce9dfbfe29ce982b806be6a31fbab0636a61",
+      "date": "2024-12-18T13:33:53Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.15.0-rc1",
       "platformIndependent": null,
@@ -17,12 +17,12 @@
         {
           "type": "git",
           "name": "mathlib",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "675c28ea285896bbe83cb32f8a0bca7e481be614",
-          "inputRev": null,
-          "url": "https://github.com/leanprover-community/mathlib4.git"
+          "rev": "221a3dc98a0d0b77946009875e5a83aff9911e33",
+          "inputRev": "alex-loitzl-cnf",
+          "url": "https://github.com/leanprover-community/mathlib4"
         },
         {
           "type": "git",
@@ -70,8 +70,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "8b6048aa0a4a4b6bcf83597802d8dee734e64b7e",
-          "inputRev": "v4.15.0-rc1",
+          "rev": "43bcb1964528411e47bfa4edd0c87d1face1fce4",
+          "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
@@ -90,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "7805acf1864ba1a2e359f86a8f092ccf1438ad83",
+          "rev": "9e583efcea920afa13ee2a53069821a2297a94c0",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
