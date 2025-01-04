@@ -3,10 +3,45 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7d3a46ef38a48b9a5597fa543df918351a1876d1",
-      "date": "2024-12-22T11:58:38Z",
+      "revision": "bc3e242d81700fbe82ecf5a27d492c0869260c37",
+      "date": "2025-01-04T03:33:11Z",
       "tag": "latest",
-      "toolchain": "leanprover/lean4:v4.15.0-rc1",
+      "toolchain": "leanprover/lean4:v4.15.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2b381ee8dceba3b934d3d4aea4a2702a61e5664f",
+          "inputRev": "parser",
+          "url": "https://github.com/david-christiansen/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6e2fe670be67ad4e31c7b0ad0fe7141e59bd1d29",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "bc3e242d81700fbe82ecf5a27d492c0869260c37",
+      "date": "2025-01-04T03:33:11Z",
+      "tag": "v4.15.0",
+      "toolchain": "leanprover/lean4:v4.15.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
