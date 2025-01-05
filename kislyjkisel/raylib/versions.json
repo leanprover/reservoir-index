@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "e302c1b6e5689a2ee62f74abf64305363a215460",
-      "date": "2024-11-20T18:25:46Z",
+      "revision": "80caaf89388ab208d793287416492fcb332e33af",
+      "date": "2025-01-04T16:13:05Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.13.0",
+      "toolchain": "leanprover/lean4:v4.14.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,23 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "Colorized",
+          "name": "pod",
           "scope": null,
           "version": "0.0.0",
-          "transitive": true,
-          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
-          "inputRev": null,
-          "url": "https://github.com/axiomed/Colorized.lean.git"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
-          "inputRev": null,
-          "url": "https://github.com/leanprover/lean4-cli.git"
+          "transitive": false,
+          "rev": "356ca2cf9217c5a57527790d196c9a6aa378d28e",
+          "inputRev": "356ca2c",
+          "url": "https://github.com/KislyjKisel/lean-pod"
         },
         {
           "type": "git",
@@ -46,13 +36,23 @@
         },
         {
           "type": "git",
-          "name": "pod",
+          "name": "Cli",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "be986d2923478b8f5bc1fed5746722a95d2419b7",
-          "inputRev": "be986d2",
-          "url": "https://github.com/KislyjKisel/lean-pod"
+          "transitive": true,
+          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "Colorized",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
+          "inputRev": null,
+          "url": "https://github.com/axiomed/Colorized.lean.git"
         }
       ]
     }
