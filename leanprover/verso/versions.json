@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "bc3e242d81700fbe82ecf5a27d492c0869260c37",
-      "date": "2025-01-04T03:33:11Z",
-      "tag": "latest",
-      "toolchain": "leanprover/lean4:v4.15.0",
+      "revision": "b84e7f67ca64740b2c92b5b186c69a2d41fe63ad",
+      "date": "2025-01-06T10:28:03Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.16.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -30,7 +30,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6e2fe670be67ad4e31c7b0ad0fe7141e59bd1d29",
+          "rev": "844b9a53cf7acd71e0e81a3a56608bb28215646d",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso.git"
         }
@@ -66,6 +66,41 @@
           "version": "0.0.0",
           "transitive": false,
           "rev": "6e2fe670be67ad4e31c7b0ad0fe7141e59bd1d29",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "a0cdffeb4d395cfa8baa9e92660f174a47b5ae5c",
+      "date": "2024-12-02T09:03:33Z",
+      "tag": "v4.15.0-rc1",
+      "toolchain": "leanprover/lean4:v4.15.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2b381ee8dceba3b934d3d4aea4a2702a61e5664f",
+          "inputRev": "parser",
+          "url": "https://github.com/david-christiansen/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1c1514540a039a18b12feb738ddf2ac5a5fda45c",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso.git"
         }
