@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "356ca2cf9217c5a57527790d196c9a6aa378d28e",
-      "date": "2025-01-04T15:05:54Z",
+      "revision": "fbecf5190ad0013e5347a0bb7a91e7ad3ff100c0",
+      "date": "2025-01-08T19:58:20Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.14.0",
+      "toolchain": "leanprover/lean4:v4.15.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,13 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "Colorized",
+          "name": "Specs",
           "scope": null,
           "version": "0.0.0",
-          "transitive": true,
-          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
-          "inputRev": null,
-          "url": "https://github.com/axiomed/Colorized.lean.git"
+          "transitive": false,
+          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891",
+          "inputRev": "ab52219",
+          "url": "https://github.com/axiomed/Specs.lean"
         },
         {
           "type": "git",
@@ -36,13 +36,13 @@
         },
         {
           "type": "git",
-          "name": "Specs",
+          "name": "Colorized",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891",
-          "inputRev": "ab52219",
-          "url": "https://github.com/axiomed/Specs.lean"
+          "transitive": true,
+          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
+          "inputRev": null,
+          "url": "https://github.com/axiomed/Colorized.lean.git"
         }
       ]
     }
