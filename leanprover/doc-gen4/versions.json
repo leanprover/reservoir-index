@@ -3,10 +3,65 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "27bf1dcda3cc28d908608e4b9c09daca3aaa50aa",
-      "date": "2025-01-05T21:33:24Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.16.0-rc1",
+      "revision": "8c60540fe18528a8a857d4d88094b005af61d97b",
+      "date": "2025-01-14T02:37:59Z",
+      "tag": "v4.16.0-rc2",
+      "toolchain": "leanprover/lean4:v4.16.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0c8ea32a15a4f74143e4e1e107ba2c412adb90fd",
+          "inputRev": "main",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b64b8eab8cfcf24c398e84b11c77b6555b61095a",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9e99cb8cd9ba6906472634e6973c7e27482a70bb",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "26b1d510d9b5238d36b521d5367c707146fecd9d",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "8c60540fe18528a8a857d4d88094b005af61d97b",
+      "date": "2025-01-14T02:37:59Z",
+      "tag": "v4.16.0-rc2",
+      "toolchain": "leanprover/lean4:v4.16.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
