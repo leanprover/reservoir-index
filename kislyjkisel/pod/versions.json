@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "39703207df7531003e1449c5da61bcf58290b909",
-      "date": "2025-01-12T00:51:55Z",
+      "revision": "450d61bfb7d16b26ac6c589cc2a90e50e5d13d5d",
+      "date": "2025-01-18T13:38:53Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.15.0",
+      "toolchain": "leanprover/lean4:v4.16.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,33 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "Specs",
+          "name": "LSpec",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ab52219c9fad797026dad5fb035f1b364bf5b891",
-          "inputRev": "ab52219",
-          "url": "https://github.com/axiomed/Specs.lean"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "a751d21d4b68c999accb6fc5d960538af26ad5ec",
-          "inputRev": null,
-          "url": "https://github.com/leanprover/lean4-cli.git"
-        },
-        {
-          "type": "git",
-          "name": "Colorized",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "7e0e4c3d8186ed74a30905a14b3c43321ca76d6b",
-          "inputRev": null,
-          "url": "https://github.com/axiomed/Colorized.lean.git"
+          "rev": "b7d4dc67a5171dee9352506394fa155ba8e3956f",
+          "inputRev": "b7d4dc6",
+          "url": "https://github.com/argumentcomputer/LSpec"
         }
       ]
     }
