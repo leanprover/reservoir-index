@@ -3,9 +3,34 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a8fec248bb74c4387d6e5b72a58fc263049803f8",
-      "date": "2025-01-17T19:27:20Z",
+      "revision": "a586251a9d827338d6c1c5b402b70dd504c1c247",
+      "date": "2025-01-21T13:27:11Z",
       "tag": null,
+      "toolchain": "leanprover/lean4:v4.15.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "calcify",
+          "scope": "nomeata",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ec3743a033ccbcf54cc5fd0157c87342099d9120",
+          "inputRev": "master",
+          "url": "https://github.com/nomeata/lean-calcify"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "a54cbbf7fb38517a6c2fc0026a5b1bf33c516a84",
+      "date": "2025-01-21T13:48:43Z",
+      "tag": "v0.0.1",
       "toolchain": "leanprover/lean4:v4.15.0",
       "platformIndependent": null,
       "license": null,
