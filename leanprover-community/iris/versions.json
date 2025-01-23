@@ -3,34 +3,26 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "8dcabd0eb856d01b256e5a17857bcc70b6ce3867",
-      "date": "2024-02-20T14:26:05Z",
+      "revision": "8feb4aa60e127ecc7548b0ecc0c433db0a3662e0",
+      "date": "2025-01-22T21:32:04Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.6.0-rc1",
+      "toolchain": "leanprover/lean4:v4.15.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
+      "licenseFiles": [
+        "././LICENSE"
+      ],
       "readmeFile": null,
       "dependencies": [
         {
           "type": "git",
-          "name": "std",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "ae9ae7f279421e45a9b87d67f2d28aaef299de5c",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/std4"
-        },
-        {
-          "type": "git",
           "name": "Qq",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fd760831487e6835944e7eeed505522c9dd47563",
-          "inputRev": "master",
-          "url": "https://github.com/gebner/quote4"
+          "rev": "f0c584bcb14c5adfb53079781eeea75b26ebbd32",
+          "inputRev": "v4.15.0",
+          "url": "https://github.com/leanprover-community/quote4"
         }
       ]
     }
