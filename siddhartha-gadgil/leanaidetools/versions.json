@@ -3,36 +3,17 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7da48d21dea4d1b8f2b0f02ea287fdf27774414b",
-      "date": "2024-09-23T11:08:01Z",
+      "revision": "6f82d0449744d5fd092f51695cf0247b823fff8f",
+      "date": "2025-01-28T08:57:42Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.11.0",
+      "toolchain": "leanprover/lean4:v4.15.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
-      "dependencies": [
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "9c6c2d647e57b2b7a0b42dd8080c698bd33a1b6f",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/batteries"
-        },
-        {
-          "type": "git",
-          "name": "aesop",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "deb279eb7be16848d0bc8387f80d6e41bcdbe738",
-          "inputRev": "v4.11.0",
-          "url": "https://github.com/JLimperg/aesop"
-        }
-      ]
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": []
     },
     {
       "version": "0.0.0",
