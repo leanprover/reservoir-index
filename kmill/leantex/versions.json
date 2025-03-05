@@ -3,15 +3,38 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "b1a7bf06d552360b0b96d47f234a8271cf48f0d1",
-      "date": "2024-05-27T21:03:47Z",
+      "revision": "24765e5183732f983a3d1b434c29278ceb2cadb4",
+      "date": "2025-03-05T09:56:12Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.8.0-rc2",
+      "toolchain": "leanprover/lean4:v4.18.0-rc1",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
-      "dependencies": []
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a602d13aca2913724c7d47b2d7df0353620c4ee8",
+          "inputRev": "v0.0.53",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "092b30de8e7ee78e96b24c235d99e26f2942d77e",
+          "inputRev": "v4.18.0-rc1",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
     }
   ]
 }
