@@ -3,9 +3,64 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "8c131d06cfee2ace25f247261cfc3b8b2abb4996",
-      "date": "2025-03-03T23:25:45Z",
-      "tag": null,
+      "revision": "81f5c8592528d816bb682c75370f405d2279aa4b",
+      "date": "2025-03-07T02:37:26Z",
+      "tag": "0.0.1",
+      "toolchain": "leanprover/lean4:v4.16.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "efa5aa20504b88e2826032ddaa606c7965ec9467",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e104724db91693a3a088c5fdd76cff4fac331739",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "44dab9f36aa73d5f789629b55528c5a1501877a6",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "01006c9e86bf9e397c026fef4190478dd1fd897e",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "81f5c8592528d816bb682c75370f405d2279aa4b",
+      "date": "2025-03-07T02:37:26Z",
+      "tag": "v0.0.1",
       "toolchain": "leanprover/lean4:v4.16.0",
       "platformIndependent": null,
       "license": null,
