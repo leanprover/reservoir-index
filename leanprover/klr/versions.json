@@ -3,9 +3,34 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "67e3aeffe34a4801ea2e210d4ccb332db33bdb70",
-      "date": "2025-03-06T18:47:14Z",
-      "tag": null,
+      "revision": "71b00b9a358d4562bb4fc81ab76be30be05da1bc",
+      "date": "2025-03-11T20:11:42Z",
+      "tag": "v0.0.8",
+      "toolchain": "leanprover/lean4:v4.16.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "efa5aa20504b88e2826032ddaa606c7965ec9467",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "71b00b9a358d4562bb4fc81ab76be30be05da1bc",
+      "date": "2025-03-11T20:11:42Z",
+      "tag": "v0.0.8",
       "toolchain": "leanprover/lean4:v4.16.0",
       "platformIndependent": null,
       "license": null,
