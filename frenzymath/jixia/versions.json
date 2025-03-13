@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "542ec25c540b8c1e0d86f7b6da52e7865aeee736",
-      "date": "2025-02-17T19:46:35Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.13.0",
+      "revision": "157c55dd5754db3795838e7c05104b91535ee5fc",
+      "date": "2025-03-12T14:17:48Z",
+      "tag": "v4.16.0",
+      "toolchain": "leanprover/lean4:v4.16.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,6 +16,16 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "efa5aa20504b88e2826032ddaa606c7965ec9467",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
           "name": "metalib",
           "scope": null,
           "version": "0.0.0",
@@ -23,16 +33,41 @@
           "rev": "ede851df1467ae11574ba664ad978ae05aacc68c",
           "inputRev": "main",
           "url": "https://github.com/reaslab/metalib.git"
-        },
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "157c55dd5754db3795838e7c05104b91535ee5fc",
+      "date": "2025-03-12T14:17:48Z",
+      "tag": "v4.16.0",
+      "toolchain": "leanprover/lean4:v4.16.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
         {
           "type": "git",
           "name": "Cli",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "2cf1030dc2ae6b3632c84a09350b675ef3e347d0",
-          "inputRev": "main",
+          "rev": "efa5aa20504b88e2826032ddaa606c7965ec9467",
+          "inputRev": "v4.16.0",
           "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "metalib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ede851df1467ae11574ba664ad978ae05aacc68c",
+          "inputRev": "main",
+          "url": "https://github.com/reaslab/metalib.git"
         }
       ]
     },
