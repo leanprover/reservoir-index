@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "b22610f7ad0f899cc943f7d91fe9a38a29d307cc",
-      "date": "2025-02-24T09:11:50Z",
+      "revision": "cf43822dac26e4fd845ccfb10ddaeaf673f4d53e",
+      "date": "2025-04-05T07:46:22Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.16.0",
+      "toolchain": "leanprover/lean4:v4.18.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fad7e1b793d64ded0af2bfda42f5046a0c12d39d",
-          "inputRev": "lean-v4.16.0",
+          "rev": "e14a5ffec534a3193baaea2b24b7c2ac85345d00",
+          "inputRev": "lean-v4.18.0",
           "url": "https://github.com/dwrensha/tryAtEachStep"
         },
         {
@@ -30,8 +30,98 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "01006c9e86bf9e397c026fef4190478dd1fd897e",
-          "inputRev": "v4.16.0",
+          "rev": "613510345e4d4b3ce3d8c129595e7241990d5b39",
+          "inputRev": "v4.18.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a6db8b73ae29154a60a7417adfdcba4526bb82ef",
+          "inputRev": "v1.1.5",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "580858dcd39868b384de1b79ec184721b5549193",
+      "date": "2025-04-04T14:53:26Z",
+      "tag": "v4.18.0",
+      "toolchain": "leanprover/lean4:v4.18.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "tryAtEachStep",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e14a5ffec534a3193baaea2b24b7c2ac85345d00",
+          "inputRev": "lean-v4.18.0",
+          "url": "https://github.com/dwrensha/tryAtEachStep"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "613510345e4d4b3ce3d8c129595e7241990d5b39",
+          "inputRev": "v4.18.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a6db8b73ae29154a60a7417adfdcba4526bb82ef",
+          "inputRev": "v1.1.5",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "b20137b60ce8e54c78c6e6d3f7d7be82f32fd088",
+      "date": "2025-03-28T09:02:23Z",
+      "tag": "v4.17.0",
+      "toolchain": "leanprover/lean4:v4.17.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "tryAtEachStep",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8c93ed8a3e13c89118d44291dcdc6487a6799b09",
+          "inputRev": "lean-v4.17.0",
+          "url": "https://github.com/dwrensha/tryAtEachStep"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "efcc7d9bd9936ecdc625baf0d033b60866565cd5",
+          "inputRev": "v4.17.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {

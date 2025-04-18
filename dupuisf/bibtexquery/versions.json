@@ -3,10 +3,35 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "c07de335d35ed6b118e084ec48cffc39b40d29d2",
-      "date": "2025-03-03T12:20:09Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.18.0-rc1",
+      "revision": "dbfe2b7630c5f7c5c1cf71e7747ffc0a30337f69",
+      "date": "2025-04-02T09:34:18Z",
+      "tag": "v4.19.0-rc1",
+      "toolchain": "leanprover/lean4:v4.19.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "458e2d3feda3999490987eabee57b8bb88b1949c",
+          "inputRev": "bump_to_v4.18.0-rc1",
+          "url": "https://github.com/jcommelin/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "dbfe2b7630c5f7c5c1cf71e7747ffc0a30337f69",
+      "date": "2025-04-02T09:34:18Z",
+      "tag": "v4.19.0-rc1",
+      "toolchain": "leanprover/lean4:v4.19.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [

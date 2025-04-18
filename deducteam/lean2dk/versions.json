@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "aa6cedba7a4cf4c875aedfa5b66f630d26967d58",
-      "date": "2025-03-10T10:24:04Z",
+      "revision": "33f446b3be21f64437bb771a0bcf1a445e13e870",
+      "date": "2025-04-16T09:24:08Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.18.0-rc1",
       "platformIndependent": null,
@@ -12,17 +12,17 @@
       "licenseFiles": [
         "././LICENSE"
       ],
-      "readmeFile": null,
+      "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "path",
+          "type": "git",
           "name": "lean4lean",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
+          "rev": "82f7aadbf38b891cf59f5bac64833bc1f53ece72",
+          "inputRev": "lean4less",
+          "url": "https://github.com/rish987/Lean4Lean"
         },
         {
           "type": "git",
@@ -36,12 +36,22 @@
         },
         {
           "type": "git",
+          "name": "lean4less",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3a1def2818917130c3cdf003db147a91e0e84990",
+          "inputRev": null,
+          "url": "https://github.com/rish987/lean4less"
+        },
+        {
+          "type": "git",
           "name": "batteries",
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "f2fb9809751c4646c68c329b14f7d229a93176fd",
-          "inputRev": "main",
+          "rev": "092b30de8e7ee78e96b24c235d99e26f2942d77e",
+          "inputRev": "v4.18.0-rc1",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
