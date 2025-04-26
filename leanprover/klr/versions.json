@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a5f2a13dc6709d6d5b84634c2afb83cba250fa09",
-      "date": "2025-04-22T19:03:09Z",
+      "revision": "db2a0169dc411ab8456568ccc3a0a6762748a16a",
+      "date": "2025-04-25T21:34:02Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.18.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "path",
+          "name": "Gzip",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
         {
           "type": "git",
           "name": "TensorLib",
@@ -26,6 +36,16 @@
         },
         {
           "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "115177554fb2f67d583586886a9cfe1db2899945",
+          "inputRev": "v4.18.0",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
           "name": "Cli",
           "scope": null,
           "version": "0.0.0",
@@ -33,16 +53,6 @@
           "rev": "7cde559c7e6541d964984bff81caca3fe4e763a6",
           "inputRev": "v4.18.0",
           "url": "https://github.com/leanprover/lean4-cli.git"
-        },
-        {
-          "type": "git",
-          "name": "plausible",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "115177554fb2f67d583586886a9cfe1db2899945",
-          "inputRev": "v4.18.0",
-          "url": "https://github.com/leanprover-community/plausible"
         },
         {
           "type": "git",
