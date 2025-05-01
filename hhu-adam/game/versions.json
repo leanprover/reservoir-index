@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "60d7593b1db83b1d5084e6705839855f52cefcac",
-      "date": "2025-03-14T20:34:01Z",
+      "revision": "bcfe6cecf60562dc6ed72532a8ab8294cf15d8ef",
+      "date": "2025-04-30T10:10:51Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.7.0",
       "platformIndependent": null,
@@ -61,6 +61,46 @@
           "rev": "66aa8e688ec6d684bc2ad37c7eee46627a0481b2",
           "inputRev": "v4.7.0",
           "url": "https://github.com/leanprover-community/lean4game.git"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "64365c656d5e1bffa127d2a1795f471529ee0178",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5fefb40a7c9038a7150e7edd92e43b1b94c49e79",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fb65c476595a453a9b8ffc4a1cea2db3a89b9cd8",
+          "inputRev": "v0.0.30",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a45ae63747140c1b2cbad9d46f518015c047047a",
+          "inputRev": "v4.7.0",
+          "url": "https://github.com/leanprover-community/mathlib4.git"
         }
       ]
     }
