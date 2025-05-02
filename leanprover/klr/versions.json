@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "487fd123253e377de4b2aaf36996b83da6dcbf22",
-      "date": "2025-04-30T23:04:03Z",
+      "revision": "64a6adb2f0ef70fbdb59cea21a6ffbdbff467342",
+      "date": "2025-05-01T23:35:24Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.18.0",
+      "toolchain": "leanprover/lean4:v4.19.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -14,6 +14,26 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "TensorLib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "51e2d57a21457a3e052ee85476cc4279c218b250",
+          "inputRev": "v0.0.6",
+          "url": "https://github.com/leanprover/TensorLib.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "77e08eddc486491d7b9e470926b3dbe50319451a",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
         {
           "type": "path",
           "name": "Gzip",
@@ -26,33 +46,23 @@
         },
         {
           "type": "git",
-          "name": "TensorLib",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "6e09abbe4684afe48c486ca0d93fd56b25389d94",
-          "inputRev": "v0.0.5",
-          "url": "https://github.com/leanprover/TensorLib.git"
-        },
-        {
-          "type": "git",
-          "name": "plausible",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "115177554fb2f67d583586886a9cfe1db2899945",
-          "inputRev": "v4.18.0",
-          "url": "https://github.com/leanprover-community/plausible"
-        },
-        {
-          "type": "git",
           "name": "Cli",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "7cde559c7e6541d964984bff81caca3fe4e763a6",
-          "inputRev": "v4.18.0",
+          "rev": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+          "inputRev": "v4.19.0",
           "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover-community/import-graph.git"
         },
         {
           "type": "git",
@@ -60,8 +70,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "2bcdf2985dbe37cff63ca18346d8b26b8a448d3d",
-          "inputRev": "v4.18.0",
+          "rev": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+          "inputRev": "v4.19.0",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
@@ -70,8 +80,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "092b30de8e7ee78e96b24c235d99e26f2942d77e",
-          "inputRev": "v4.18.0-rc1",
+          "rev": "f5d04a9c4973d401c8c92500711518f7c656f034",
+          "inputRev": "v4.19.0",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
