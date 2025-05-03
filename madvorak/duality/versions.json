@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "9f3e70f0afd589d7080bf4c23fd05fec7052c456",
-      "date": "2025-04-23T08:10:43Z",
+      "revision": "5959f7d78a4d1d9d2c3ad524a1a98e5cc5bfbbcb",
+      "date": "2025-05-03T10:59:19Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.18.0",
       "platformIndependent": null,
@@ -16,13 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "mathlib",
-          "scope": "leanprover-community",
+          "name": "linters",
+          "scope": null,
           "version": "0.0.0",
           "transitive": false,
+          "rev": "2cf3f0ad2ba60db1c05077ed5ab325dedcd3b155",
+          "inputRev": "main",
+          "url": "https://github.com/madvorak/leanters"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
           "rev": "aa936c36e8484abd300577139faf8e945850831a",
-          "inputRev": "stable",
-          "url": "https://github.com/leanprover-community/mathlib4"
+          "inputRev": "v4.18.0",
+          "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
           "type": "git",

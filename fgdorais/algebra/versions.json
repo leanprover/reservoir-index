@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "bdec0afc3ce5f12824b4a0dde06c8b2275a9a319",
-      "date": "2025-04-24T20:16:55Z",
+      "revision": "acf733ad592f15a8fdea5e5c882899fd7baa8c3c",
+      "date": "2025-05-02T21:23:29Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.19.0-rc2",
+      "toolchain": "leanprover/lean4:v4.19.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "79ce15d86023898b50f1ea5436b12af3ec06df1f",
+          "rev": "a909845f4e28709c518d47b56892652fd95108c0",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/logic4"
         },
@@ -29,8 +29,8 @@
           "name": "extra",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "927271145eaddaa9ee92ad26af2aa95606319989",
+          "transitive": true,
+          "rev": "410b68e8e39f3da9ccfa7e047c3ae619eb8f3f49",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/extra4"
         },
@@ -39,8 +39,8 @@
           "name": "batteries",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "f523fcb75db2b472cda7d94d6caa5d745b1a0c26",
+          "transitive": true,
+          "rev": "f5d04a9c4973d401c8c92500711518f7c656f034",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         }

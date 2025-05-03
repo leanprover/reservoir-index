@@ -3,10 +3,45 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "0df11c87017bb05e5d4dd997edc0537bc19a96e9",
-      "date": "2025-05-01T20:09:29Z",
-      "tag": "v4.20.0-rc1",
-      "toolchain": "leanprover/lean4:v4.20.0-rc1",
+      "revision": "56516773c37ff1b06670751c06c3056cbc627df6",
+      "date": "2025-05-02T21:48:24Z",
+      "tag": "v4.20.0-rc2",
+      "toolchain": "leanprover/lean4:v4.20.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8ba0ef10d178ab95a5d6fe3cfbd586c6ecef2717",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a3e5c4c50791e536fc7f13a7aadd6236091796f9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "56516773c37ff1b06670751c06c3056cbc627df6",
+      "date": "2025-05-02T21:48:24Z",
+      "tag": "v4.20.0-rc2",
+      "toolchain": "leanprover/lean4:v4.20.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -45,7 +80,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -185,7 +220,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "././LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
