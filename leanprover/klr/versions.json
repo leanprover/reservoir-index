@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "6a211c0ced2057bdf6360f9ed90df9f7ccf7bb2e",
-      "date": "2025-05-02T20:44:31Z",
+      "revision": "7b0d21197aba6d4b49b7e59e64e8850e23823fa4",
+      "date": "2025-05-07T15:43:30Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.19.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "path",
+          "name": "Util",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
         {
           "type": "git",
           "name": "TensorLib",
@@ -33,6 +43,16 @@
           "rev": "77e08eddc486491d7b9e470926b3dbe50319451a",
           "inputRev": "v4.19.0",
           "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "path",
+          "name": "NRT",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
         },
         {
           "type": "path",
@@ -93,6 +113,16 @@
           "rev": "f5d04a9c4973d401c8c92500711518f7c656f034",
           "inputRev": "v4.19.0",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "path",
+          "name": "FFIUtil",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
         }
       ]
     },
