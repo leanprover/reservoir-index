@@ -1,1 +1,1 @@
-{"alias": {"from": "axiomed/Http.lean", "to": "axiomed/Http"}}
+{"alias": {"from": "axiomed/Http.lean", "to": "algebraic-dev/Http"}}

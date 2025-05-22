@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "b833cd04940dec06214040afa300c9068f14c82f",
-      "date": "2025-05-11T05:29:45Z",
+      "revision": "90fd9358d6fbbd77761fd7ae83e14cdbab32db25",
+      "date": "2025-05-22T07:16:37Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.20.0-rc2",
+      "toolchain": "leanprover/lean4:v4.20.0-rc5",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -17,22 +17,22 @@
         {
           "type": "git",
           "name": "verso",
-          "scope": null,
+          "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "56516773c37ff1b06670751c06c3056cbc627df6",
+          "rev": "cdd56377a923259f0e405b0bbebb4103afa374f0",
           "inputRev": "main",
-          "url": "https://github.com/leanprover/verso.git"
+          "url": "https://github.com/leanprover/verso"
         },
         {
           "type": "git",
           "name": "proofwidgets",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c4919189477c3221e6a204008998b0d724f49904",
-          "inputRev": "v0.0.57",
-          "url": "https://github.com/leanprover-community/ProofWidgets4.git"
+          "rev": "632ca63a94f47dbd5694cac3fd991354b82b8f7a",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
           "type": "git",
@@ -60,8 +60,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "5a56dfa58c18a1c4c485e5e630f9035e56c0952b",
-          "inputRev": "v4.19.0-rc1",
+          "rev": "cb53cd3f2958ee503f97ea6162929cabaf96bde9",
+          "inputRev": "v4.20.0-rc2",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
