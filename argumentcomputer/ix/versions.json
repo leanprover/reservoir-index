@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "70f569ab89a2a6ace9c5d8c32fdc8e53b01cf52f",
+      "date": "2025-05-24T10:13:44Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.18.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "613510345e4d4b3ce3d8c129595e7241990d5b39",
+          "inputRev": "613510345e4d4b3ce3d8c129595e7241990d5b39",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7cde559c7e6541d964984bff81caca3fe4e763a6",
+          "inputRev": "7cde559c7e6541d964984bff81caca3fe4e763a6",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "Blake3",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0e60b1d263d5a1c08f95b5470e4e160fc5754eee",
+          "inputRev": "0e60b1d263d5a1c08f95b5470e4e160fc5754eee",
+          "url": "https://github.com/argumentcomputer/Blake3.lean"
+        },
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "24cceb69c20fadca0fd3acabe39fa9270dfb47e6",
+          "inputRev": "24cceb69c20fadca0fd3acabe39fa9270dfb47e6",
+          "url": "https://github.com/argumentcomputer/LSpec"
+        }
+      ]
+    }
+  ]
+}
