@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "9bad9ec9653d70c85b0868bbe0eb7fd20abef06b",
-      "date": "2025-05-26T13:58:32Z",
+      "revision": "1ed6e4e1fa37beaa8248f4882a2109daf07cb9c6",
+      "date": "2025-05-27T12:30:12Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.18.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "checkdecls",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
+          "inputRev": null,
+          "url": "https://github.com/PatrickMassot/checkdecls.git"
+        },
         {
           "type": "git",
           "name": "linters",
