@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a1cfb751fd148b5dedfc3ebe2f638d71d7ecad0c",
-      "date": "2025-05-28T12:35:22Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.20.0-rc2",
+      "revision": "c548baa6d2ed727c6e9b30ff627b7c67fda4a54c",
+      "date": "2025-06-02T23:05:55Z",
+      "tag": "v4.21.0-rc1",
+      "toolchain": "leanprover/lean4:v4.21.0-rc1",
       "platformIndependent": true,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,58 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "cb53cd3f2958ee503f97ea6162929cabaf96bde9",
-          "inputRev": "v4.20.0-rc2",
+          "rev": "3aafa48516440d6038efb626660c74dec6e640da",
+          "inputRev": "v4.21.0-rc1",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "c548baa6d2ed727c6e9b30ff627b7c67fda4a54c",
+      "date": "2025-06-02T23:05:55Z",
+      "tag": "v4.21.0-rc1",
+      "toolchain": "leanprover/lean4:v4.21.0-rc1",
+      "platformIndependent": true,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3aafa48516440d6038efb626660c74dec6e640da",
+          "inputRev": "v4.21.0-rc1",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "ddfca7829bf8aa4083cdf9633935dddbb28b7b2a",
+      "date": "2025-06-02T15:05:35Z",
+      "tag": "v4.20.0",
+      "toolchain": "leanprover/lean4:v4.20.0",
+      "platformIndependent": true,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7a0d63fbf8fd350e891868a06d9927efa545ac1e",
+          "inputRev": "v4.20.0",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -32,10 +82,10 @@
       "date": "2025-05-02T21:49:03Z",
       "tag": "v4.20.0-rc2",
       "toolchain": "leanprover/lean4:v4.20.0-rc2",
-      "platformIndependent": true,
+      "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
