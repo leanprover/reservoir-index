@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "6c5348149e00648908f5a083d8eb7e961a202eb0",
-      "date": "2024-10-29T15:34:16Z",
+      "revision": "caa51a0a8fb4425f13e9b4baf018d561e24fa349",
+      "date": "2025-06-04T20:33:22Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.13.0-rc4",
+      "toolchain": "leanprover/lean4:v4.19.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -14,6 +14,26 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "TensorLib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f4f51714db1f0f4d05d8cdbee3bb3f78d1914873",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/TensorLib.git"
+        },
+        {
+          "type": "git",
+          "name": "KLR",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d9d8e76cb27bb499012636bf42c9dc86b858dda3",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/KLR.git"
+        },
         {
           "type": "git",
           "name": "SHerLOC",
@@ -26,23 +46,103 @@
         },
         {
           "type": "git",
-          "name": "NKL",
+          "name": "importGraph",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "cfe38f61d0606f1b408e654103fdbcb3db5cf064",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/NKL.git"
+          "transitive": true,
+          "rev": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover-community/import-graph.git"
         },
         {
           "type": "git",
-          "name": "TensorLib",
+          "name": "Cli",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "d1d385414f665926e3a5f5c7eea3b724ff9d5c91",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/TensorLib.git"
+          "transitive": true,
+          "rev": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "77e08eddc486491d7b9e470926b3dbe50319451a",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "f5d04a9c4973d401c8c92500711518f7c656f034",
+          "inputRev": "v4.19.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "path",
+          "name": "Util",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "path",
+          "name": "NRT",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "path",
+          "name": "Gzip",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "path",
+          "name": "Archive",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "path",
+          "name": "FFIUtil",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
         }
       ]
     }
