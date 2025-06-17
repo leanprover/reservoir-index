@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "61ba6ab321bd199eb48524a3cffed06df8733b81",
-      "date": "2025-06-16T13:40:52Z",
+      "revision": "732a9296f793f02ff06a2d18e9215e211b83b5e2",
+      "date": "2025-06-17T11:42:25Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.20.1",
       "platformIndependent": null,
@@ -23,6 +23,16 @@
           "rev": "5c0c94b3f563ed756b48b9439788c53b0d56a897",
           "inputRev": "v4.20.1",
           "url": "https://github.com/leanprover-community/mathlib4.git"
+        },
+        {
+          "type": "git",
+          "name": "Hammer",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a79abafaef13f2fbcd78171642dd4986bc895d53",
+          "inputRev": "main",
+          "url": "https://github.com/JOSHCLUNE/LeanHammer"
         },
         {
           "type": "git",
@@ -103,6 +113,46 @@
           "rev": "f9e25dcbed001489c53bceeb1f1d50bbaf7451d4",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "path",
+          "name": "HammerCore",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "git",
+          "name": "premise-selection",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d81f961f78ddfcb769e652da0c0e3923a9eab8e8",
+          "inputRev": "v4.20.0",
+          "url": "https://github.com/hanwenzhu/premise-selection"
+        },
+        {
+          "type": "git",
+          "name": "Duper",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7179853dbd9b66e18258c438626e0704833923cf",
+          "inputRev": "7179853dbd9b66e18258c438626e0704833923cf",
+          "url": "https://github.com/leanprover-community/duper.git"
+        },
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "9a558f49f4997d19d69e50a90c2bbc98faff2476",
+          "inputRev": "9a558f49f4997d19d69e50a90c2bbc98faff2476",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
         }
       ]
     },
