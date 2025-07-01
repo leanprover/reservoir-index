@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "e8e656fd7806c8ea4b25c6298ce399615ca8f48d",
-      "date": "2025-06-30T11:30:23Z",
+      "revision": "e81ce3060c9c0e798ebbe5eaf13e3b8ac29fccbc",
+      "date": "2025-07-01T07:20:23Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.21.0",
+      "toolchain": "leanprover/lean4:v4.22.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,53 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "8346f77b370201abd61fc8864f3a0b32fbfe7dc1",
+          "rev": "24694c2fbed4d6ef1b5c2fc9c55ae805ef4e731c",
+          "inputRev": "nightly-testing",
+          "url": "https://github.com/leanprover/verso.git"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b16338c5c66f57ef5510d4334eb6fa4e2c6c8cd8",
           "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "ffe97dbb0002e15acd571649e93cecfb3d7c47d5",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5adbfa76abbca692884efa009b3adf8001bd00e8",
+      "date": "2025-07-01T00:02:44Z",
+      "tag": "v4.22.0-rc2",
+      "toolchain": "leanprover/lean4:v4.22.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "24694c2fbed4d6ef1b5c2fc9c55ae805ef4e731c",
+          "inputRev": "nightly-testing",
           "url": "https://github.com/leanprover/verso.git"
         },
         {
