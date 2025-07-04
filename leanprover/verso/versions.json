@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "3cc88520cd19b1965e217e5bc0b5c2fd758e8dca",
-      "date": "2025-06-30T23:11:47Z",
-      "tag": "v4.22.0-rc2",
-      "toolchain": "leanprover/lean4:v4.22.0-rc2",
+      "revision": "ce4108e2edf3ff980484425aa41d946c5549d16d",
+      "date": "2025-07-04T13:13:32Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.22.0-rc3",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -30,7 +30,42 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ffe97dbb0002e15acd571649e93cecfb3d7c47d5",
+          "rev": "8d780d556de7ed7b1006805bcbc64959b8173e1d",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "ba2618bedf2f6a866e7ef84ad6f47bb43a439a42",
+      "date": "2025-07-04T03:30:18Z",
+      "tag": "v4.22.0-rc3",
+      "toolchain": "leanprover/lean4:v4.22.0-rc3",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b16338c5c66f57ef5510d4334eb6fa4e2c6c8cd8",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8d780d556de7ed7b1006805bcbc64959b8173e1d",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         }
@@ -45,7 +80,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
