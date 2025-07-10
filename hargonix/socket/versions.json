@@ -3,13 +3,15 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "b5e4c863a1462487da12e85a6b1e7cd2d38f9f15",
-      "date": "2024-07-16T16:11:18Z",
+      "revision": "b124ed93a4f5c7c439fd2cce84fa991698a298c5",
+      "date": "2025-07-10T11:21:31Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.10.0-rc1",
+      "toolchain": "leanprover/lean4:v4.19.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
+      "licenseFiles": [
+        "././LICENSE"
+      ],
       "readmeFile": null,
       "dependencies": [
         {
@@ -18,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "7af65d3a57015a59ec67a2424519277a864be681",
+          "rev": "bbb9416016c4c337245caeaf6de7c80e56e613dd",
           "inputRev": "master",
           "url": "https://github.com/tydeu/lean4-alloy/"
         }
