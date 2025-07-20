@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "712b4154671164c87eeeed696dc7fd9c3a98bc4e",
-      "date": "2025-07-19T02:46:22Z",
+      "revision": "cf0a37bb0ec318230623f84bcf519e17caac0e54",
+      "date": "2025-07-19T15:02:51Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.21.0",
       "platformIndependent": null,
@@ -76,16 +76,6 @@
         },
         {
           "type": "git",
-          "name": "aesop",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "8ff27701d003456fd59f13a9212431239d902aef",
-          "inputRev": "v4.21.0",
-          "url": "https://github.com/leanprover-community/aesop"
-        },
-        {
-          "type": "git",
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
@@ -93,6 +83,16 @@
           "rev": "8d2067bf518731a70a255d4a61b5c103922c772e",
           "inputRev": "v4.21.0",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8ff27701d003456fd59f13a9212431239d902aef",
+          "inputRev": "v4.21.0",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "path",
