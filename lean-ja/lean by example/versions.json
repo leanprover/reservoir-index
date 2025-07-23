@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "32e2b8af7052fb25ff349c7b0b62232037a502a7",
-      "date": "2025-07-22T13:23:11Z",
+      "revision": "dbea2c48ea733d60d0518a739ef46f542edb4ab4",
+      "date": "2025-07-23T12:47:07Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.22.0-rc3",
       "platformIndependent": null,
@@ -16,11 +16,21 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "llmlean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "13ab390bbf0cae2c81e861d449b87acf412217cd",
+          "inputRev": "main",
+          "url": "https://github.com/cmu-l3/llmlean.git"
+        },
+        {
+          "type": "git",
           "name": "mathlib",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "0d153f6e0d040dbbf4081482ed1764c7dbc8a9dc",
+          "rev": "10d61c2999e6b4a90a282b3f08528dca25b4f206",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
@@ -30,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "4d3cd84cfa19dc09b9ef1066264f4b2fee1bf44d",
+          "rev": "91b83256dfaa78bd105a0c338ea1efa63a8d3d19",
           "inputRev": "main",
           "url": "https://github.com/Seasawher/mdgen"
         },
@@ -720,7 +730,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
