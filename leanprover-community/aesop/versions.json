@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "04e14ebf614eef745f0e7d504077d0aaaaf24edc",
-      "date": "2025-07-23T11:40:51Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.22.0-rc3",
+      "revision": "0a136f764a5dfedc4498e93ad8e297cff57ba2fc",
+      "date": "2025-07-24T03:57:40Z",
+      "tag": "v4.22.0-rc4",
+      "toolchain": "leanprover/lean4:v4.22.0-rc4",
       "platformIndependent": true,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3cabaef23886b82ba46f07018f2786d9496477d6",
-          "inputRev": "v4.22.0-rc3",
+          "rev": "e96b5eca4fcfe2e0e96a1511a6cd5747515aba82",
+          "inputRev": "v4.22.0-rc4",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "0a136f764a5dfedc4498e93ad8e297cff57ba2fc",
+      "date": "2025-07-24T03:57:40Z",
+      "tag": "v4.22.0-rc4",
+      "toolchain": "leanprover/lean4:v4.22.0-rc4",
+      "platformIndependent": true,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e96b5eca4fcfe2e0e96a1511a6cd5747515aba82",
+          "inputRev": "v4.22.0-rc4",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -32,10 +57,10 @@
       "date": "2025-07-04T03:34:25Z",
       "tag": "v4.22.0-rc3",
       "toolchain": "leanprover/lean4:v4.22.0-rc3",
-      "platformIndependent": true,
+      "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
