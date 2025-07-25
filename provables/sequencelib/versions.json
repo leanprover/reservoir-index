@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "3aab48b098789f84a4f387c243eef8a76db83bf1",
-      "date": "2025-07-16T20:17:15Z",
+      "revision": "2366c82af4e065ef2982d765fb2c502110614ceb",
+      "date": "2025-07-25T05:29:58Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.20.1",
       "platformIndependent": null,
@@ -15,14 +15,14 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "git",
-          "name": "REPL",
+          "type": "path",
+          "name": "gen-seq",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ab9da2b867c54d709fa3720790ea7406606be28a",
+          "rev": null,
           "inputRev": null,
-          "url": "https://github.com/leanprover-community/repl"
+          "url": null
         },
         {
           "type": "git",
@@ -57,12 +57,12 @@
         {
           "type": "git",
           "name": "Cli",
-          "scope": null,
+          "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "4f22c09e7ded721e6ecd3cf59221c4647ca49664",
+          "rev": "f9e25dcbed001489c53bceeb1f1d50bbaf7451d4",
           "inputRev": "main",
-          "url": "https://github.com/mhuisi/lean4-cli"
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
