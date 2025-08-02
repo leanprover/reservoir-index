@@ -3,14 +3,14 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "935fff837d8fa62467cbc918d8ce55c85760a9ec",
-      "date": "2025-06-04T14:20:40Z",
+      "revision": "2ca4418f44e5428cfc82afb3dc8fb4e7132eff56",
+      "date": "2025-07-31T15:23:20Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.18.0-rc1",
+      "toolchain": "leanprover/lean4:v4.22.0-rc4",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "19700fcaecf898fa1b5c915c7d6dc9479b4cd343",
+          "rev": "334f1fd09bf6e1ec15f2ece8dcb36351f59c4271",
           "inputRev": "lean4less",
           "url": "https://github.com/rish987/Lean4Lean"
         },
@@ -30,19 +30,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "dd423cf2b153b5b14cb017ee4beae788565a3925",
-          "inputRev": "v4.18.0-rc1",
+          "rev": "c682c91d2d4dd59a7187e2ab977ac25bd1f87329",
+          "inputRev": "v4.22.0-rc4",
           "url": "https://github.com/leanprover/lean4-cli"
         },
         {
-          "type": "path",
+          "type": "git",
           "name": "lean4less",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
+          "rev": "4db0b935a3c9d22941bd146cde64b8dbd34c3ce0",
           "inputRev": null,
-          "url": null
+          "url": "https://github.com/rish987/lean4less"
         },
         {
           "type": "git",
@@ -50,8 +50,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "092b30de8e7ee78e96b24c235d99e26f2942d77e",
-          "inputRev": "v4.18.0-rc1",
+          "rev": "e96b5eca4fcfe2e0e96a1511a6cd5747515aba82",
+          "inputRev": "v4.22.0-rc4",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
