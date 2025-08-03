@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "17bac910ec66566b68af634d31d4e2530dbd0f75",
-      "date": "2025-08-02T13:39:26Z",
+      "revision": "7568d2a7bded0207600b63934359ec2858cc37d5",
+      "date": "2025-08-03T04:49:24Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.22.0-rc4",
       "platformIndependent": null,
@@ -16,21 +16,11 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "llmlean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "13ab390bbf0cae2c81e861d449b87acf412217cd",
-          "inputRev": "main",
-          "url": "https://github.com/cmu-l3/llmlean.git"
-        },
-        {
-          "type": "git",
           "name": "mathlib",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "f1ac36db8804628f81d1c7ee3401231e549d3a6e",
+          "rev": "0011f41773379d422368c123fd177d8ee1529fe8",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
@@ -1085,7 +1075,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "././LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
