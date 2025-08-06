@@ -3,44 +3,26 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "60d7593b1db83b1d5084e6705839855f52cefcac",
-      "date": "2025-03-14T20:34:01Z",
+      "revision": "be14d11d65be7601c613036ae455ce6553a82803",
+      "date": "2025-08-05T21:31:38Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.7.0",
+      "toolchain": "leanprover/lean4:v4.21.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
-          "name": "std",
-          "scope": null,
+          "name": "GameServer",
+          "scope": "hhu-adam",
           "version": "0.0.0",
-          "transitive": true,
-          "rev": "32983874c1b897d78f20d620fe92fc8fd3f06c3a",
-          "inputRev": "v4.7.0",
-          "url": "https://github.com/leanprover/std4.git"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "39229f3630d734af7d9cfb5937ddc6b41d3aa6aa",
-          "inputRev": "nightly",
-          "url": "https://github.com/mhuisi/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "i18n",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "7550f08140c59c9a604bbcc23ab7830c103a3e39",
-          "inputRev": "v4.7.0",
-          "url": "https://github.com/hhu-adam/lean-i18n.git"
+          "transitive": false,
+          "rev": "6df74ebfc845e4c287238ad1cbf652c20605c2a6",
+          "inputRev": "v4.21.0",
+          "url": "https://github.com/leanprover-community/lean4game.git"
         },
         {
           "type": "git",
@@ -48,19 +30,39 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "ac07367cbdd57440e6fe78e5be13b41f9cb0f896",
-          "inputRev": "v4.7.0",
+          "rev": "d07bd64f1910f1cc5e4cc87b6b9c590080e7a457",
+          "inputRev": "v4.21.0",
           "url": "https://github.com/leanprover-community/import-graph"
         },
         {
           "type": "git",
-          "name": "GameServer",
+          "name": "i18n",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "66aa8e688ec6d684bc2ad37c7eee46627a0481b2",
-          "inputRev": "v4.7.0",
-          "url": "https://github.com/leanprover-community/lean4game.git"
+          "transitive": true,
+          "rev": "7dc27b87606f94ad0931a09f63330028d653d325",
+          "inputRev": "v4.21.0",
+          "url": "https://github.com/hhu-adam/lean-i18n.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "8d2067bf518731a70a255d4a61b5c103922c772e",
+          "inputRev": "v4.21.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7c6aef5f75a43ebbba763b44d535175a1b04c9e0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     }
