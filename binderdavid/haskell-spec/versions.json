@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "ab5d68586a29c716051bb727e9e8991a559db65b",
-      "date": "2025-08-05T23:45:32Z",
+      "revision": "7df727eea5f6008c5a346408d0456e9cdc959d64",
+      "date": "2025-08-06T15:34:19Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.22.0-rc4",
       "platformIndependent": null,
@@ -13,7 +13,18 @@
         "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "veriflex",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "14c0a03113b288210e65d67e4e470a65215b1170",
+          "inputRev": "14c0a03113b288210e65d67e4e470a65215b1170",
+          "url": "https://github.com/BinderDavid/veriflex.git"
+        }
+      ]
     }
   ]
 }

@@ -3,9 +3,44 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7f5068e3b3441fe26ef799537d05dd7f1e1e2bce",
-      "date": "2025-07-25T11:10:40Z",
-      "tag": null,
+      "revision": "f9b688e6a1860006ffa0af051a9902f4aa292849",
+      "date": "2025-08-07T13:33:42Z",
+      "tag": "v1.2.0",
+      "toolchain": "leanprover/lean4:v4.22.0-rc4",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "mdgen",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2dc35c956d3237d0a651500fc6c523fcf598b181",
+          "inputRev": "main",
+          "url": "https://github.com/Seasawher/mdgen"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "c682c91d2d4dd59a7187e2ab977ac25bd1f87329",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f9b688e6a1860006ffa0af051a9902f4aa292849",
+      "date": "2025-08-07T13:33:42Z",
+      "tag": "v1.2.0",
       "toolchain": "leanprover/lean4:v4.22.0-rc4",
       "platformIndependent": null,
       "license": null,
