@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7dc27b87606f94ad0931a09f63330028d653d325",
-      "date": "2025-07-14T18:17:06Z",
+      "revision": "443d04399e9df1e47ae8a70b558a8fa049ab9d8b",
+      "date": "2025-08-09T00:43:12Z",
       "tag": "v4.21.0",
       "toolchain": "leanprover/lean4:v4.21.0",
       "platformIndependent": null,
@@ -16,12 +16,22 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d07bd64f1910f1cc5e4cc87b6b9c590080e7a457",
+          "inputRev": "v4.21.0",
+          "url": "https://github.com/leanprover-community/import-graph"
+        },
+        {
+          "type": "git",
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "efcc7d9bd9936ecdc625baf0d033b60866565cd5",
-          "inputRev": "v4.17.0",
+          "rev": "8d2067bf518731a70a255d4a61b5c103922c772e",
+          "inputRev": "v4.21.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -30,16 +40,16 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "e7fd1a415c80985ade02a021172834ca2139b0ca",
-          "inputRev": "e7fd1a415c80985ade02a021172834ca2139b0ca",
+          "rev": "7c6aef5f75a43ebbba763b44d535175a1b04c9e0",
+          "inputRev": "v4.21.0",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     },
     {
       "version": "0.0.0",
-      "revision": "7dc27b87606f94ad0931a09f63330028d653d325",
-      "date": "2025-07-14T18:17:06Z",
+      "revision": "443d04399e9df1e47ae8a70b558a8fa049ab9d8b",
+      "date": "2025-08-09T00:43:12Z",
       "tag": "v4.21.0",
       "toolchain": "leanprover/lean4:v4.21.0",
       "platformIndependent": null,
@@ -51,12 +61,22 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d07bd64f1910f1cc5e4cc87b6b9c590080e7a457",
+          "inputRev": "v4.21.0",
+          "url": "https://github.com/leanprover-community/import-graph"
+        },
+        {
+          "type": "git",
           "name": "batteries",
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "efcc7d9bd9936ecdc625baf0d033b60866565cd5",
-          "inputRev": "v4.17.0",
+          "rev": "8d2067bf518731a70a255d4a61b5c103922c772e",
+          "inputRev": "v4.21.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -65,8 +85,8 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "e7fd1a415c80985ade02a021172834ca2139b0ca",
-          "inputRev": "e7fd1a415c80985ade02a021172834ca2139b0ca",
+          "rev": "7c6aef5f75a43ebbba763b44d535175a1b04c9e0",
+          "inputRev": "v4.21.0",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
