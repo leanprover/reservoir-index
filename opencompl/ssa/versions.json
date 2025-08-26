@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "36b7777dd396d5146e8e72ddc0624b46bf4746aa",
-      "date": "2025-08-25T13:50:45Z",
+      "revision": "9217c8c816f1fb2a2a5a2da5cc4a1e8322c0c030",
+      "date": "2025-08-26T13:50:45Z",
       "tag": null,
       "toolchain": "leanprover/lean4:nightly-2025-08-11",
       "platformIndependent": null,
@@ -43,6 +43,16 @@
           "rev": "c70e7a7dfbef3a1c25a3fa27ed699400ca82df64",
           "inputRev": "nightly-testing-2025-08-11",
           "url": "https://github.com/leanprover-community/mathlib4-nightly-testing"
+        },
+        {
+          "type": "path",
+          "name": "TacBench",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
         },
         {
           "type": "git",
