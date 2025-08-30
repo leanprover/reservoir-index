@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "3c4c93d8353002a67d36cc4a76f5a4ccb83892ce",
-      "date": "2025-08-23T11:04:49Z",
+      "revision": "248740e4a51c1634238f6997106cc8b39edf3820",
+      "date": "2025-08-29T21:49:37Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.22.0",
       "platformIndependent": null,
@@ -16,48 +16,18 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "mathlib",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "79e94a093aff4a60fb1b1f92d9681e407124c2ca",
-          "inputRev": "v4.22.0",
-          "url": "https://github.com/leanprover-community/mathlib4"
-        },
-        {
-          "type": "git",
           "name": "GameServer",
           "scope": "hhu-adam",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c0d5746a8f092294532dae16068003e170f8979b",
+          "rev": "84a8bdaff4bc2cec689053eae52fe4d5e744bd73",
           "inputRev": "v4.22.0",
           "url": "https://github.com/leanprover-community/lean4game.git"
         },
         {
           "type": "git",
-          "name": "plausible",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "b100ad4c5d74a464f497aaa8e7c74d86bf39a56f",
-          "inputRev": "v4.22.0",
-          "url": "https://github.com/leanprover-community/plausible"
-        },
-        {
-          "type": "git",
-          "name": "LeanSearchClient",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "99657ad92e23804e279f77ea6dbdeebaa1317b98",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/LeanSearchClient"
-        },
-        {
-          "type": "git",
           "name": "importGraph",
-          "scope": "leanprover-community",
+          "scope": null,
           "version": "0.0.0",
           "transitive": true,
           "rev": "eb164a46de87078f27640ee71e6c3841defc2484",
@@ -66,38 +36,18 @@
         },
         {
           "type": "git",
-          "name": "proofwidgets",
-          "scope": "leanprover-community",
+          "name": "i18n",
+          "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "1253a071e6939b0faf5c09d2b30b0bfc79dae407",
-          "inputRev": "v0.0.68",
-          "url": "https://github.com/leanprover-community/ProofWidgets4"
-        },
-        {
-          "type": "git",
-          "name": "aesop",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "1256a18522728c2eeed6109b02dd2b8f207a2a3c",
+          "rev": "ea54e8c30bddfd8caa73e27a84ff97b4318f386d",
           "inputRev": "v4.22.0",
-          "url": "https://github.com/leanprover-community/aesop"
-        },
-        {
-          "type": "git",
-          "name": "Qq",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "917bfa5064b812b7fbd7112d018ea0b4def25ab3",
-          "inputRev": "v4.22.0",
-          "url": "https://github.com/leanprover-community/quote4"
+          "url": "https://github.com/hhu-adam/lean-i18n.git"
         },
         {
           "type": "git",
           "name": "batteries",
-          "scope": "leanprover-community",
+          "scope": null,
           "version": "0.0.0",
           "transitive": true,
           "rev": "240676e9568c254a69be94801889d4b13f3b249f",
@@ -113,16 +63,6 @@
           "rev": "c682c91d2d4dd59a7187e2ab977ac25bd1f87329",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "i18n",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "ea54e8c30bddfd8caa73e27a84ff97b4318f386d",
-          "inputRev": "v4.22.0",
-          "url": "https://github.com/hhu-adam/lean-i18n.git"
         }
       ]
     }
