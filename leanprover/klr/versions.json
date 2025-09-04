@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "359e9154b25b01d35116b45632f67ec4e8e723ad",
-      "date": "2025-08-29T23:44:52Z",
+      "revision": "825682832f5e81299bdaae8f06fd8fe288888d11",
+      "date": "2025-09-03T22:52:09Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.21.0",
       "platformIndependent": null,
@@ -26,12 +26,22 @@
         },
         {
           "type": "git",
+          "name": "SHerLOC",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c74ae090d4326cca9ff636184c330a67ca039ef6",
+          "inputRev": "c74ae090d4326cca9ff636184c330a67ca039ef6",
+          "url": "https://github.com/leanprover/SHerLOC.git"
+        },
+        {
+          "type": "git",
           "name": "TensorLib",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "e4bd2c34a51c87d86e3b33a33fdcdbca55d5362b",
-          "inputRev": "v0.0.13",
+          "rev": "e75c008a471a29793ef323cd15ac1ae6258085df",
+          "inputRev": "v0.0.15",
           "url": "https://github.com/leanprover/TensorLib.git"
         },
         {
@@ -83,16 +93,6 @@
           "rev": null,
           "inputRev": null,
           "url": null
-        },
-        {
-          "type": "git",
-          "name": "importGraph",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "a11bcb5238149ae5d8a0aa5e2f8eddf8a3a9b27d",
-          "inputRev": "v4.20.0",
-          "url": "https://github.com/leanprover-community/import-graph.git"
         },
         {
           "type": "git",
