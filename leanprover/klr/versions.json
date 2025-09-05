@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "825682832f5e81299bdaae8f06fd8fe288888d11",
-      "date": "2025-09-03T22:52:09Z",
+      "revision": "faad134ade67a6f743139db61e42a529a7ab48b6",
+      "date": "2025-09-04T16:39:45Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.21.0",
       "platformIndependent": null,
@@ -93,6 +93,26 @@
           "rev": null,
           "inputRev": null,
           "url": null
+        },
+        {
+          "type": "git",
+          "name": "iris",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "bad4319b7179ec473716f169a80b78dac32a37bb",
+          "inputRev": null,
+          "url": "https://github.com/markusdemedeiros/iris-lean.git"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e9c65db4823976353cd0bb03199a172719efbeb7",
+          "inputRev": "stable",
+          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
