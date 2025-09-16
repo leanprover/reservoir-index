@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "6fa1b5477ef6803065169f4f8e4ea31d5648c4ff",
-      "date": "2025-08-23T15:49:11Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.22.0",
+      "revision": "d4eff16daf8f3fac4ad4c34664dbcb229ca203ef",
+      "date": "2025-09-15T08:24:26Z",
+      "tag": "v4.23.0",
+      "toolchain": "leanprover/lean4:v4.23.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "240676e9568c254a69be94801889d4b13f3b249f",
-          "inputRev": "v4.22.0",
+          "rev": "d117e2c28cba42e974bc22568ac999492a34e812",
+          "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -30,8 +30,43 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "92e7648d19f24127919bcf3ff86eb0a43388824c",
-          "inputRev": "v1.2.0",
+          "rev": "7de009e167ba815c0111fe516ffbffc1a23035cc",
+          "inputRev": "v1.2.1",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "d4eff16daf8f3fac4ad4c34664dbcb229ca203ef",
+      "date": "2025-09-15T08:24:26Z",
+      "tag": "v4.23.0",
+      "toolchain": "leanprover/lean4:v4.23.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d117e2c28cba42e974bc22568ac999492a34e812",
+          "inputRev": "v4.23.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7de009e167ba815c0111fe516ffbffc1a23035cc",
+          "inputRev": "v1.2.1",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
         }
       ]

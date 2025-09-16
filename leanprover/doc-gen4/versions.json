@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "49d01f234ab5418a2dd9f05ab0c7346c1110e14f",
-      "date": "2025-09-13T14:03:27Z",
+      "revision": "0525b1996a095950452de01257437b1af7228efa",
+      "date": "2025-09-16T11:17:01Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.23.0-rc2",
+      "toolchain": "leanprover/lean4:v4.24.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,9 +20,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6667b921594697980586296511fab6a359e802d1",
+          "rev": "b62fd39acc32da6fb8bb160c82d1bbc3cb3c186e",
           "inputRev": "main",
-          "url": "https://github.com/mhuisi/lean4-cli"
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
@@ -30,7 +30,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d3195374a885cf2b0bfa66063deb493686029f95",
+          "rev": "fd78e4645ebef78073558559c60d21e0d4c5a364",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
         },
@@ -41,7 +41,7 @@
           "version": "0.0.0",
           "transitive": false,
           "rev": "1b05159ad44f220cec7489e65e6bc4b1e178b67f",
-          "inputRev": "dbfe2b7630c5f7c5c1cf71e7747ffc0a30337f69",
+          "inputRev": "master",
           "url": "https://github.com/dupuisf/BibtexQuery"
         },
         {
@@ -50,7 +50,117 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "feac4e0c356b0928657bf3b54fa83ae952f53257",
+          "rev": "66aefec2852d3e229517694e642659f316576591",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "31023a7025add9dbae9ab31db6c87295d6294a0d",
+      "date": "2025-09-15T06:55:33Z",
+      "tag": "v4.24.0-rc1",
+      "toolchain": "leanprover/lean4:v4.24.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b62fd39acc32da6fb8bb160c82d1bbc3cb3c186e",
+          "inputRev": "main",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7de009e167ba815c0111fe516ffbffc1a23035cc",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1b05159ad44f220cec7489e65e6bc4b1e178b67f",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aaee7fa4a1a158bd814d76f642df8a1d19db9f49",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "2de7d2bd99cb73bd7d3d7d1cf12787c5412c49de",
+      "date": "2025-09-14T23:20:21Z",
+      "tag": "v4.23.0",
+      "toolchain": "leanprover/lean4:v4.23.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "41c5d0b8814dec559e2e1441171db434fe2281cc",
+          "inputRev": "main",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7de009e167ba815c0111fe516ffbffc1a23035cc",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1b05159ad44f220cec7489e65e6bc4b1e178b67f",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aaee7fa4a1a158bd814d76f642df8a1d19db9f49",
           "inputRev": "main",
           "url": "https://github.com/acmepjz/md4lean"
         }
@@ -65,7 +175,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -1055,7 +1165,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

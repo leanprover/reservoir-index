@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "9da9fcec5f48ee83413f0dc26ab29135d5444566",
-      "date": "2025-08-19T12:03:17Z",
+      "revision": "375a25ba4edb138c74a8ce82e6952a2adf5d10d9",
+      "date": "2025-09-16T10:35:00Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.22.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "leanaidecore",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aa1df7de634afbbcf73e281c52aae77f187c6fd1",
+          "inputRev": "main",
+          "url": "https://github.com/siddhartha-gadgil/LeanAide.git"
+        },
         {
           "type": "git",
           "name": "mathlib",
