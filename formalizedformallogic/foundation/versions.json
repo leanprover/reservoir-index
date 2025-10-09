@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "dfe9cc4326beb4b517c13b84594cb19c359763bb",
-      "date": "2025-10-05T00:49:02Z",
+      "revision": "3c96ded4dafa9fa952521767778df7f8dddf1d85",
+      "date": "2025-10-09T13:15:00Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.23.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3a8183a0ff450e65dc77e5633a9eb0df924699b3",
+          "inputRev": "v4.23.0",
+          "url": "https://github.com/leanprover/verso"
+        },
         {
           "type": "git",
           "name": "doc-gen4",
@@ -33,6 +43,26 @@
           "rev": "37df177aaa770670452312393d4e84aaad56e7b6",
           "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "aaee7fa4a1a158bd814d76f642df8a1d19db9f49",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "dd7c477cb8b1898c3ace7bf66a47462eef7ac52c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
         },
         {
           "type": "git",
@@ -63,16 +93,6 @@
           "rev": "1b05159ad44f220cec7489e65e6bc4b1e178b67f",
           "inputRev": "master",
           "url": "https://github.com/dupuisf/BibtexQuery"
-        },
-        {
-          "type": "git",
-          "name": "MD4Lean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "aaee7fa4a1a158bd814d76f642df8a1d19db9f49",
-          "inputRev": "main",
-          "url": "https://github.com/acmepjz/md4lean"
         },
         {
           "type": "git",
