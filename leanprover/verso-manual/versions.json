@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "b00d397cf2efed105cb441b737b583b3a83f2c74",
-      "date": "2025-09-26T21:32:12Z",
+      "revision": "8b3ebf55c7a44f3295913fc9dc3ff9042573634c",
+      "date": "2025-10-16T04:56:03Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.24.0-rc1",
+      "toolchain": "leanprover/lean4:v4.24.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "8fd772dca8b2b5f9b3b3d4e1750186e357b7a5db",
-          "inputRev": "v4.24.0-rc1",
+          "rev": "f1010398410d85ca53dd3a7ffbe66d98eaccd882",
+          "inputRev": "v4.24.0",
           "url": "https://github.com/leanprover/verso.git"
         },
         {
@@ -40,7 +40,52 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "d433081253913777250a6e4a8c82ea8236d9330e",
+          "rev": "767f10408ca8abe29a15add2bf111eefdd9522b2",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5e7d56cc31724e0ae75b068307233fac08bb8b2b",
+      "date": "2025-10-14T21:19:14Z",
+      "tag": "v4.24.0",
+      "toolchain": "leanprover/lean4:v4.24.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f1010398410d85ca53dd3a7ffbe66d98eaccd882",
+          "inputRev": "v4.24.0",
+          "url": "https://github.com/leanprover/verso.git"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "66aefec2852d3e229517694e642659f316576591",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "767f10408ca8abe29a15add2bf111eefdd9522b2",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         }
@@ -55,7 +100,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

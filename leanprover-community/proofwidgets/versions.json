@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "556caed0eadb7901e068131d1be208dd907d07a2",
-      "date": "2025-09-18T11:38:19Z",
-      "tag": "v0.0.74",
-      "toolchain": "leanprover/lean4:v4.24.0-rc1",
+      "revision": "b21695ed5db9bd30f7816621fa9ac142cae39a8f",
+      "date": "2025-10-14T06:28:52Z",
+      "tag": "v0.0.75",
+      "toolchain": "leanprover/lean4:v4.24.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3881bc95874e5843b76886ea136f4722f1fa83cf",
-          "inputRev": "v4.24.0-rc1",
+          "rev": "8da40b72fece29b7d3fe3d768bac4c8910ce9bee",
+          "inputRev": "v4.24.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "b21695ed5db9bd30f7816621fa9ac142cae39a8f",
+      "date": "2025-10-14T06:28:52Z",
+      "tag": "v0.0.75",
+      "toolchain": "leanprover/lean4:v4.24.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8da40b72fece29b7d3fe3d768bac4c8910ce9bee",
+          "inputRev": "v4.24.0",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -99,7 +124,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -124,7 +149,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

@@ -3,14 +3,14 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "bc288b7bbbb9ebb021b168fc4309d5964adaa9e3",
-      "date": "2025-09-22T16:22:43Z",
+      "revision": "f1bec7150f620ac4cea6384e86d8ac10273550a5",
+      "date": "2025-08-05T22:20:50Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.23.0-rc2",
+      "toolchain": "leanprover/lean4:v4.16.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "././LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "87bad3eb59d315b0cad61e2508d7228cf66e5cd1",
-          "inputRev": null,
+          "rev": "a6276f4c6097675b1cf5ebd49b1146b735f38c02",
+          "inputRev": "v4.16.0",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
@@ -30,8 +30,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "240eddc1bb31420fbbc57fe5cc579435c2522493",
-          "inputRev": "main",
+          "rev": "1622a8693b31523c8f82db48e01b14c74bc1f155",
+          "inputRev": "v4.16.0-rc1",
           "url": "https://github.com/leanprover-community/plausible"
         },
         {
@@ -40,7 +40,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "99657ad92e23804e279f77ea6dbdeebaa1317b98",
+          "rev": "003ff459cdd85de551f4dcf95cdfeefe10f20531",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/LeanSearchClient"
         },
@@ -50,7 +50,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "dba7fbc707774d1ba830fd44d7f92a717e9bf57f",
+          "rev": "1a6613663c3eb08c401ce0fd1a408412f2c2321e",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
@@ -60,8 +60,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "6e47cc88cfbf1601ab364e9a4de5f33f13401ff8",
-          "inputRev": "v0.0.71",
+          "rev": "07f60e90998dfd6592688a14cd67bd4e384b77b2",
+          "inputRev": "v0.0.50",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
@@ -70,8 +70,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "3b779e9d1c73837a3764d516d81f942de391b6f0",
-          "inputRev": "master",
+          "rev": "79402ad9ab4be9a2286701a9880697e2351e4955",
+          "inputRev": "v4.16.0-rc1",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
@@ -80,8 +80,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "f85ad59c9b60647ef736719c23edd4578f723806",
-          "inputRev": "master",
+          "rev": "f0c584bcb14c5adfb53079781eeea75b26ebbd32",
+          "inputRev": "v4.15.0",
           "url": "https://github.com/leanprover-community/quote4"
         },
         {
@@ -90,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "6e89c7370ca3a91b7d1f29ef7d727a9d027d7b0d",
+          "rev": "01006c9e86bf9e397c026fef4190478dd1fd897e",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
@@ -100,7 +100,7 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "cacb481a1eaa4d7d4530a27b606c60923da21caf",
+          "rev": "0c8ea32a15a4f74143e4e1e107ba2c412adb90fd",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         }
