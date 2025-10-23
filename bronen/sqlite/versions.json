@@ -3,14 +3,16 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "75d0dab2a6e1d1431ecc5a130a0c142b86c7fcfa",
-      "date": "2025-02-22T20:11:17Z",
+      "revision": "5a9c9982dfdc5021717b04c111ad709d30a679e5",
+      "date": "2025-10-23T09:47:35Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.10.0",
+      "toolchain": "leanprover/lean4:v4.24.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
@@ -18,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "8a51034d049c6a229d88dd62f490778a377eec06",
-          "inputRev": "8a51034d049c6a229d88dd62f490778a377eec06",
+          "rev": "1fc461a9b83eeb68da34df72cec2ef1994e906cb",
+          "inputRev": "1fc461a9b83eeb68da34df72cec2ef1994e906cb",
           "url": "https://github.com/argumentcomputer/lspec/"
         }
       ]
