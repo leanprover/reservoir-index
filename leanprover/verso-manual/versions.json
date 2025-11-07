@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "4f6e6aa472ab0da8ea87a0cd2a395049fa2b138e",
-      "date": "2025-11-05T10:50:30Z",
+      "revision": "8f6c9269a3ae4de32f436ff4858c7511240c66bb",
+      "date": "2025-11-07T13:39:31Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.25.0-rc2",
       "platformIndependent": null,
@@ -20,9 +20,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "32f3fce10c7500bf62ad95c44f2894a5bcfa46b0",
+          "rev": "5ad890d02d553288773f000fd15e3ef4d835e995",
           "inputRev": "main",
           "url": "https://github.com/leanprover/verso.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "8864a73bf79aad549e34eff972c606343935106d",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
         },
         {
           "type": "git",
