@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "ba10d7bcf877a69c70b80fff6b743a626cfe6ce6",
-      "date": "2025-11-06T21:06:29Z",
+      "revision": "090e6b0c47d52ee6e545d50dd12a52464afc0d12",
+      "date": "2025-11-09T01:29:34Z",
       "tag": null,
       "toolchain": "leanprover/lean4:nightly-2025-10-26",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "SailRV64",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4defb2bfcda40a0940914b6d146d933cf58e6b18",
+          "inputRev": "main",
+          "url": "https://github.com/opencompl/riscv-lean.git"
+        },
         {
           "type": "git",
           "name": "leanwuzla",
@@ -33,6 +43,16 @@
           "rev": "72ae7004d9f0ddb422aec5378204fdd7828c5672",
           "inputRev": "main",
           "url": "https://github.com/mhuisi/lean4-cli.git"
+        },
+        {
+          "type": "path",
+          "name": "SexprPBV",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
         },
         {
           "type": "path",
@@ -63,6 +83,16 @@
           "rev": null,
           "inputRev": null,
           "url": null
+        },
+        {
+          "type": "git",
+          "name": "Lean_RV64D",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "c02420a8a248c95883a676a40de12cf773aa1fc4",
+          "inputRev": "main",
+          "url": "https://github.com/opencompl/sail-riscv-lean.git"
         },
         {
           "type": "git",
