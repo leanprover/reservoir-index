@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "6b51957dfbc4675641dc004928dae64f16648393",
-      "date": "2025-11-11T19:56:07Z",
+      "revision": "1d119e5867e709052fa7becaea4d3a8105f319e8",
+      "date": "2025-11-13T10:29:48Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.25.0-rc2",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "226f7d6e6643c78ad6dc16cd1fa9886a69e1b37e",
+          "inputRev": null,
+          "url": "https://github.com/leanprover/subverso"
+        },
         {
           "type": "git",
           "name": "checkdecls",
@@ -40,7 +50,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "4d8e83eaad2b9a650ed58dd99f532cf9d2696823",
+          "rev": "75f8adf6a6e95711bf49b848b590f2d123371a14",
           "inputRev": null,
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
