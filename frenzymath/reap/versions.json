@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "45d4e29d957b7e8bfb6c45a3406226a23b2b73b6",
+      "date": "2025-11-21T16:09:37Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.26.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c00943d5ff28c6dc623dbc24f8d659a9d3a3d29a",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "openAI_client",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "17978d824afa859e529245ced918a6205228598a",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/openai_client.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e85943ea28653e00080c276fc046c15b0030615a",
+          "inputRev": "v4.26.0-rc1",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "requests",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fa750693a3e6f5bac21f27dff18715f94ca4aa42",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/requests.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "ef4ca2fecdd1c9bb1fc37e97554e6945cccfc266",
+      "date": "2025-10-16T07:05:18Z",
+      "tag": "v4.24.0",
+      "toolchain": "leanprover/lean4:v4.24.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "725ac8cd67acd70a7beaf47c3725e23484c1ef50",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "openAI_client",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2d5ed44586ac241086a17dc320c0184aa455780a",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/openai_client.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "8da40b72fece29b7d3fe3d768bac4c8910ce9bee",
+          "inputRev": "v4.24.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "requests",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "12ccf769fee0567bf6e589b20eb3c63d1d5bc773",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/requests.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "2c78b7d5b457538e28374852358d476091c2aff5",
+      "date": "2025-10-01T05:35:58Z",
+      "tag": "v4.24.0-rc1",
+      "toolchain": "leanprover/lean4:v4.24.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "openAI_client",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1f866614e96a74e12b308087c6a810d04b3bf437",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/openai_client.git"
+        },
+        {
+          "type": "git",
+          "name": "requests",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6df9878ab10f60a7f38ae1b16e8f911f8b61e609",
+          "inputRev": null,
+          "url": "https://github.com/frenzymath/requests.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "3c73bf295df76e554f92fa9f52f323d2d16adb11",
+      "date": "2025-09-24T04:12:26Z",
+      "tag": "v4.16.0",
+      "toolchain": "leanprover/lean4:v4.16.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a6276f4c6097675b1cf5ebd49b1146b735f38c02",
+          "inputRev": "v4.16.0",
+          "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "openAI_client",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "cee598031d07fb959db4db8fba78659202ea9475",
+          "inputRev": null,
+          "url": "https://github.com/frenzymath/openai_client.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "1622a8693b31523c8f82db48e01b14c74bc1f155",
+          "inputRev": "v4.16.0-rc1",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "003ff459cdd85de551f4dcf95cdfeefe10f20531",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "1a6613663c3eb08c401ce0fd1a408412f2c2321e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "07f60e90998dfd6592688a14cd67bd4e384b77b2",
+          "inputRev": "v0.0.50",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "79402ad9ab4be9a2286701a9880697e2351e4955",
+          "inputRev": "v4.16.0-rc1",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "f0c584bcb14c5adfb53079781eeea75b26ebbd32",
+          "inputRev": "v4.15.0",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "01006c9e86bf9e397c026fef4190478dd1fd897e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0c8ea32a15a4f74143e4e1e107ba2c412adb90fd",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "requests",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "1ed1b4e1019958753024d3599218b2af47f7ebaa",
+          "inputRev": null,
+          "url": "https://github.com/frenzymath/requests.git"
+        }
+      ]
+    }
+  ]
+}

@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f419f540fa4135aa4ed9cb45f233a41ab373ed2a",
-      "date": "2025-11-14T19:42:43Z",
+      "revision": "fe116e3793d314191c39259cf4862674ef42b5be",
+      "date": "2025-11-21T19:44:11Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.21.0",
+      "toolchain": "leanprover/lean4:v4.23.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -14,16 +14,6 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
-        {
-          "type": "path",
-          "name": "Util",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
         {
           "type": "git",
           "name": "SHerLOC",
@@ -40,8 +30,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "e75c008a471a29793ef323cd15ac1ae6258085df",
-          "inputRev": "v0.0.15",
+          "rev": "d8137a41053423de98c528d75a5fa1a01fa58567",
+          "inputRev": "v0.0.16",
           "url": "https://github.com/leanprover/TensorLib.git"
         },
         {
@@ -50,29 +40,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c4aa78186d388e50a436e8362b947bae125a2933",
-          "inputRev": "v4.21.0",
+          "rev": "a22e7c1fa7707fb7ea75f2f9fd6b14de2b7b87a9",
+          "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover-community/plausible"
-        },
-        {
-          "type": "path",
-          "name": "NRT",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "path",
-          "name": "Gzip",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
         },
         {
           "type": "git",
@@ -80,39 +50,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "7c6aef5f75a43ebbba763b44d535175a1b04c9e0",
-          "inputRev": "v4.21.0",
+          "rev": "41c5d0b8814dec559e2e1441171db434fe2281cc",
+          "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover/lean4-cli.git"
-        },
-        {
-          "type": "path",
-          "name": "Archive",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "git",
-          "name": "iris",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "bad4319b7179ec473716f169a80b78dac32a37bb",
-          "inputRev": null,
-          "url": "https://github.com/markusdemedeiros/iris-lean.git"
-        },
-        {
-          "type": "git",
-          "name": "Qq",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "e9c65db4823976353cd0bb03199a172719efbeb7",
-          "inputRev": "stable",
-          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",
@@ -120,29 +60,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "8ff27701d003456fd59f13a9212431239d902aef",
-          "inputRev": "v4.21.0",
+          "rev": "247ff80701c76760523b5d7c180b27b7708faf38",
+          "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
           "name": "batteries",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "8d2067bf518731a70a255d4a61b5c103922c772e",
-          "inputRev": "v4.21.0",
-          "url": "https://github.com/leanprover-community/batteries"
-        },
-        {
-          "type": "path",
-          "name": "FFIUtil",
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": null,
-          "inputRev": null,
-          "url": null
+          "rev": "d117e2c28cba42e974bc22568ac999492a34e812",
+          "inputRev": "v4.23.0",
+          "url": "https://github.com/leanprover-community/batteries"
         }
       ]
     },

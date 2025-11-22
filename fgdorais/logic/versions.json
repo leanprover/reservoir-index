@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "3d5c4989a1e930f8fe5a3c1ea61c9ff379ecb91a",
+      "date": "2025-11-21T17:04:57Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.26.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "extra",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c34f203d775a4fdcba02aeb67d9e7a53f9fbfc9c",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/extra4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "afe9302d9243cee630b0be95322b38b90342ddbf",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    }
+  ]
+}

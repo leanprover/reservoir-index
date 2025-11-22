@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "d4d4b2086f54b01496b5344acc79237c582a0378",
-      "date": "2025-08-08T03:02:12Z",
+      "revision": "4976044eeecc9b6b12a52d5955bc495036f42708",
+      "date": "2025-11-18T23:38:24Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.20.1",
       "platformIndependent": null,
@@ -16,13 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "REPL",
+          "name": "gen-seq",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ab9da2b867c54d709fa3720790ea7406606be28a",
-          "inputRev": null,
-          "url": "https://github.com/leanprover-community/repl"
+          "rev": "ad0e906b21037cba7663983b9cef608a03f41431",
+          "inputRev": "main",
+          "url": "https://github.com/provables/synthetic"
         },
         {
           "type": "git",
@@ -60,9 +60,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "4f22c09e7ded721e6ecd3cf59221c4647ca49664",
-          "inputRev": "main",
-          "url": "https://github.com/mhuisi/lean4-cli"
+          "rev": "f9e25dcbed001489c53bceeb1f1d50bbaf7451d4",
+          "inputRev": "v4.20.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
         },
         {
           "type": "git",

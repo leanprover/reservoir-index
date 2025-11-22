@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f50af93f64cfef1600ca50a61360a648fd16edbf",
-      "date": "2025-11-15T17:59:18Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.25.0",
+      "revision": "2841a5c8ee6c9a282f28ad417d94a95776ad4a3b",
+      "date": "2025-11-21T13:05:15Z",
+      "tag": "v4.26.0-rc2",
+      "toolchain": "leanprover/lean4:v4.26.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "1dae8b12f8ba27576ffe5ddee78bebf6458157b0",
+          "rev": "7e1ced9e049a4fab2508980ec4877ca9c46dffc9",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli.git"
         }
@@ -153,6 +153,31 @@
     },
     {
       "version": "0.0.0",
+      "revision": "2841a5c8ee6c9a282f28ad417d94a95776ad4a3b",
+      "date": "2025-11-21T13:05:15Z",
+      "tag": "v4.26.0-rc2",
+      "toolchain": "leanprover/lean4:v4.26.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7e1ced9e049a4fab2508980ec4877ca9c46dffc9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
       "revision": "4380db070a50c8f4208528d9b14455310b21ae83",
       "date": "2025-11-15T16:36:49Z",
       "tag": "v4.25.0",
@@ -160,7 +185,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -210,7 +235,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
