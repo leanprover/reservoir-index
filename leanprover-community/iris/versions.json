@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "36d042d249311727eb87acbef36b9d401bf44450",
-      "date": "2025-10-15T10:50:26Z",
-      "tag": "v4.24.0",
-      "toolchain": "leanprover/lean4:v4.24.0",
+      "revision": "5fe59a8fd5dfca4fa645aa30b462b6bb089a7187",
+      "date": "2025-11-23T19:18:05Z",
+      "tag": "v4.25.1",
+      "toolchain": "leanprover/lean4:v4.25.1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,57 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "0658db62240a9123ee3e05fd945872ac958cc4fd",
+          "rev": "9a599e9f9d787540a9d3a6f6aa5b1c6c4a387127",
+          "inputRev": "stable",
+          "url": "https://github.com/leanprover-community/quote4"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5fe59a8fd5dfca4fa645aa30b462b6bb089a7187",
+      "date": "2025-11-23T19:18:05Z",
+      "tag": "v4.25.1",
+      "toolchain": "leanprover/lean4:v4.25.1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9a599e9f9d787540a9d3a6f6aa5b1c6c4a387127",
+          "inputRev": "stable",
+          "url": "https://github.com/leanprover-community/quote4"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "56ab8811d475fd33121c819b8ecbfeb2921af52b",
+      "date": "2025-11-23T19:14:52Z",
+      "tag": "v4.25.0",
+      "toolchain": "leanprover/lean4:v4.25.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9a599e9f9d787540a9d3a6f6aa5b1c6c4a387127",
           "inputRev": "stable",
           "url": "https://github.com/leanprover-community/quote4"
         }
