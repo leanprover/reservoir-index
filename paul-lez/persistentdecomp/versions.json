@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "69373bc72d0e09a451073f4371af1250d71acd23",
-      "date": "2025-11-24T12:14:39Z",
+      "revision": "52695b4e3241342bf2ec9bfc466a8e759bb91322",
+      "date": "2025-11-29T13:39:14Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.25.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "checkdecls",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
+          "inputRev": null,
+          "url": "https://github.com/PatrickMassot/checkdecls.git"
+        },
         {
           "type": "git",
           "name": "mathlib",
