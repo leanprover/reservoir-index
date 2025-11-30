@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "5a5969c60829bd77696204fad569f6a4d67cb8ac",
-      "date": "2025-07-31T21:36:01Z",
+      "revision": "0ca2a1229cf1a9ca850a08c564e9883b90513aaa",
+      "date": "2025-11-30T12:44:51Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.20.0-rc5",
+      "toolchain": "leanprover/lean4:v4.26.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "cdd56377a923259f0e405b0bbebb4103afa374f0",
+          "rev": "795bc01672b6f616aeaa24a7c7c4b32b20fe9c04",
           "inputRev": "main",
           "url": "https://github.com/leanprover/verso"
         },
@@ -30,9 +30,19 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "632ca63a94f47dbd5694cac3fd991354b82b8f7a",
+          "rev": "2aaad968dd10a168b644b6a5afd4b92496af4710",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "ec4a54b5308c1f46b4b52a9c62fb67d193aa0972",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
         },
         {
           "type": "git",
@@ -40,7 +50,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "8ba0ef10d178ab95a5d6fe3cfbd586c6ecef2717",
+          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
           "inputRev": "main",
           "url": "https://github.com/acmepjz/md4lean"
         },
@@ -50,19 +60,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "a3e5c4c50791e536fc7f13a7aadd6236091796f9",
+          "rev": "519b262cfc93634f904c9fb0992a45377ee49a9d",
           "inputRev": "main",
-          "url": "https://github.com/leanprover/subverso.git"
-        },
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "cb53cd3f2958ee503f97ea6162929cabaf96bde9",
-          "inputRev": "v4.20.0-rc2",
-          "url": "https://github.com/leanprover-community/batteries"
+          "url": "https://github.com/leanprover/subverso"
         }
       ]
     }
