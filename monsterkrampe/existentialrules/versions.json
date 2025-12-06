@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "32130478d23952bf5d62f95e2923a39c9af3e934",
+      "date": "2025-12-06T09:36:18Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.25.2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "PossiblyInfiniteTrees",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7f56ecc4568c5b5fd246857b53251f3ff12370ca",
+          "inputRev": "main",
+          "url": "https://github.com/monsterkrampe/Possibly-Infinite-Trees.git"
+        },
+        {
+          "type": "git",
+          "name": "BasicLeanDatastructures",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "330a71ef5fa1e4f8ff7cba02281d4265bf8553b5",
+          "inputRev": "main",
+          "url": "https://github.com/monsterkrampe/Basic-Lean-Datastructures.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "0d3690828e3bdf5eda03f79c5824288d7b106835",
+      "date": "2024-04-24T14:25:52Z",
+      "tag": "v0.1.0",
+      "toolchain": "leanprover/lean4:v4.7.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "std",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "32983874c1b897d78f20d620fe92fc8fd3f06c3a",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/std4"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "64365c656d5e1bffa127d2a1795f471529ee0178",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5fefb40a7c9038a7150e7edd92e43b1b94c49e79",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fb65c476595a453a9b8ffc4a1cea2db3a89b9cd8",
+          "inputRev": "v0.0.30",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "be8fa79a28b8b6897dce0713ef50e89c4a0f6ef5",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "61a79185b6582573d23bf7e17f2137cd49e7e662",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph.git"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a45ae63747140c1b2cbad9d46f518015c047047a",
+          "inputRev": "v4.7.0",
+          "url": "https://github.com/leanprover-community/mathlib4.git"
+        }
+      ]
+    }
+  ]
+}

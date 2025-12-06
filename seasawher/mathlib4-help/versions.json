@@ -3,14 +3,16 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "e3834777ad7e775bcb7c53d47877801ef34438dc",
-      "date": "2025-12-04T09:09:56Z",
+      "revision": "c966125cc10c28cab6f243e55a159c52892f7947",
+      "date": "2025-12-06T08:25:43Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.26.0-rc2",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
@@ -18,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c0952c46eb2fda6a7909a689a8a371ed38503611",
+          "rev": "89ec9c848cb1c5922fa50b91eb5156a46bd71e85",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
@@ -88,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "6ac53033da7f895a7d7a8597d2455b5e68e296e6",
+          "rev": "f2aca6fc4a47c5b67fad08d3eda5e949d5b73ac0",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },

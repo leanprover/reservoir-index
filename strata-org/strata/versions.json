@@ -3,15 +3,26 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "7b6a57255a44c91fd6d72604ac77406322ed8016",
-      "date": "2025-12-03T22:05:24Z",
+      "revision": "6a647e4145e769a74228580f35ecdfa6ee5f8aac",
+      "date": "2025-12-05T22:52:50Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.24.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b949552f6ca8e223f424b3e3b33f74185bbf1179",
+          "inputRev": "b949552f6ca8e223f424b3e3b33f74185bbf1179",
+          "url": "https://github.com/leanprover-community/plausible.git"
+        }
+      ]
     }
   ]
 }

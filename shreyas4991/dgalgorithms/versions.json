@@ -2,15 +2,17 @@
   "schemaVersion": "1.2.0",
   "data": [
     {
-      "version": "0.0.0",
+      "version": "0.1.0",
       "revision": "3303428e146515db5836fa1fd35e51e2f78c0fff",
       "date": "2025-04-22T12:45:50Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.18.0",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
