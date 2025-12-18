@@ -3,9 +3,64 @@
   "data": [
     {
       "version": "0.0.0",
+      "revision": "dc57f30f979eab0e14f32297716d578a13f46d37",
+      "date": "2025-12-17T19:35:08Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.27.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "efa0b452e9f1b857cc764e6d03cb59e26f48ad4c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/verso.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "eb77622e97e942ba2cfe02f60637705fc2d9481b",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
       "revision": "22a223af57b188030fd57a3959e2223b57554631",
       "date": "2025-12-14T12:46:01Z",
-      "tag": null,
+      "tag": "v4.27.0-rc1",
       "toolchain": "leanprover/lean4:v4.27.0-rc1",
       "platformIndependent": null,
       "license": null,
@@ -970,7 +1025,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

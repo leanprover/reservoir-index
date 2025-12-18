@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "e24b403294a634957e7751083128a923130f6cf8",
-      "date": "2025-11-27T18:52:54Z",
-      "tag": "v4.25.2",
-      "toolchain": "leanprover/lean4:v4.25.2",
+      "revision": "93e949f61679a9546d543a604f3f88b2a5eef262",
+      "date": "2025-12-14T15:35:10Z",
+      "tag": "v4.26.0",
+      "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ffad3f5b7ebe1ac3e09779ec8a863a5138c1246c",
-          "inputRev": "v4.25.1",
+          "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -30,8 +30,43 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "e1ef2099e666103b85cd099a1ab5086ede15e7c0",
-          "inputRev": "v4.25.2-hammer",
+          "rev": "6e66058117f0d073914c2c1f674b880537d9eb2e",
+          "inputRev": "v4.26.0-hammer",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "93e949f61679a9546d543a604f3f88b2a5eef262",
+      "date": "2025-12-14T15:35:10Z",
+      "tag": "v4.26.0",
+      "toolchain": "leanprover/lean4:v4.26.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6e66058117f0d073914c2c1f674b880537d9eb2e",
+          "inputRev": "v4.26.0-hammer",
           "url": "https://github.com/leanprover-community/lean-auto.git"
         }
       ]
@@ -45,7 +80,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

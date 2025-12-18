@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "8fe682f3d8b0105d7d85ffb02552d066dfa5789c",
-      "date": "2025-12-02T16:20:17Z",
-      "tag": "v4.25.2",
-      "toolchain": "leanprover/lean4:v4.25.2",
+      "revision": "87e1bbaf59ce54d93028ef685803cfe81ec37e2a",
+      "date": "2025-12-17T20:11:38Z",
+      "tag": "v4.26.0",
+      "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -30,8 +30,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "9bff22d64abde45944c7b1f55bce6c89dd8307e6",
-          "inputRev": "v4.25.1",
+          "rev": "9312503909aa8e8bb392530145cc1677a6298574",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/leanprover-community/quote4.git"
         },
         {
@@ -40,8 +40,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d838ca708c7f2eb9fb782032539b90062d701991",
-          "inputRev": "v4.25.2",
+          "rev": "d648fd5130a972d609ef846c0fa3e853753638bf",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/hanwenzhu/premise-selection"
         },
         {
@@ -50,8 +50,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "e24b403294a634957e7751083128a923130f6cf8",
-          "inputRev": "v4.25.2",
+          "rev": "93e949f61679a9546d543a604f3f88b2a5eef262",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/leanprover-community/duper.git"
         },
         {
@@ -60,8 +60,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "a2e4d9e9aebdbdce1ce6b6f0a19dd49e0120c990",
-          "inputRev": "v4.25.1",
+          "rev": "2f6d238744c4cb07fdc91240feaf5d4221a27931",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/leanprover-community/aesop"
         },
         {
@@ -70,8 +70,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "ffad3f5b7ebe1ac3e09779ec8a863a5138c1246c",
-          "inputRev": "v4.25.1",
+          "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -80,8 +80,93 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "e1ef2099e666103b85cd099a1ab5086ede15e7c0",
-          "inputRev": "v4.25.2-hammer",
+          "rev": "6e66058117f0d073914c2c1f674b880537d9eb2e",
+          "inputRev": "v4.26.0-hammer",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "87e1bbaf59ce54d93028ef685803cfe81ec37e2a",
+      "date": "2025-12-17T20:11:38Z",
+      "tag": "v4.26.0",
+      "toolchain": "leanprover/lean4:v4.26.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "path",
+          "name": "HammerCore",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9312503909aa8e8bb392530145cc1677a6298574",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover-community/quote4.git"
+        },
+        {
+          "type": "git",
+          "name": "premise-selection",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d648fd5130a972d609ef846c0fa3e853753638bf",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/hanwenzhu/premise-selection"
+        },
+        {
+          "type": "git",
+          "name": "Duper",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "93e949f61679a9546d543a604f3f88b2a5eef262",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover-community/duper.git"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "2f6d238744c4cb07fdc91240feaf5d4221a27931",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6e66058117f0d073914c2c1f674b880537d9eb2e",
+          "inputRev": "v4.26.0-hammer",
           "url": "https://github.com/leanprover-community/lean-auto.git"
         }
       ]
@@ -95,7 +180,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
