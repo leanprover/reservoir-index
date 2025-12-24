@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "87a9332e2bfdd218c437576de799af9edfe71f26",
+      "date": "2025-12-21T23:40:07Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.26.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "lean-subst",
+          "scope": "amarmaduke",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8da67cb68dd63ef181e521996f58992c7d9e7008",
+          "inputRev": "main",
+          "url": "https://github.com/amarmaduke/lean-subst"
+        }
+      ]
+    }
+  ]
+}
