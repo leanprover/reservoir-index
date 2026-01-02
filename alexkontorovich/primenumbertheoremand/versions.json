@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "653f1fd8f4ccbf3fc22f7933a51fca5fea0a93cf",
-      "date": "2025-12-19T14:03:37Z",
+      "revision": "fe6e0a56c12f350dbb88e9d82ce2f6caba5bca4e",
+      "date": "2026-01-02T08:03:10Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
@@ -16,13 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "doc-gen4",
+          "name": "checkdecls",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "77ef3eb515ad6bd125c596f0b164349d4a7d5bf5",
-          "inputRev": "v4.26.0",
-          "url": "https://github.com/leanprover/doc-gen4.git"
+          "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
+          "inputRev": null,
+          "url": "https://github.com/PatrickMassot/checkdecls.git"
         },
         {
           "type": "git",
@@ -36,43 +36,13 @@
         },
         {
           "type": "git",
-          "name": "Cli",
+          "name": "LeanArchitect",
           "scope": null,
           "version": "0.0.0",
-          "transitive": true,
-          "rev": "933fce7e893f65969714c60cdb4bd8376786044e",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "UnicodeBasic",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "84b88f7ac9adf382b9668f852cee82487d616792",
-          "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
-        },
-        {
-          "type": "git",
-          "name": "BibtexQuery",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "3ab4379b2b92448717de66b7d3e254ac1487aede",
-          "inputRev": "master",
-          "url": "https://github.com/dupuisf/BibtexQuery"
-        },
-        {
-          "type": "git",
-          "name": "MD4Lean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
-          "inputRev": "main",
-          "url": "https://github.com/acmepjz/md4lean"
+          "transitive": false,
+          "rev": "ec3dab3002591039b465a2a40aee021dbda8a798",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/hanwenzhu/LeanArchitect.git"
         },
         {
           "type": "git",
@@ -143,6 +113,16 @@
           "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "933fce7e893f65969714c60cdb4bd8376786044e",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     }
