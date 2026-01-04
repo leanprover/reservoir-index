@@ -27,6 +27,31 @@
       ]
     },
     {
+      "version": "4.24.0-rc1",
+      "revision": "6a2581e639586dbbb29a7371cd0086e82f1edbee",
+      "date": "2025-09-27T03:08:43Z",
+      "tag": "v4.24.0-rc1",
+      "toolchain": "leanprover/lean4:v4.24.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "00b91fab29cd4c4588ba27743880ae4e9ea7b36d",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
       "version": "4.23.0",
       "revision": "ea7a531d2f09b8f5e39db6f2b7a30f5750ee4c1a",
       "date": "2025-09-27T02:42:36Z",
@@ -160,7 +185,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -286,31 +311,6 @@
       "license": null,
       "licenseFiles": [
         "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
-      ],
-      "readmeFile": "README.md",
-      "dependencies": [
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "00b91fab29cd4c4588ba27743880ae4e9ea7b36d",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/lean4-cli.git"
-        }
-      ]
-    },
-    {
-      "version": "0.0.0",
-      "revision": "6a2581e639586dbbb29a7371cd0086e82f1edbee",
-      "date": "2025-09-27T03:08:43Z",
-      "tag": "v4.24.0-rc1",
-      "toolchain": "leanprover/lean4:v4.24.0-rc1",
-      "platformIndependent": null,
-      "license": null,
-      "licenseFiles": [
-        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
