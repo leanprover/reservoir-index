@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "aaed2ba3222330527df017878c4918ce416c0692",
-      "date": "2025-12-17T23:58:44Z",
+      "revision": "a96622f65703c4ce8999a31bfc3a5cdde42cda7a",
+      "date": "2026-01-05T10:03:15Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.27.0-rc1",
       "platformIndependent": null,
@@ -14,6 +14,26 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "cslib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d6a1e29298f8bd918252a908e72585d46a1ffdd6",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/cslib"
+        },
+        {
+          "type": "git",
+          "name": "Canonical",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5939d88755e86938547688fe4d6539c0777ae040",
+          "inputRev": "master",
+          "url": "https://github.com/chasenorman/CanonicalLean"
+        },
         {
           "type": "git",
           "name": "VersoCoq",
@@ -47,10 +67,10 @@
         {
           "type": "git",
           "name": "plausible",
-          "scope": null,
+          "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+          "rev": "8d3713f36dda48467eb61f8c1c4db89c49a6251a",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
