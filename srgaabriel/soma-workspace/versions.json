@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "05093b03a91a7ba13427b966c5274193c5e1e4da",
-      "date": "2026-01-15T04:07:17Z",
+      "revision": "43bceed4e9556ea96111a97f9a99bdf042c1e533",
+      "date": "2026-01-16T05:45:11Z",
       "tag": null,
       "toolchain": "leanprover/lean4:stable",
       "platformIndependent": null,
@@ -50,9 +50,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "0dfd92d47320fab8f0d8d5cf3b2d9d87d7e6e1cb",
+          "rev": "dfc721314534bc6a2bd2df5450cb71a10102fedb",
           "inputRev": "main",
           "url": "https://github.com/SrGaabriel/lapis"
+        },
+        {
+          "type": "git",
+          "name": "kenosis",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "91fddfdf722b5b5ccfb456445c29f767eb1ea717",
+          "inputRev": "main",
+          "url": "https://github.com/SrGaabriel/soma"
         },
         {
           "type": "git",
@@ -60,8 +70,8 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "7e1ced9e049a4fab2508980ec4877ca9c46dffc9",
-          "inputRev": "main",
+          "rev": "933fce7e893f65969714c60cdb4bd8376786044e",
+          "inputRev": "v4.26.0",
           "url": "https://github.com/leanprover/lean4-cli"
         },
         {
