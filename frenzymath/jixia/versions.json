@@ -38,6 +38,41 @@
     },
     {
       "version": "0.0.0",
+      "revision": "8a93bd931200042d23ae6356b20e37213a141091",
+      "date": "2026-01-12T14:04:33Z",
+      "tag": "v4.24.0",
+      "toolchain": "leanprover/lean4:v4.24.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "91c18fa62838ad0ab7384c03c9684d99d306e1da",
+          "inputRev": "v4.24.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "metalib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3163e9292f06c2d3b16bec77e78989c9917c76a2",
+          "inputRev": "v4.24.0",
+          "url": "https://github.com/frenzymath/metalib.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
       "revision": "ba11ef4031d1091650160560522379d3e1652dd9",
       "date": "2025-06-03T08:02:02Z",
       "tag": "v4.19.0",
