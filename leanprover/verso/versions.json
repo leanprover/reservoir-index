@@ -3,10 +3,100 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "dbe83a11008e831285a888395f35aece0b66146c",
-      "date": "2026-01-17T23:30:34Z",
+      "revision": "04598b6ab6a7276ad783000e7dbaf535f6176684",
+      "date": "2026-01-26T03:11:37Z",
       "tag": "latest",
-      "toolchain": "leanprover/lean4:v4.27.0-rc1",
+      "toolchain": "leanprover/lean4:v4.28.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7311586e1a56af887b1081d05e80c11b6c41d212",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4539e605ff834c35ecc0bcd0b7daec69163fd9f0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "7681e6e54a6d5147cef917f4607b276c035ae4a3",
+      "date": "2026-01-25T18:27:29Z",
+      "tag": "v4.28.0-rc1",
+      "toolchain": "leanprover/lean4:v4.28.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "009dc1e6f2feb2c96c081537d80a0905b2c6498f",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4539e605ff834c35ecc0bcd0b7daec69163fd9f0",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "9137d010a277cd29e0989a65445805c292caf01e",
+      "date": "2026-01-23T23:30:59Z",
+      "tag": "v4.27.0",
+      "toolchain": "leanprover/lean4:v4.27.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -55,7 +145,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -1200,7 +1290,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -1235,7 +1325,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -1305,7 +1395,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

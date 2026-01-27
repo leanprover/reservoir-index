@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "0b90fcdf3a85111278ba60be086540f841830485",
-      "date": "2025-12-17T22:10:28Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.27.0-rc1",
+      "revision": "8e0524310148337b54602f6f1b30578ee2910106",
+      "date": "2026-01-24T13:40:03Z",
+      "tag": "v4.27.0",
+      "toolchain": "leanprover/lean4:v4.27.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "726b98c53e2da249c1de768fbbbb5e67bc9cef60",
+          "rev": "55c37290ff6186e2e965d68cf853a57c0702db82",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli.git"
         }
@@ -153,6 +153,31 @@
     },
     {
       "version": "0.0.0",
+      "revision": "8e0524310148337b54602f6f1b30578ee2910106",
+      "date": "2026-01-24T13:40:03Z",
+      "tag": "v4.27.0",
+      "toolchain": "leanprover/lean4:v4.27.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "55c37290ff6186e2e965d68cf853a57c0702db82",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
       "revision": "4d41af271bd0d4eebda74e306bbb6e95d4ba622e",
       "date": "2025-12-15T12:19:12Z",
       "tag": "v4.27.0-rc1",
@@ -160,7 +185,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "74e03b1cc8c098a704343dc9f4bb0eff7c74bd19",
-      "date": "2026-01-16T15:36:12Z",
+      "revision": "4d00a3ca64253f96443319f4ac8282f613f27432",
+      "date": "2025-10-23T21:52:02Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.23.0",
       "platformIndependent": null,
@@ -14,16 +14,6 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
-        {
-          "type": "git",
-          "name": "mathlib",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "37df177aaa770670452312393d4e84aaad56e7b6",
-          "inputRev": "v4.23.0",
-          "url": "https://github.com/leanprover-community/mathlib4"
-        },
         {
           "type": "git",
           "name": "GameServer",
@@ -36,63 +26,23 @@
         },
         {
           "type": "git",
-          "name": "plausible",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "a22e7c1fa7707fb7ea75f2f9fd6b14de2b7b87a9",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/plausible"
-        },
-        {
-          "type": "git",
-          "name": "LeanSearchClient",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "99657ad92e23804e279f77ea6dbdeebaa1317b98",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/LeanSearchClient"
-        },
-        {
-          "type": "git",
           "name": "importGraph",
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
           "rev": "7fca1d4a190761bac0028848f73dc9a59fcb4957",
-          "inputRev": "main",
+          "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover-community/import-graph"
         },
         {
           "type": "git",
-          "name": "proofwidgets",
-          "scope": "leanprover-community",
+          "name": "i18n",
+          "scope": "hhu-adam",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "6e47cc88cfbf1601ab364e9a4de5f33f13401ff8",
-          "inputRev": "v0.0.71",
-          "url": "https://github.com/leanprover-community/ProofWidgets4"
-        },
-        {
-          "type": "git",
-          "name": "aesop",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "247ff80701c76760523b5d7c180b27b7708faf38",
-          "inputRev": "master",
-          "url": "https://github.com/leanprover-community/aesop"
-        },
-        {
-          "type": "git",
-          "name": "Qq",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "9b703a545097978aef0e7e243ab8b71c32a9ff65",
-          "inputRev": "master",
-          "url": "https://github.com/leanprover-community/quote4"
+          "rev": "c293094f25d8548435dcfa6bc58cc8ed52f15341",
+          "inputRev": "v4.23.0",
+          "url": "https://github.com/hhu-adam/lean-i18n"
         },
         {
           "type": "git",
@@ -101,7 +51,7 @@
           "version": "0.0.0",
           "transitive": true,
           "rev": "d117e2c28cba42e974bc22568ac999492a34e812",
-          "inputRev": "main",
+          "inputRev": "v4.23.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -113,16 +63,6 @@
           "rev": "41c5d0b8814dec559e2e1441171db434fe2281cc",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "i18n",
-          "scope": "hhu-adam",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "c293094f25d8548435dcfa6bc58cc8ed52f15341",
-          "inputRev": "v4.23.0",
-          "url": "https://github.com/hhu-adam/lean-i18n"
         }
       ]
     }
