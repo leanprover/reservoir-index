@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "349ebbac77ca6c03e0f3daaff9788359b3cf4531",
-      "date": "2026-01-30T16:02:45Z",
+      "revision": "4687fb64e448260994e8034e15e9a6ca10b8b5a2",
+      "date": "2026-02-01T03:08:04Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.28.0-rc1",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "leancert",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "575bea01e852c99643b4baa2aecce9c41c824c5e",
+          "inputRev": "v4.28.0-rc1",
+          "url": "https://github.com/alerad/leancert"
+        },
         {
           "type": "git",
           "name": "checkdecls",
