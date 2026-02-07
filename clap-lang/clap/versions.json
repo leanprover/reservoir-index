@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "1f3bb130809b1da96d08a4499bfe7f5ddb43522d",
-      "date": "2026-01-30T14:17:57Z",
+      "revision": "7da18f235ccc0bca38263f53b84494baafb495bb",
+      "date": "2026-02-04T13:35:18Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "r1serialize",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "978a917bee68a83f5b74dec02f3a3f88071f9343",
+          "inputRev": null,
+          "url": "https://github.com/NethermindEth/r1serialize.git"
+        },
         {
           "type": "git",
           "name": "mathlib",

@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f45aa815040c08bed0ae89ec88f43109df6b08b6",
-      "date": "2026-01-19T15:30:10Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.26.0",
+      "revision": "1dc9404d9533e6888d30f1ec1807664f3620bbf4",
+      "date": "2026-01-25T09:50:01Z",
+      "tag": "v4.27.0",
+      "toolchain": "leanprover/lean4:v4.27.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ddf879e082d18437cfabbc95dfd34ca610e6bb4f",
+          "rev": "2707e2625e3765493d3c88d3371c6c3f28309979",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/lean4-parser"
         },
@@ -30,8 +30,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
-          "inputRev": "v4.26.0",
+          "rev": "b25b36a7caf8e237e7d1e6121543078a06777c8a",
+          "inputRev": "v4.27.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -40,7 +40,52 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "106abeac8ee53a047b238976281b0e5017bded8a",
+          "rev": "b09d573cbacf5a8e767292e0edeec787a81689ce",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "1dc9404d9533e6888d30f1ec1807664f3620bbf4",
+      "date": "2026-01-25T09:50:01Z",
+      "tag": "v4.27.0",
+      "toolchain": "leanprover/lean4:v4.27.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Parser",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2707e2625e3765493d3c88d3371c6c3f28309979",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-parser"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b25b36a7caf8e237e7d1e6121543078a06777c8a",
+          "inputRev": "v4.27.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b09d573cbacf5a8e767292e0edeec787a81689ce",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
         }
@@ -55,7 +100,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -100,7 +145,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -145,7 +190,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
