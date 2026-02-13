@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5867071aea7f61a0bcdcddd8bfe79973a80f5a49",
-      "date": "2026-01-19T15:15:14Z",
+      "revision": "0bbb8999d1703776516f37f412334e01e07a30a0",
+      "date": "2026-02-10T19:24:50Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.27.0-rc1",
       "platformIndependent": null,
@@ -12,16 +12,6 @@
       "licenseFiles": [],
       "readmeFile": "README.md",
       "dependencies": [
-        {
-          "type": "git",
-          "name": "doc-gen4",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "05bb84181739ecc0897184a3e2906241267bcdfd",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/doc-gen4"
-        },
         {
           "type": "git",
           "name": "checkdecls",
@@ -38,49 +28,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "910dac3f6e7f4b2559dff67c9819543048995349",
+          "rev": "ae0143cded18d09875e12c3056f428090484d9a4",
           "inputRev": null,
           "url": "https://github.com/leanprover-community/mathlib4.git"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "726b98c53e2da249c1de768fbbbb5e67bc9cef60",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "UnicodeBasic",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "cff8377dbe50aae42cbd04213d5b3dacf742c3ba",
-          "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
-        },
-        {
-          "type": "git",
-          "name": "BibtexQuery",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "f3872ff0d82a43e2ab57595524df3934210f2bb9",
-          "inputRev": "master",
-          "url": "https://github.com/dupuisf/BibtexQuery"
-        },
-        {
-          "type": "git",
-          "name": "MD4Lean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
-          "inputRev": "main",
-          "url": "https://github.com/acmepjz/md4lean"
         },
         {
           "type": "git",
@@ -148,9 +98,19 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "dff865b7ee7011518d59abfc101c368293173150",
+          "rev": "5a7df384e3658afbb7ad1372d921ee0ff39f1653",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "726b98c53e2da249c1de768fbbbb5e67bc9cef60",
+          "inputRev": "v4.27.0-rc1",
+          "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     }
