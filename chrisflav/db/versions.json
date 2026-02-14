@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "046f3d6b627be813d8ed74d7192d960e4f04b3ab",
+      "date": "2026-01-13T00:03:02Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.27.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "quot4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "523ec6fc8062d2f470fdc8de6f822fe89552b5e6",
+          "inputRev": "v4.27.0-rc1",
+          "url": "https://github.com/leanprover-community/quote4"
+        }
+      ]
+    }
+  ]
+}
