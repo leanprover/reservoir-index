@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "263def1fb7a73b9d2c65e0d38b3a744fa5396ae6",
-      "date": "2026-02-11T01:52:46Z",
-      "tag": "v4.26.0",
+      "revision": "e1275712d22a7e2bf39ebd37d8657c1032761e9b",
+      "date": "2026-02-18T17:49:07Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
       "license": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "CompPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0a1de482a4e8ae279c3a06030adb213e3a229ce9",
+          "inputRev": "v4.26.0-patch2",
+          "url": "https://github.com/Verified-zkEVM/CompPoly"
+        },
         {
           "type": "git",
           "name": "checkdecls",
@@ -40,49 +50,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "375ddc485afeff3ee67816f1c3218dab120a600b",
+          "rev": "17a4da01b95f9fe92a361c38f039fea674ab1ade",
           "inputRev": "pfunction-4-26",
           "url": "https://github.com/Verified-zkEVM/VCV-io"
         },
         {
           "type": "git",
-          "name": "Cli",
+          "name": "ExtTreeMapLemmas",
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "933fce7e893f65969714c60cdb4bd8376786044e",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "UnicodeBasic",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "84b88f7ac9adf382b9668f852cee82487d616792",
-          "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
-        },
-        {
-          "type": "git",
-          "name": "BibtexQuery",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "3ab4379b2b92448717de66b7d3e254ac1487aede",
-          "inputRev": "master",
-          "url": "https://github.com/dupuisf/BibtexQuery"
-        },
-        {
-          "type": "git",
-          "name": "MD4Lean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
-          "inputRev": "main",
-          "url": "https://github.com/acmepjz/md4lean"
+          "rev": "fcc182942b35d0abdeb79db6d79c97b874f2098b",
+          "inputRev": null,
+          "url": "https://github.com/Verified-zkEVM/ExtTreeMapLemmas"
         },
         {
           "type": "git",
@@ -163,6 +143,46 @@
           "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "933fce7e893f65969714c60cdb4bd8376786044e",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "84b88f7ac9adf382b9668f852cee82487d616792",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "3ab4379b2b92448717de66b7d3e254ac1487aede",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
         }
       ]
     },
