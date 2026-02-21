@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "d5cffc7a05537361ceb8ad1a197957cfc4035723",
-      "date": "2026-02-19T11:12:17Z",
+      "revision": "f50080b1e7c96397d1c6710c8b43bc445b5647fe",
+      "date": "2026-02-20T20:09:23Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.27.0",
+      "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,32 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "509ad12ac4efd70d96418b481521296f9619bcf0",
+          "rev": "bf4cd323a0d088f361a94fcadb8db5cf1e9f3768",
+          "inputRev": "stable",
+          "url": "https://github.com/leanprover-community/quote4"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "54081c69df00ae3c59c3005d808b83226102450f",
+      "date": "2026-02-20T18:51:08Z",
+      "tag": "v4.28.0",
+      "toolchain": "leanprover/lean4:v4.28.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "bf4cd323a0d088f361a94fcadb8db5cf1e9f3768",
           "inputRev": "stable",
           "url": "https://github.com/leanprover-community/quote4"
         }

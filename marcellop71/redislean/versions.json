@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "4de481629d32a89ab8622e20b5a185ef20d1ff6f",
+      "date": "2026-02-12T19:23:09Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.27.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "arrowLean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "bdcd524a16766daf2bada770de417e7368390160",
+          "inputRev": "main",
+          "url": "git@github.com:marcellop71/arrow-lean.git"
+        },
+        {
+          "type": "git",
+          "name": "zlogLean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "430b8cb1aca1bebf710811f3bd274beb7253934b",
+          "inputRev": "main",
+          "url": "git@github.com:marcellop71/zlog-lean.git"
+        },
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1e6da63a9c92473747e816d07d5c6f6bc7c8a59e",
+          "inputRev": "main",
+          "url": "https://github.com/argumentcomputer/LSpec.git"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "55c37290ff6186e2e965d68cf853a57c0702db82",
+          "inputRev": "v4.27.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    }
+  ]
+}
