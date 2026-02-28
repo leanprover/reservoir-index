@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "29e7df238aa51dba17463e360e68657a8d433f43",
-      "date": "2026-02-17T19:55:07Z",
-      "tag": "v4.29.0-rc1",
-      "toolchain": "leanprover/lean4:v4.29.0-rc1",
+      "revision": "115974a13ac7262139c56c9e5a65be64c8464d9a",
+      "date": "2026-02-24T04:56:31Z",
+      "tag": "v4.29.0-rc2",
+      "toolchain": "leanprover/lean4:v4.29.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "9484dd63d30bce157c7f98007a9f26ca4dfb7fb6",
-          "inputRev": "v4.29.0-rc1",
+          "rev": "014bbb1d5dc169d57ca17234dfa75957a6833d17",
+          "inputRev": "v4.29.0-rc2",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "115974a13ac7262139c56c9e5a65be64c8464d9a",
+      "date": "2026-02-24T04:56:31Z",
+      "tag": "v4.29.0-rc2",
+      "toolchain": "leanprover/lean4:v4.29.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "014bbb1d5dc169d57ca17234dfa75957a6833d17",
+          "inputRev": "v4.29.0-rc2",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
         }
       ]

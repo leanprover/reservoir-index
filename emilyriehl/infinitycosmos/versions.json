@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "31a1598bfc954b6334aab8f2fd68cec99c886258",
-      "date": "2026-02-05T18:50:43Z",
+      "revision": "7bcc00f240e349bb755f55aae447ed4ea660e6e7",
+      "date": "2026-02-27T16:48:08Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.26.0-rc2",
       "platformIndependent": null,
@@ -33,6 +33,16 @@
           "rev": "ef921c9a5139539a505bc3291f1a076a1e250d92",
           "inputRev": null,
           "url": "https://github.com/leanprover-community/mathlib4.git"
+        },
+        {
+          "type": "git",
+          "name": "LeanArchitect",
+          "scope": "hanwenzhu",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "332d765d78d32a031b8b06832b0581816494ddfd",
+          "inputRev": "v4.26.0",
+          "url": "https://github.com/hanwenzhu/LeanArchitect"
         },
         {
           "type": "git",
