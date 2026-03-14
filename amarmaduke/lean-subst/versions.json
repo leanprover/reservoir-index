@@ -3,9 +3,34 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "49a61b249983653b4f85addd3f5c5b337673614d",
-      "date": "2026-02-15T21:29:09Z",
-      "tag": null,
+      "revision": "05d54359eed3374ef64b6ab85d6e5fd9bd258cb7",
+      "date": "2026-03-13T20:37:33Z",
+      "tag": "v0.3",
+      "toolchain": "leanprover/lean4:v4.26.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "lilac",
+          "scope": "amarmaduke",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "396d7566b10fd112c3cc83395b9195c8b47461cf",
+          "inputRev": "main",
+          "url": "https://github.com/amarmaduke/lilac"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "revision": "05d54359eed3374ef64b6ab85d6e5fd9bd258cb7",
+      "date": "2026-03-13T20:37:33Z",
+      "tag": "v0.3",
       "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
       "license": null,

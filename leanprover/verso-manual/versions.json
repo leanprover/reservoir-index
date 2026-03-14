@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "441a250608ea7e2115305c8946d1e14d14a66137",
-      "date": "2026-03-07T12:51:13Z",
+      "revision": "b72d8f93c15b8b128b23a38e43dce6fddf84586e",
+      "date": "2026-03-12T11:27:49Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.29.0-rc4",
+      "toolchain": "leanprover/lean4:v4.29.0-rc6",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "b45a4c87a44913fe929412d22db48c12b11a2a9f",
+          "rev": "44daa1f5008ab110e0b781a1138929d3561fa8e3",
           "inputRev": "main",
           "url": "https://github.com/leanprover/verso-web-components"
         },
@@ -30,8 +30,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "52c1f4b0309bbdab5fdf2870b43fcf85cf65a4fd",
-          "inputRev": "v4.29.0-rc4",
+          "rev": "cf7d5334f3d83c8a73b88426b43f72160e7f3984",
+          "inputRev": "main",
           "url": "https://github.com/leanprover/verso.git"
         },
         {
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "3f5c2d5f84f7575a01b6d92916f4e914cefff51d",
+          "rev": "69981335508430ec0fc09241f535aa353c1e978e",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         },
@@ -50,7 +50,72 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "2b93f2523263a6df8a8fbbe3dd28b7f028087480",
+          "rev": "650d4104daeb660ff3cc46715602a664504e7785",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6a3fb240133bcb7e1a066fdc784b3fdc304e3fc5",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "069b7f9d834f61f662a0e9c660fc12d0fdec200d",
+      "date": "2026-03-10T02:11:29Z",
+      "tag": "v4.29.0-rc6",
+      "toolchain": "leanprover/lean4:v4.29.0-rc6",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "versowebcomponents",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8b8480209c89710fefe2de84afb22b79c028241f",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/verso-web-components"
+        },
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4e0bed0fa589c7d3366d62eeac3deac8e2b9e5b2",
+          "inputRev": "v4.29.0-rc6",
+          "url": "https://github.com/leanprover/verso.git"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "69981335508430ec0fc09241f535aa353c1e978e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "8629a535d10cd7edfbf1a2c5cdfbaeee135a62cd",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },

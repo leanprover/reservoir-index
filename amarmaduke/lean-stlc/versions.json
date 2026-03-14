@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "87a9332e2bfdd218c437576de799af9edfe71f26",
-      "date": "2025-12-21T23:40:07Z",
+      "revision": "652734af6e3dca8c72cd29e529d7c57e1049c717",
+      "date": "2026-03-10T22:20:05Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.26.0",
       "platformIndependent": null,
@@ -20,9 +20,19 @@
           "scope": "amarmaduke",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "8da67cb68dd63ef181e521996f58992c7d9e7008",
+          "rev": "1001e7d141a1bf904b4028a889666c752953bf25",
           "inputRev": "main",
           "url": "https://github.com/amarmaduke/lean-subst"
+        },
+        {
+          "type": "git",
+          "name": "lilac",
+          "scope": "amarmaduke",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "396d7566b10fd112c3cc83395b9195c8b47461cf",
+          "inputRev": "main",
+          "url": "https://github.com/amarmaduke/lilac"
         }
       ]
     }

@@ -5,7 +5,42 @@
       "version": "0.0.0",
       "revision": "995437281e103bf3ca7d876dd36dff649d0d42d2",
       "date": "2026-03-02T08:54:36Z",
-      "tag": null,
+      "tag": "v4.28.0-rc1",
+      "toolchain": "leanprover/lean4:v4.28.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "28e0856d4424863a85b18f38868c5420c55f9bae",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "metalib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3163e9292f06c2d3b16bec77e78989c9917c76a2",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/metalib.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "995437281e103bf3ca7d876dd36dff649d0d42d2",
+      "date": "2026-03-02T08:54:36Z",
+      "tag": "v4.28.0-rc1",
       "toolchain": "leanprover/lean4:v4.28.0-rc1",
       "platformIndependent": null,
       "license": null,
