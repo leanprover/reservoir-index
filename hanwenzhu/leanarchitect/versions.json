@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "b45ea9bf07f956d0357bcf9552badd343e0aa4b6",
-      "date": "2026-03-07T21:54:26Z",
-      "tag": "v4.29.0-rc4",
-      "toolchain": "leanprover/lean4:v4.29.0-rc4",
+      "revision": "c5d881e3f9509a25bb3f6c1c3ecea9aedf104ba2",
+      "date": "2026-03-14T19:12:30Z",
+      "tag": "v4.29.0-rc6",
+      "toolchain": "leanprover/lean4:v4.29.0-rc6",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "06c8b4d690d9b7ef98d594672bbdaa618156215a",
-          "inputRev": "v4.29.0-rc4",
+          "rev": "3de531c1135f5e3a01f3ac04830996fda476b28e",
+          "inputRev": "v4.29.0-rc6",
           "url": "https://github.com/mhuisi/lean4-cli"
         },
         {
@@ -30,8 +30,43 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ac3fb7297326c5429ce2844712fb54ba9dd20198",
-          "inputRev": "v4.29.0-rc4",
+          "rev": "bd58e3506632241b59e406902d5e42b73cdeccce",
+          "inputRev": "v4.29.0-rc6",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "c5d881e3f9509a25bb3f6c1c3ecea9aedf104ba2",
+      "date": "2026-03-14T19:12:30Z",
+      "tag": "v4.29.0-rc6",
+      "toolchain": "leanprover/lean4:v4.29.0-rc6",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3de531c1135f5e3a01f3ac04830996fda476b28e",
+          "inputRev": "v4.29.0-rc6",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "bd58e3506632241b59e406902d5e42b73cdeccce",
+          "inputRev": "v4.29.0-rc6",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
