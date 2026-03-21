@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "599bdab999053f361713f85c49c6f8783c3c85a6",
-      "date": "2026-03-15T05:17:18Z",
+      "revision": "a13b1e2c357ded1c7491b0455a00ae1aa1976cd5",
+      "date": "2026-03-20T12:44:38Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "PrimeCert",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f44bd20f85905af5a49c5da53cb4f7411288b71a",
+          "inputRev": "v4.28.0",
+          "url": "https://github.com/b-mehta/PrimeCert"
+        },
         {
           "type": "git",
           "name": "leancert",

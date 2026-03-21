@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "ab05b6795c23d042348e04e67bf0a72daba2da70",
-      "date": "2026-02-25T19:30:13Z",
+      "revision": "03c1aa62612be2b1139bd9d62ddde0af12f34f75",
+      "date": "2026-03-17T01:18:04Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
@@ -15,14 +15,24 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "path",
-          "name": "HammerCore",
+          "type": "git",
+          "name": "Duper",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
+          "rev": "4aa43d4e9802737dc7dbefd92a247e2a62f9ce81",
+          "inputRev": "v4.28.0",
+          "url": "https://github.com/leanprover-community/duper.git"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f642a64c76df8ba9cb53dba3b919425a0c2aeaf1",
+          "inputRev": "v4.28.0",
+          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
@@ -43,26 +53,6 @@
           "rev": "546741e1bacbe8779cbb03a9cb7254bc43336442",
           "inputRev": "v4.28.0",
           "url": "https://github.com/hanwenzhu/premise-selection"
-        },
-        {
-          "type": "git",
-          "name": "Duper",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "4aa43d4e9802737dc7dbefd92a247e2a62f9ce81",
-          "inputRev": "v4.28.0",
-          "url": "https://github.com/leanprover-community/duper.git"
-        },
-        {
-          "type": "git",
-          "name": "aesop",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "f642a64c76df8ba9cb53dba3b919425a0c2aeaf1",
-          "inputRev": "v4.28.0",
-          "url": "https://github.com/leanprover-community/aesop"
         },
         {
           "type": "git",
