@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.1",
+      "revision": "692c5c448ab258403312db5573476040802c2cbf",
+      "date": "2024-11-23T10:35:31Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.13.0",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "././LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Curl",
+          "scope": "bergmannjg",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "54a64ed6bd3fe39eb18d3f017a93e42d3bfa34d5",
+          "inputRev": "main",
+          "url": "https://github.com/bergmannjg/leanCurl"
+        }
+      ]
+    }
+  ]
+}
