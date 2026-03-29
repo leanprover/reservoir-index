@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "0343f91a5acf1dc247ab7b2a080eb6fb9a229816",
-      "date": "2026-03-20T14:14:25Z",
+      "revision": "d928197fe5dbd12e4fc624ac3e3c16cec3e8438b",
+      "date": "2026-03-25T15:58:52Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:stable",
+      "toolchain": "leanprover/lean4:v4.29.0-rc8",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "505875d8ef36b4d4efd26bc0fe72a905d2bd285f",
+          "rev": "9548fe435552df84b1dbb6022d64e4aa497636d4",
           "inputRev": "main",
           "url": "https://github.com/SrGaabriel/kenosis"
         },
@@ -60,7 +60,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "7ac5820df332785010b8ce8e3d0eeb589d3abb14",
+          "rev": "f3a30bc5a73824a9072816ab2976f55669e00d04",
           "inputRev": "main",
           "url": "https://github.com/SrGaabriel/lapis"
         },
@@ -70,19 +70,9 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "28e0856d4424863a85b18f38868c5420c55f9bae",
+          "rev": "61cd682f2a25175996bc1b9e8d8231e76cded866",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "doc-gen4",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "4dbbb80a2d54797f61d5a830b6dd82c087b0a7c2",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/doc-gen4"
         },
         {
           "type": "git",
@@ -90,9 +80,29 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "8668e1ab7c987fb8ed1349f14c3b7b60bd5f27b6",
+          "rev": "81c5840e00d2b2a049b08f5bad3b07d0e5dfb8ca",
           "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+          "url": "https://github.com/fgdorais/lean4-unicode-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "doc-gen4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0d1cc54b3a8cc132b97c48dd128ab3ba2391a7ce",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/doc-gen4"
+        },
+        {
+          "type": "git",
+          "name": "leansqlite",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d14544c72b593af6a66131bc34cdab16bf7c0940",
+          "inputRev": "suppress-reducibility-warning",
+          "url": "https://github.com/kim-em/leansqlite"
         },
         {
           "type": "git",
@@ -100,8 +110,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "1c5c543d2637aebf90c80aead2d401ae88db13cc",
-          "inputRev": "master",
+          "rev": "5d31b64fb703c5d77f6ef4d1fb958f9bdf1ea539",
+          "inputRev": "nightly-testing",
           "url": "https://github.com/dupuisf/BibtexQuery"
         },
         {
@@ -110,9 +120,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
+          "rev": "6a3fb240133bcb7e1a066fdc784b3fdc304e3fc5",
           "inputRev": "main",
           "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b3dd6c3ebc0a71685e86bea9223be39ea4c299fb",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
         }
       ]
     }
