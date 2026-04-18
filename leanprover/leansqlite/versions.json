@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "45cdcef29e303040f64cfbeeb9bb67d029e03007",
-      "date": "2026-03-12T05:47:10Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.29.0-rc6",
+      "revision": "c7326b06de365308e008bdfe379909e44334a2e2",
+      "date": "2026-04-17T13:51:56Z",
+      "tag": "v4.30.0-rc2",
+      "toolchain": "leanprover/lean4:v4.30.0-rc2",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,7 +20,57 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "b3dd6c3ebc0a71685e86bea9223be39ea4c299fb",
+          "rev": "86210d4ad1b08b086d0bd638637a75246523dbb8",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "revision": "c7326b06de365308e008bdfe379909e44334a2e2",
+      "date": "2026-04-17T13:51:56Z",
+      "tag": "v4.30.0-rc2",
+      "toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "86210d4ad1b08b086d0bd638637a75246523dbb8",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "b0902b6e6ca739d889aa26ad533ba919c94d7dbb",
+      "date": "2026-04-08T08:55:30Z",
+      "tag": "v4.30.0-rc1",
+      "toolchain": "leanprover/lean4:v4.30.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f449eabb8f7e3feef0366856c20e28a6d2c97ee3",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         }

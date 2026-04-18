@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "c5d881e3f9509a25bb3f6c1c3ecea9aedf104ba2",
-      "date": "2026-03-14T19:12:30Z",
-      "tag": "v4.29.0-rc6",
-      "toolchain": "leanprover/lean4:v4.29.0-rc6",
+      "revision": "d7e9b2b867fd93c076b62c3022f3e5420f0b40a1",
+      "date": "2026-04-08T04:54:38Z",
+      "tag": "v4.30.0-rc1",
+      "toolchain": "leanprover/lean4:v4.30.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3de531c1135f5e3a01f3ac04830996fda476b28e",
-          "inputRev": "v4.29.0-rc6",
+          "rev": "f7d0ca7c926cdde0562af20394dd25d028b839a5",
+          "inputRev": "v4.30.0-rc1",
           "url": "https://github.com/mhuisi/lean4-cli"
         },
         {
@@ -30,8 +30,148 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "bd58e3506632241b59e406902d5e42b73cdeccce",
-          "inputRev": "v4.29.0-rc6",
+          "rev": "bf597c77bf9b8e66720d724928207f5911533113",
+          "inputRev": "v4.30.0-rc1",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "d7e9b2b867fd93c076b62c3022f3e5420f0b40a1",
+      "date": "2026-04-08T04:54:38Z",
+      "tag": "v4.30.0-rc1",
+      "toolchain": "leanprover/lean4:v4.30.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f7d0ca7c926cdde0562af20394dd25d028b839a5",
+          "inputRev": "v4.30.0-rc1",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "bf597c77bf9b8e66720d724928207f5911533113",
+          "inputRev": "v4.30.0-rc1",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "719ea595bb100be70d0b53b01eca828862d9f860",
+      "date": "2026-03-31T02:45:36Z",
+      "tag": "v4.29.0",
+      "toolchain": "leanprover/lean4:v4.29.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7802da01beb530bf051ab657443f9cd9bc3e1a29",
+          "inputRev": "v4.29.0",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "756e3321fd3b02a85ffda19fef789916223e578c",
+          "inputRev": "v4.29.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "42eeaf3a07d0694d73dc6912243082eec9932ea9",
+      "date": "2026-03-31T02:45:36Z",
+      "tag": "v4.29.0-rc7",
+      "toolchain": "leanprover/lean4:v4.29.0-rc7",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "33583e6fb5096defc38f0c7f67d1c4a3825aee1f",
+          "inputRev": "v4.29.0-rc7",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "46f6618b9942c1f67ebe3b8051163ddb8d8ff496",
+          "inputRev": "v4.29.0-rc7",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "f11aef7d20b1ecb6a0aa59002efab9740ad8fd68",
+      "date": "2026-03-31T02:45:36Z",
+      "tag": "v4.29.0-rc8",
+      "toolchain": "leanprover/lean4:v4.29.0-rc8",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "61cd682f2a25175996bc1b9e8d8231e76cded866",
+          "inputRev": "v4.29.0-rc8",
+          "url": "https://github.com/mhuisi/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "bce25af79ec73f5e63240d4399a4cd8a6a227fcb",
+          "inputRev": "v4.29.0-rc8",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -45,7 +185,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -80,7 +220,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -115,7 +255,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -150,7 +290,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -185,7 +325,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -220,7 +360,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -255,7 +395,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -290,7 +430,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -360,7 +500,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -395,7 +535,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -430,7 +570,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

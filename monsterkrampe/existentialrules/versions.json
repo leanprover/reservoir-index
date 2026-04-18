@@ -2,11 +2,11 @@
   "schemaVersion": "1.2.0",
   "data": [
     {
-      "version": "0.1.0",
-      "revision": "55d41901f3fc9d030af6706510f6c7d45471315c",
-      "date": "2026-03-17T14:41:10Z",
+      "version": "0.2.0",
+      "revision": "6fc18b4438bc63fa26de3ade8f1169157bcf74c6",
+      "date": "2026-04-17T12:28:35Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.28.0",
+      "toolchain": "leanprover/lean4:v4.29.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "18db59a8a56658705d078cb56b624880bcd9e3cb",
+          "rev": "100c79f89a7bf18200f9bd0f809b76258d39f8d9",
           "inputRev": "main",
           "url": "https://github.com/monsterkrampe/Possibly-Infinite-Trees.git"
         },
@@ -30,7 +30,42 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "4174e5d0d7f49de0a7bbc729a889a9c159f8ec4e",
+          "rev": "5b3fade5003d74988527ffe235b7e103bc328b2d",
+          "inputRev": "main",
+          "url": "https://github.com/monsterkrampe/Basic-Lean-Datastructures.git"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "0d723448b74a012040def1083074c8ef7fc70621",
+      "date": "2026-04-14T12:17:14Z",
+      "tag": "v0.2.0",
+      "toolchain": "leanprover/lean4:v4.29.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "PossiblyInfiniteTrees",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "100c79f89a7bf18200f9bd0f809b76258d39f8d9",
+          "inputRev": "main",
+          "url": "https://github.com/monsterkrampe/Possibly-Infinite-Trees.git"
+        },
+        {
+          "type": "git",
+          "name": "BasicLeanDatastructures",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5b3fade5003d74988527ffe235b7e103bc328b2d",
           "inputRev": "main",
           "url": "https://github.com/monsterkrampe/Basic-Lean-Datastructures.git"
         }

@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f8439414d0e945fb9145339f7eb52ad4efb8fe66",
-      "date": "2026-03-19T09:17:23Z",
+      "revision": "978ec8a763b609c69eeef8be329f19752876f558",
+      "date": "2026-04-17T22:31:08Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.28.0",
+      "toolchain": "leanprover/lean4:v4.29.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "b25b36a7caf8e237e7d1e6121543078a06777c8a",
-          "inputRev": "v4.27.0",
+          "rev": "756e3321fd3b02a85ffda19fef789916223e578c",
+          "inputRev": "v4.29.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -30,8 +30,43 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "bf4cd323a0d088f361a94fcadb8db5cf1e9f3768",
-          "inputRev": "stable",
+          "rev": "707efb56d0696634e9e965523a1bbe9ac6ce141d",
+          "inputRev": "v4.29.0",
+          "url": "https://github.com/leanprover-community/quote4"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5cbc794e9c0e1ad557bdc2016f07f39c25777728",
+      "date": "2026-04-08T15:32:14Z",
+      "tag": "v4.29.0",
+      "toolchain": "leanprover/lean4:v4.29.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "756e3321fd3b02a85ffda19fef789916223e578c",
+          "inputRev": "v4.29.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "707efb56d0696634e9e965523a1bbe9ac6ce141d",
+          "inputRev": "v4.29.0",
           "url": "https://github.com/leanprover-community/quote4"
         }
       ]
