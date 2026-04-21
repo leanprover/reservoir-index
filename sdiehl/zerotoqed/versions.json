@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a12916d26dc33a48a811074b6eb690887dadca04",
-      "date": "2026-04-19T05:18:55Z",
+      "revision": "263934d5c4da63fddb4ac896f378612ada1aeb7e",
+      "date": "2026-04-20T06:46:54Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.26.0",
+      "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -16,22 +16,12 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "smt",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "1dc27aa315f3182162545d3e8ec5e66012095f5e",
-          "inputRev": "main",
-          "url": "https://github.com/ufmg-smite/lean-smt.git"
-        },
-        {
-          "type": "git",
           "name": "batteries",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
-          "inputRev": "v4.26.0",
+          "rev": "495c008c3e3f4fb4256ff5582ddb3abf3198026f",
+          "inputRev": "v4.28.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -40,29 +30,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
-          "inputRev": "v4.26.0",
+          "rev": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+          "inputRev": "v4.28.0",
           "url": "https://github.com/leanprover-community/mathlib4.git"
-        },
-        {
-          "type": "git",
-          "name": "cvc5",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "573fd67d2b39fd3d28b20aa2af091e9415d6725a",
-          "inputRev": "573fd67",
-          "url": "https://github.com/abdoo8080/lean-cvc5.git"
-        },
-        {
-          "type": "git",
-          "name": "auto",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "2fb3dbc0ff47ab2846e71bc3dbd6b505bd088bf3",
-          "inputRev": "2fb3dbc0ff47ab2846e71bc3dbd6b505bd088bf3",
-          "url": "https://github.com/leanprover-community/lean-auto.git"
         },
         {
           "type": "git",
@@ -70,7 +40,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+          "rev": "55c8532eb21ec9f6d565d51d96b8ca50bd1fbef3",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -80,7 +50,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "3591c3f664ac3719c4c86e4483e21e228707bfa2",
+          "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/LeanSearchClient"
         },
@@ -90,7 +60,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "e9f31324f15ead11048b1443e62c5deaddd055d2",
+          "rev": "85b59af46828c029a9168f2f9c35119bd0721e6e",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
@@ -100,8 +70,8 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "b4fb2aa5290ebf61bc5f80a5375ba642f0a49192",
-          "inputRev": "v0.0.83",
+          "rev": "be3b2e63b1bbf496c478cef98b86972a37c1417d",
+          "inputRev": "v0.0.87",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
         {
@@ -110,7 +80,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "2f6d238744c4cb07fdc91240feaf5d4221a27931",
+          "rev": "f642a64c76df8ba9cb53dba3b919425a0c2aeaf1",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
@@ -120,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "9312503909aa8e8bb392530145cc1677a6298574",
+          "rev": "b8f98e9087e02c8553945a2c5abf07cec8e798c3",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
         },
@@ -130,8 +100,8 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "933fce7e893f65969714c60cdb4bd8376786044e",
-          "inputRev": "v4.26.0",
+          "rev": "4f10f47646cb7d5748d6f423f4a07f98f7bbcc9e",
+          "inputRev": "v4.28.0",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
