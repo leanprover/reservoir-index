@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "b51cecc437f3684e22f65e4f052fb0f256aca356",
+      "date": "2026-04-23T12:19:03Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.24.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Blaster",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "eff8cbbf2200d888f9f0acdeb43b63669a760a52",
+          "inputRev": "beta-lambda-cache-optimization",
+          "url": "https://github.com/input-output-hk/Lean-blaster"
+        },
+        {
+          "type": "git",
+          "name": "PlutusCore",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "17cee18a2058790bca36282d82c19146587fb2d1",
+          "inputRev": "main",
+          "url": "https://github.com/input-output-hk/PlutusCoreBlaster"
+        }
+      ]
+    }
+  ]
+}

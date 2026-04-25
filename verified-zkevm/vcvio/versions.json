@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "85de4c1b560e3c50ffa1bc77dc83ef410e195d95",
-      "date": "2026-04-24T06:29:42Z",
+      "revision": "638ed2e9a613df3fdd52e440ac62b649db43282d",
+      "date": "2026-04-25T07:52:38Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.29.0",
       "platformIndependent": null,
@@ -23,6 +23,16 @@
           "rev": "8a178386ffc0f5fef0b77738bb5449d50efeea95",
           "inputRev": "v4.29.0",
           "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "loom2",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "eccaa1ebdb8f8a0c671f04971110c9011787d7c3",
+          "inputRev": "eccaa1eb",
+          "url": "https://github.com/quangvdao/loom2"
         },
         {
           "type": "git",
