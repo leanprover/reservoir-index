@@ -3,10 +3,35 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "48c63819abddf0c33dc9b4187ea0b485d817a9e9",
-      "date": "2026-04-04T01:48:39Z",
-      "tag": "v0.3.14",
-      "toolchain": "leanprover/lean4:v4.28.0",
+      "revision": "842c0fe6e76b0771cc7f7939604c7a0b90e17433",
+      "date": "2026-04-26T02:24:01Z",
+      "tag": "v0.3.15",
+      "toolchain": "leanprover/lean4:v4.29.1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "db76512cd5266f0c576d561d8c69e2dc4890bea5",
+          "inputRev": "db76512cd5266f0c576d561d8c69e2dc4890bea5",
+          "url": "https://github.com/argumentcomputer/LSpec.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "842c0fe6e76b0771cc7f7939604c7a0b90e17433",
+      "date": "2026-04-26T02:24:01Z",
+      "tag": "v0.3.15",
+      "toolchain": "leanprover/lean4:v4.29.1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
