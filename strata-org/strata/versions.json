@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "349b1cf4915d3d9357b8de7edcc94d3b9a79f0b5",
-      "date": "2026-05-22T15:33:11Z",
-      "tag": "nightly-20260523",
+      "revision": "d76b54e80f2eb188e7c098d8c9aaba4ec0d0b354",
+      "date": "2026-05-29T21:32:47Z",
+      "tag": "nightly-20260530",
       "toolchain": "leanprover/lean4:v4.29.1",
       "platformIndependent": null,
       "license": null,
@@ -21,6 +21,26 @@
           "rev": "4bdad1f417437e3331492708ce8320aec350280a",
           "inputRev": "bump_to_v4.29.0-rc8",
           "url": "https://github.com/leanprover-community/plausible.git"
+        },
+        {
+          "type": "path",
+          "name": "StrataCLI",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "path",
+          "name": "StrataDDM",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
         }
       ]
     }

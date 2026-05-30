@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "515cf9d0c00ece5e661f6de4326a53dedc1e8ea1",
-      "date": "2026-05-26T15:17:09Z",
-      "tag": "v4.30.0",
-      "toolchain": "leanprover/lean4:v4.30.0",
+      "revision": "6db47de43aa7f516708053ae2fdadd29dd9baaaa",
+      "date": "2026-05-28T14:24:12Z",
+      "tag": "v4.31.0-rc1",
+      "toolchain": "leanprover/lean4:v4.31.0-rc1",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6b907cf12b2e445ccb7c24bc208ef04a1f39e84c",
-          "inputRev": "v4.30.0",
+          "rev": "48bdcff4c5fa27e09028f9f330e59baa0d4640cf",
+          "inputRev": "v4.31.0-rc1",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "6db47de43aa7f516708053ae2fdadd29dd9baaaa",
+      "date": "2026-05-28T14:24:12Z",
+      "tag": "v4.31.0-rc1",
+      "toolchain": "leanprover/lean4:v4.31.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "48bdcff4c5fa27e09028f9f330e59baa0d4640cf",
+          "inputRev": "v4.31.0-rc1",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
@@ -333,9 +358,9 @@
       "tag": "v4.28.0-rc1",
       "toolchain": "leanprover/lean4:v4.28.0-rc1",
       "platformIndependent": null,
-      "license": "Apache-2.0",
+      "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
