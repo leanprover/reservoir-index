@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "edfa3c513aede5373ed5084e4a4ca60f29442920",
-      "date": "2026-05-18T16:16:50Z",
-      "tag": "0.1.0",
+      "revision": "b429a8275a18d22d75364737f6d438f3335f2dc9",
+      "date": "2026-05-31T22:05:43Z",
+      "tag": "0.1.1",
       "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
       "license": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ce893b9042128037e2d3c0158b9567fab9fae268",
+          "inputRev": "ce893b9042128037e2d3c0158b9567fab9fae268",
+          "url": "https://github.com/leanprover/subverso"
+        },
         {
           "type": "git",
           "name": "checkdecls",
