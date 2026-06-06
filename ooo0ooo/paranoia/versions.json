@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "11c2385ade3cc417d69ce837bfda9d2c5b1d61ab",
+      "date": "2025-11-27T10:50:34Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.25.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "lean4checker",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b1efea26e138821953e43dfb8fe63770ccb766d1",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4checker.git"
+        }
+      ]
+    }
+  ]
+}

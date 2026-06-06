@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "be4a204c4caf693e76202ecbc65f595046b9cd59",
+      "date": "2026-04-21T15:27:15Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.29.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "756e3321fd3b02a85ffda19fef789916223e578c",
+          "inputRev": "v4.29.0",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "raylean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aef7bd78b7ff24d5deeb01d2a37277e8acc6c260",
+          "inputRev": "aef7bd78b7ff24d5deeb01d2a37277e8acc6c260",
+          "url": "https://github.com/funexists/raylean.git"
+        },
+        {
+          "type": "git",
+          "name": "lens-demo",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0c90e83fd65f3b845dc46c1454309e0dbda25a71",
+          "inputRev": "v4.28.0",
+          "url": "https://github.com/funexists/lens-demo.git"
+        }
+      ]
+    }
+  ]
+}
