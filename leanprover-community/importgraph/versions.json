@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "6db47de43aa7f516708053ae2fdadd29dd9baaaa",
-      "date": "2026-05-28T14:24:12Z",
-      "tag": "v4.31.0-rc1",
-      "toolchain": "leanprover/lean4:v4.31.0-rc1",
+      "revision": "99c763c8a96d3d44fb4994e96eaa51ca4568449d",
+      "date": "2026-06-08T12:15:38Z",
+      "tag": "v4.31.0-rc2",
+      "toolchain": "leanprover/lean4:v4.31.0-rc2",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "48bdcff4c5fa27e09028f9f330e59baa0d4640cf",
-          "inputRev": "v4.31.0-rc1",
+          "rev": "baf3e62fbb3502305076ca077e004aea78157c63",
+          "inputRev": "v4.31.0-rc2",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "99c763c8a96d3d44fb4994e96eaa51ca4568449d",
+      "date": "2026-06-08T12:15:38Z",
+      "tag": "v4.31.0-rc2",
+      "toolchain": "leanprover/lean4:v4.31.0-rc2",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "baf3e62fbb3502305076ca077e004aea78157c63",
+          "inputRev": "v4.31.0-rc2",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
@@ -33,9 +58,9 @@
       "tag": "v4.31.0-rc1",
       "toolchain": "leanprover/lean4:v4.31.0-rc1",
       "platformIndependent": null,
-      "license": "Apache-2.0",
+      "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -58,9 +83,9 @@
       "tag": "v4.30.0",
       "toolchain": "leanprover/lean4:v4.30.0",
       "platformIndependent": null,
-      "license": null,
+      "license": "Apache-2.0",
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -358,9 +383,9 @@
       "tag": "v4.28.0-rc1",
       "toolchain": "leanprover/lean4:v4.28.0-rc1",
       "platformIndependent": null,
-      "license": "Apache-2.0",
+      "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
