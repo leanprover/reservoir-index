@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "77f9a240e78d453fddb49ec88dc7f46cdf4f40e6",
-      "date": "2026-06-09T20:32:59Z",
-      "tag": "nightly-20260610",
+      "revision": "2961a48239ba0de5d3a414b362a7a2db1cfa17fd",
+      "date": "2026-06-10T21:09:05Z",
+      "tag": "nightly-20260611",
       "toolchain": "leanprover/lean4:v4.29.1",
       "platformIndependent": null,
       "license": null,
@@ -33,14 +33,14 @@
           "url": null
         },
         {
-          "type": "path",
+          "type": "git",
           "name": "StrataDDM",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
+          "rev": "154ea04d8bb774b510dfd35f52b643971283340d",
           "inputRev": null,
-          "url": null
+          "url": "https://github.com/strata-org/Strata-DDM"
         }
       ]
     }

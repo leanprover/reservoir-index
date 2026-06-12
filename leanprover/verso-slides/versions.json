@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "0afadcb272a082d4918d70a9c5b5e3ef5c73bfcd",
-      "date": "2026-06-08T14:52:28Z",
-      "tag": "v4.31.0-rc2",
+      "revision": "af0b651645e8ebfe36a1ed6fb09b6375ccbe7663",
+      "date": "2026-06-12T13:40:57Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.31.0-rc2",
       "platformIndependent": null,
       "license": null,
@@ -16,23 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "illuminate",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "c7a8de81e102ee2a42a7395f98d1ed12a861a43b",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/illuminate.git"
-        },
-        {
-          "type": "git",
           "name": "verso",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "916bb962ceb8b88e6a731db6d28e862f99e834c4",
+          "rev": "5b9f85b4fc3d5d724b8311abab768ff80d189fa4",
           "inputRev": "main",
           "url": "https://github.com/leanprover/verso.git"
+        },
+        {
+          "type": "git",
+          "name": "illuminate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "08da3f6f41c075e0c18d37eb0fd417c10ed77b6e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/illuminate.git"
         },
         {
           "type": "git",
@@ -60,7 +60,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "a86770a5eba721c8554d1d7fce741bc4dde3bb61",
+          "rev": "0bd508e8362f56d4a05cbf63614d4c97db954041",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         }

@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5869f7f75268f51cebcc8242e231554ed4f52850",
-      "date": "2026-06-10T10:48:37Z",
+      "revision": "9179406efb1880f522b64d26c5f06cbec0cc2923",
+      "date": "2026-06-11T11:03:47Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.31.0-rc2",
       "platformIndependent": null,
@@ -16,33 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "subverso",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "a86770a5eba721c8554d1d7fce741bc4dde3bb61",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/subverso"
-        },
-        {
-          "type": "git",
-          "name": "checkdecls",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
-          "inputRev": null,
-          "url": "https://github.com/PatrickMassot/checkdecls.git"
-        },
-        {
-          "type": "git",
           "name": "mathlib",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f430c194894355b7685b9985ee461bcd6d1b3bf9",
+          "inputRev": "f430c194894355b7685b9985ee461bcd6d1b3bf9",
+          "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "verso",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "1ccad003f48319848becd773bde09f17729eec3e",
-          "inputRev": "1ccad003f48319848becd773bde09f17729eec3e",
-          "url": "https://github.com/leanprover-community/mathlib4.git"
+          "rev": "4c6b02ee232211811f9ad1c148ac336122e256d7",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/verso"
         },
         {
           "type": "git",
@@ -113,6 +103,36 @@
           "rev": "5dd219c775e402f818b42cd3997b5cf21017babf",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "illuminate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "c7a8de81e102ee2a42a7395f98d1ed12a861a43b",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/illuminate"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6a3fb240133bcb7e1a066fdc784b3fdc304e3fc5",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a86770a5eba721c8554d1d7fce741bc4dde3bb61",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
         },
         {
           "type": "git",
@@ -260,7 +280,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -385,7 +405,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -510,7 +530,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -625,7 +645,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -740,7 +760,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -855,7 +875,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
