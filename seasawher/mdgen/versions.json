@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "c003ac1229883b25d3b9e5df2fc0b2da453d3c8a",
-      "date": "2026-06-11T23:53:07Z",
+      "revision": "979fa34247de21c887aa1ced9617a2b271754c7f",
+      "date": "2026-06-15T21:59:17Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.31.0-rc2",
+      "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "baf3e62fbb3502305076ca077e004aea78157c63",
+          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli.git"
         }
@@ -153,8 +153,33 @@
     },
     {
       "version": "0.0.0",
-      "revision": "2ee155b7d699cfb1014b5263f8f484b3b0e7e58a",
-      "date": "2026-06-08T12:29:51Z",
+      "revision": "b1a3a042e98c9c653ced856f33287cd1f001fc01",
+      "date": "2026-06-15T17:03:56Z",
+      "tag": "v4.31.0",
+      "toolchain": "leanprover/lean4:v4.31.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "e061a86b0e168c6d37f535595d719899b7f131fb",
+      "date": "2026-06-09T02:46:08Z",
       "tag": "v4.31.0-rc2",
       "toolchain": "leanprover/lean4:v4.31.0-rc2",
       "platformIndependent": null,
@@ -178,8 +203,8 @@
     },
     {
       "version": "0.0.0",
-      "revision": "01b0cfdb9d9f79d37c518635c20c5dc4f1b1faa2",
-      "date": "2026-05-29T12:02:28Z",
+      "revision": "42e0ee92f7fba97fdcde3bf1e34f9bbf8f4846e8",
+      "date": "2026-05-29T14:06:08Z",
       "tag": "v4.31.0-rc1",
       "toolchain": "leanprover/lean4:v4.31.0-rc1",
       "platformIndependent": null,

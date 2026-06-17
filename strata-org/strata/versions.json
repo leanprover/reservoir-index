@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "2961a48239ba0de5d3a414b362a7a2db1cfa17fd",
-      "date": "2026-06-10T21:09:05Z",
-      "tag": "nightly-20260611",
+      "revision": "7b40c42a9f279ef6aaa9000cfd8d728476c953fa",
+      "date": "2026-06-16T20:12:20Z",
+      "tag": "nightly-20260617",
       "toolchain": "leanprover/lean4:v4.29.1",
       "platformIndependent": null,
       "license": null,
@@ -23,23 +23,13 @@
           "url": "https://github.com/leanprover-community/plausible.git"
         },
         {
-          "type": "path",
-          "name": "StrataCLI",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
           "type": "git",
           "name": "StrataDDM",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "154ea04d8bb774b510dfd35f52b643971283340d",
-          "inputRev": null,
+          "rev": "fbd9f71d6f03f56d71dc0ea4c40fcca7f4ebb6f8",
+          "inputRev": "main",
           "url": "https://github.com/strata-org/Strata-DDM"
         }
       ]
