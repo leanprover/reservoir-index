@@ -3,10 +3,24 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "0be4df908d1a8e75b58961041e2b4973692623df",
-      "date": "2026-06-15T13:05:42Z",
-      "tag": "v4.31.0",
-      "toolchain": "leanprover/lean4:v4.31.0",
+      "revision": "b61f1cfac14d03094cb3c0e65acd504416e47cad",
+      "date": "2026-06-18T15:06:36Z",
+      "tag": "v4.32.0-rc1",
+      "toolchain": "leanprover/lean4:v4.32.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": []
+    },
+    {
+      "version": "0.1.0",
+      "revision": "b61f1cfac14d03094cb3c0e65acd504416e47cad",
+      "date": "2026-06-18T15:06:36Z",
+      "tag": "v4.32.0-rc1",
+      "toolchain": "leanprover/lean4:v4.32.0-rc1",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -21,20 +35,6 @@
       "date": "2026-06-15T13:05:42Z",
       "tag": "v4.31.0",
       "toolchain": "leanprover/lean4:v4.31.0",
-      "platformIndependent": null,
-      "license": "Apache-2.0",
-      "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
-      ],
-      "readmeFile": "README.md",
-      "dependencies": []
-    },
-    {
-      "version": "0.1.0",
-      "revision": "48e36de20f3a8177fea8c1d2b001178ca10621b6",
-      "date": "2026-06-08T12:20:45Z",
-      "tag": "v4.31.0-rc2",
-      "toolchain": "leanprover/lean4:v4.31.0-rc2",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -120,6 +120,20 @@
           "url": "https://github.com/leanprover-community/plausible"
         }
       ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "48e36de20f3a8177fea8c1d2b001178ca10621b6",
+      "date": "2026-06-08T12:20:45Z",
+      "tag": "v4.31.0-rc2",
+      "toolchain": "leanprover/lean4:v4.31.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": []
     }
   ]
 }

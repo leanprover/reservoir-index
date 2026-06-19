@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
-      "date": "2026-06-15T12:58:58Z",
-      "tag": "v4.31.0",
-      "toolchain": "leanprover/lean4:v4.31.0",
+      "revision": "41f407a8e85b0fdc00910633a8f14754139b63f4",
+      "date": "2026-06-17T19:20:41Z",
+      "tag": "v4.32.0-rc1",
+      "toolchain": "leanprover/lean4:v4.32.0-rc1",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
-          "inputRev": "v4.31.0",
+          "rev": "406ebb8c8e2f7e852a1b47764b42494022ce652c",
+          "inputRev": "v4.32.0-rc1",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "41f407a8e85b0fdc00910633a8f14754139b63f4",
+      "date": "2026-06-17T19:20:41Z",
+      "tag": "v4.32.0-rc1",
+      "toolchain": "leanprover/lean4:v4.32.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "406ebb8c8e2f7e852a1b47764b42494022ce652c",
+          "inputRev": "v4.32.0-rc1",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
@@ -33,9 +58,9 @@
       "tag": "v4.31.0",
       "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
-      "license": "Apache-2.0",
+      "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
