@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "03f35c55169e5d3f02a5c6a89e3541ff4a10f5a7",
+      "date": "2026-06-18T00:16:49Z",
+      "tag": "nightly-20260618",
+      "toolchain": "leanprover/lean4:v4.30.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0cef4e5f8cc8b127065d54afa578948483fea504",
+          "inputRev": "v0.0.96",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "264309b5c0c10e569025a53ab6440a45c03133e4",
+          "inputRev": "264309b5c0c10e569025a53ab6440a45c03133e4",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9acabf83fb0369d00ba2e2410ca68db581a96bcc",
+          "inputRev": "9acabf83fb0369d00ba2e2410ca68db581a96bcc",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    }
+  ]
+}
