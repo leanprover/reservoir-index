@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "4c7d60219bb0b410271339d0e2714b81a5bd83ea",
-      "date": "2026-06-20T06:28:27Z",
+      "revision": "f6ea780cf3eb3a58f8d3b219e8fe800ae8f1abb9",
+      "date": "2026-06-22T11:13:50Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.29.1",
       "platformIndependent": null,
@@ -26,7 +26,17 @@
         },
         {
           "type": "path",
-          "name": "LeanEthCS",
+          "name": "EthCLSpecs",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "path",
+          "name": "EthCLLib",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
