@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "1d36a29f7bf26bd826099d415c32557303b75d2d",
-      "date": "2026-06-11T17:39:26Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "revision": "1a99b00a940624c0a6c3009b756fb922acf0fe78",
+      "date": "2026-06-27T12:18:45Z",
+      "tag": "v4.31.0",
+      "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "4ee56e687ce2b9b51b097bfa65947a499da0c453",
+          "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
@@ -30,7 +30,42 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "13567aed1ac4f12aea9484178e07e51f8c9f7658",
+          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "1a99b00a940624c0a6c3009b756fb922acf0fe78",
+      "date": "2026-06-27T12:18:45Z",
+      "tag": "v4.31.0",
+      "toolchain": "leanprover/lean4:v4.31.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         }

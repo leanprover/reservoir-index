@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "015d03d0fa84629947bc8074076fba3d2d98c747",
-      "date": "2026-05-05T10:03:25Z",
-      "tag": "v4.29.0",
-      "toolchain": "leanprover/lean4:v4.29.0",
+      "revision": "bef125f065b37d1e865f9e0c359add1542474875",
+      "date": "2026-06-24T17:18:39Z",
+      "tag": "v4.31.0",
+      "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fd99a0608245c9428da91687cc164899765799f2",
-          "inputRev": "v4.29.0",
+          "rev": "29926724c21be57af4e497944845e2dbec6677cb",
+          "inputRev": "v4.31.0",
           "url": "git@github.com:marcellop71/arrow-lean.git"
         },
         {
@@ -30,8 +30,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "f6fa3db89e48e835fb9752515088a82f5b53e4d4",
-          "inputRev": "v4.29.0",
+          "rev": "63b7f560d601557b149619f982918757d0f086d9",
+          "inputRev": "v4.31.0",
           "url": "git@github.com:marcellop71/zlog-lean.git"
         },
         {
@@ -50,8 +50,63 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "7802da01beb530bf051ab657443f9cd9bc3e1a29",
-          "inputRev": "v4.29.0",
+          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+          "inputRev": "v4.31.0",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "bef125f065b37d1e865f9e0c359add1542474875",
+      "date": "2026-06-24T17:18:39Z",
+      "tag": "v4.31.0",
+      "toolchain": "leanprover/lean4:v4.31.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "arrowLean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "29926724c21be57af4e497944845e2dbec6677cb",
+          "inputRev": "v4.31.0",
+          "url": "git@github.com:marcellop71/arrow-lean.git"
+        },
+        {
+          "type": "git",
+          "name": "zlogLean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "63b7f560d601557b149619f982918757d0f086d9",
+          "inputRev": "v4.31.0",
+          "url": "git@github.com:marcellop71/zlog-lean.git"
+        },
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d3c15b93a1dd4e7c8d5c0c3825c9555737e55c3e",
+          "inputRev": "main",
+          "url": "https://github.com/argumentcomputer/LSpec.git"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+          "inputRev": "v4.31.0",
           "url": "https://github.com/leanprover/lean4-cli.git"
         }
       ]

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "a1e9ac813b881aef2296ae0dbbcc74242ce527ea",
+      "date": "2026-06-14T00:59:34Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.31.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "SoplexFFI",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "be185e2be82134d5fc95efb931f194c27ca4629b",
+          "inputRev": "be185e2be82134d5fc95efb931f194c27ca4629b",
+          "url": "https://github.com/leanprover/soplex-ffi"
+        },
+        {
+          "type": "git",
+          "name": "LPTactic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0b0ca0cc98b479a1cb4c8cfe1f976efde1edcb8f",
+          "inputRev": "0b0ca0cc98b479a1cb4c8cfe1f976efde1edcb8f",
+          "url": "https://github.com/leanprover/lp-tactic"
+        },
+        {
+          "type": "git",
+          "name": "LPCore",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "96d003f40ada9c730ae9fe100716214273be651b",
+          "inputRev": "96d003f40ada9c730ae9fe100716214273be651b",
+          "url": "https://github.com/leanprover/lp-core"
+        },
+        {
+          "type": "git",
+          "name": "LPVerify",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b29f8d3dc3ff315dc089cbae9a4ca48612a25752",
+          "inputRev": "b29f8d3dc3ff315dc089cbae9a4ca48612a25752",
+          "url": "https://github.com/leanprover/lp-verify"
+        }
+      ]
+    }
+  ]
+}

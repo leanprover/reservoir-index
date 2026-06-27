@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "aff0dd469a90cf37af7d4ae129b158b06b2a2d1e",
+      "date": "2026-06-23T17:26:06Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.30.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "GibbsVariational",
+          "scope": "mrdouglasny",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a7535d19a2744f64642823f1dc4da573188d4f13",
+          "inputRev": "a7535d1",
+          "url": "https://github.com/mrdouglasny/gibbs-variational.git"
+        },
+        {
+          "type": "git",
+          "name": "gaussian-hilbert",
+          "scope": "mrdouglasny",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "56ee09f0e936788d4023ed0b7cc0b595738f1ff7",
+          "inputRev": "56ee09f",
+          "url": "https://github.com/mrdouglasny/gaussian-hilbert.git"
+        },
+        {
+          "type": "git",
+          "name": "bochner",
+          "scope": "mrdouglasny",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "34222bb74af2531917c32554ce44c6575696ca47",
+          "inputRev": "34222bb",
+          "url": "https://github.com/mrdouglasny/bochner.git"
+        },
+        {
+          "type": "git",
+          "name": "GaussianField",
+          "scope": "mrdouglasny",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d63a28568a75d99f6cb27af1f888a49a69855a66",
+          "inputRev": "d63a285",
+          "url": "https://github.com/mrdouglasny/gaussian-field.git"
+        },
+        {
+          "type": "git",
+          "name": "reflection-positivity",
+          "scope": "mrdouglasny",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "387b2ad67e8dae4495c3521645b4da549f349f21",
+          "inputRev": "387b2ad",
+          "url": "https://github.com/mrdouglasny/reflection-positivity.git"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "c5ea00351c28e24afc9f0f84379aa41082b1188f",
+          "inputRev": "v4.30.0",
+          "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a456461b368b71d2accd95234832cd9c174b5437",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "515cf9d0c00ece5e661f6de4326a53dedc1e8ea1",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a84b3e2475d5c5ab979567b1ad8aea21b764bcf8",
+          "inputRev": "v0.0.99",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "558915ae105bfd8074e22d597613d1961822adc2",
+          "inputRev": "v4.30.0",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a6e6c34c4ef182f83b219a3a5a385f51f44bdc4c",
+          "inputRev": "v4.30.0",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "32dc18cde3684679f3c003de608743b57498c56f",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6b907cf12b2e445ccb7c24bc208ef04a1f39e84c",
+          "inputRev": "v4.30.0",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "MarkovSemigroups",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "acf649108ea2222f4a8544a2782f448cb502492a",
+          "inputRev": "acf6491",
+          "url": "https://github.com/mrdouglasny/markov-semigroups.git"
+        },
+        {
+          "type": "git",
+          "name": "SpectralPositivity",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "073f4af0d797e9f5d578369b2af5006fac47b103",
+          "inputRev": "073f4af",
+          "url": "https://github.com/mrdouglasny/spectral-positivity.git"
+        },
+        {
+          "type": "git",
+          "name": "HilleYosida",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "493143c2951c8bf0c4ac3bc207e842a31b097a17",
+          "inputRev": "493143c",
+          "url": "https://github.com/mrdouglasny/hille-yosida.git"
+        },
+        {
+          "type": "git",
+          "name": "BochnerMinlos",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "34222bb74af2531917c32554ce44c6575696ca47",
+          "inputRev": "34222bb",
+          "url": "https://github.com/mrdouglasny/bochner.git"
+        },
+        {
+          "type": "git",
+          "name": "kolmogorov_extension4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "2761d4edb1a221a3ca6afe5354dd71ece1aa164c",
+          "inputRev": "2761d4e",
+          "url": "https://github.com/mrdouglasny/kolmogorov_extension4.git"
+        }
+      ]
+    }
+  ]
+}
