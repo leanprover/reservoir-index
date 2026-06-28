@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "2783fd1ddd2b800c2e5d9a6438f80be49209f8d1",
-      "date": "2026-06-27T14:29:54Z",
+      "revision": "6bf209776f69bb16a30008f0c5f960c8c0ebc586",
+      "date": "2026-06-28T13:03:22Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.30.0-rc2",
       "platformIndependent": null,
@@ -14,66 +14,6 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
-        {
-          "type": "path",
-          "name": "HexLLLMathlib",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "path",
-          "name": "HexLLL",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "path",
-          "name": "HexGramSchmidtMathlib",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "path",
-          "name": "HexGramSchmidt",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "path",
-          "name": "HexMatrixMathlib",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
-        {
-          "type": "path",
-          "name": "HexMatrix",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
-        },
         {
           "type": "git",
           "name": "mathlib",
@@ -103,16 +43,6 @@
           "rev": "0bce2769d753e69fe092f4f2b02cb1428d6287a6",
           "inputRev": "v4.30.0-rc2",
           "url": "https://github.com/leanprover/verso.git"
-        },
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "5c57f3857ba81924a88b2cdf4f062e34ec04ff11",
-          "inputRev": "v4.30.0-rc2",
-          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
@@ -173,6 +103,16 @@
           "rev": "1cc7e819b9b9bc1e87c9edcccb62e0269e00a809",
           "inputRev": "v4.30.0-rc2",
           "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5c57f3857ba81924a88b2cdf4f062e34ec04ff11",
+          "inputRev": "v4.30.0-rc2",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
