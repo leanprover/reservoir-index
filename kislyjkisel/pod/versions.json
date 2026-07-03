@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "672560149e9595f230ad9d2de630dbb946d0bafa",
-      "date": "2026-06-25T11:38:38Z",
+      "revision": "a3214a1486b321ed3ad65f7861a941436ebacad8",
+      "date": "2026-06-29T23:48:52Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.32.0-rc1",
+      "toolchain": "leanprover/lean4-nightly:nightly-2026-06-29",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -23,6 +23,16 @@
           "rev": "3fb9628a8c7e4e8dc8deefc5d7d9622003ab6e40",
           "inputRev": "3fb9628",
           "url": "https://github.com/srghma/LSpec"
+        },
+        {
+          "type": "git",
+          "name": "alloy",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2dc62da310fcabae512387a6d451d71eac3a1045",
+          "inputRev": "toolchain-nightly",
+          "url": "https://github.com/KislyjKisel/lean4-alloy"
         }
       ]
     }
