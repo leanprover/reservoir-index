@@ -3,9 +3,54 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f7bd4134ba39dab8a5e2ed41021f7f62df22a637",
-      "date": "2026-07-03T09:22:01Z",
+      "revision": "c20b0280a34a339d50fedb666d09866da545dd66",
+      "date": "2026-07-05T17:44:18Z",
       "tag": null,
+      "toolchain": "leanprover/lean4:v4.28.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "openAI_client",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7c98d4ccc6b624def0ba0f0e4e4227449d8ed9c8",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/openai_client.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6032d2c129d865af1032ed2f95bba4fdf4494cd2",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "requests",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "9edc459e45601b5ea8b616f3476d9d527416a55a",
+          "inputRev": "main",
+          "url": "https://github.com/frenzymath/requests.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "19dff902126427fd82c28e03fbc66f76b4157743",
+      "date": "2026-07-05T16:15:16Z",
+      "tag": "v4.28.0-rc1",
       "toolchain": "leanprover/lean4:v4.28.0-rc1",
       "platformIndependent": null,
       "license": null,
