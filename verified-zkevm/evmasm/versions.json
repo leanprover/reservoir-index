@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.1",
-      "revision": "068110b5efc15b81283861b32415e12364a8116b",
-      "date": "2026-07-06T15:15:45Z",
+      "revision": "7d5875858bc3727250adb6880c8339048365b1b6",
+      "date": "2026-07-10T15:18:23Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.30.0-rc1",
       "platformIndependent": null,
@@ -15,14 +15,14 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "git",
-          "name": "Lean_RV64D",
+          "type": "path",
+          "name": "out",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6009afb10039129aabcfd03ddac1c58670fe5d96",
-          "inputRev": "main",
-          "url": "https://github.com/dhsorens/sail-riscv-lean"
+          "rev": null,
+          "inputRev": null,
+          "url": null
         },
         {
           "type": "git",
@@ -40,8 +40,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "49ccc5af55c957fcd170c439592327794b4aa886",
-          "inputRev": "v3",
+          "rev": "79b4d08505af29d88b3918f32d29840fae1fa191",
+          "inputRev": "79b4d08505af29d88b3918f32d29840fae1fa191",
           "url": "https://github.com/rems-project/lean-sail"
         },
         {
