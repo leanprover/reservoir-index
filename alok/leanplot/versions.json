@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "4cbd9bba689b120984139c1024bd141431c62337",
-      "date": "2025-12-27T02:18:58Z",
+      "revision": "93ebc25dff479d7019c840843ed4360289419153",
+      "date": "2026-07-10T22:33:43Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.27.0-rc1",
+      "toolchain": "leanprover/lean4:v4.32.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6f0c12be90063de6d4e5ca14867ad7243064ad99",
-          "inputRev": "main",
+          "rev": "8cb04559a9b9feb8efab43e135f662514561f668",
+          "inputRev": "v4.32.0-rc1",
           "url": "https://github.com/leanprover/verso"
         },
         {
@@ -30,9 +30,19 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "627a9728700546ebc9cc274821ad7c0b420c2e35",
-          "inputRev": "main",
+          "rev": "e4952ae2afde0dd2868b313356d1ce00da677bd9",
+          "inputRev": "v0.0.104",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "illuminate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "ae95e7e7d01c072421732d0b84cf63ff903f4f0e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/illuminate"
         },
         {
           "type": "git",
@@ -40,7 +50,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+          "rev": "f3f26cc72646205ca167117487c008ee1dafe816",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -50,7 +60,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "38ac5945d744903ffcc473ce1030223991b11cf6",
+          "rev": "6a3fb240133bcb7e1a066fdc784b3fdc304e3fc5",
           "inputRev": "main",
           "url": "https://github.com/acmepjz/md4lean"
         },
@@ -60,7 +70,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "eb77622e97e942ba2cfe02f60637705fc2d9481b",
+          "rev": "0bd508e8362f56d4a05cbf63614d4c97db954041",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         }

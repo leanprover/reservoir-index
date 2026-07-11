@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "1c640dab853b98cff81dccdcf5c33d535d736584",
-      "date": "2026-06-25T07:37:00Z",
-      "tag": "v4.31.0",
+      "revision": "e6fa13139aa9e521e9039f56fe617d2ba8d84fb6",
+      "date": "2026-07-07T15:02:12Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
       "license": null,
@@ -16,6 +16,16 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "strips",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a925b72c3f93f147fe91316e8e59d231a6bbb313",
+          "inputRev": "main",
+          "url": "https://github.com/AmosNico/lean4-strips"
+        },
+        {
+          "type": "git",
           "name": "bdd",
           "scope": null,
           "version": "0.0.0",
@@ -23,16 +33,6 @@
           "rev": "828e70d89d3053cf3cdb43ceb4632ecabebcd72d",
           "inputRev": "828e70d89d3053cf3cdb43ceb4632ecabebcd72d",
           "url": "https://github.com/AmosNico/lean4-bdd"
-        },
-        {
-          "type": "git",
-          "name": "Parser",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "4a9f45abc119e9a03e9ae41ee80b1cd15ed66467",
-          "inputRev": "4a9f45abc119e9a03e9ae41ee80b1cd15ed66467",
-          "url": "https://github.com/fgdorais/lean4-parser"
         },
         {
           "type": "git",
@@ -46,23 +46,13 @@
         },
         {
           "type": "git",
-          "name": "UnicodeBasic",
+          "name": "Parser",
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "cec0a48936f58f4dd77b9fdff7cd09f32104480b",
-          "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
-        },
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover-community/batteries"
+          "rev": "40ccb6dcacdcdb9bf1c403225ed80827003e626a",
+          "inputRev": "40ccb6dcacdcdb9bf1c403225ed80827003e626a",
+          "url": "https://github.com/AmosNico/lean4-parser"
         },
         {
           "type": "git",
@@ -123,6 +113,26 @@
           "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "cec0a48936f58f4dd77b9fdff7cd09f32104480b",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
         },
         {
           "type": "git",

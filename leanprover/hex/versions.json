@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "3397fda68d175c76b2d09970b81b67cfb7b80736",
+      "date": "2026-07-08T14:57:19Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.32.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexLLLMathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c10d6681dee9a4f963c1035bcbe34fc3eb60a769",
+          "inputRev": "c10d6681dee9a4f963c1035bcbe34fc3eb60a769",
+          "url": "https://github.com/leanprover/hex-lll-mathlib.git"
+        },
+        {
+          "type": "git",
+          "name": "HexLLL",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a73f188bbd7ea48c4a1bb1e6d608b4f131026512",
+          "inputRev": "a73f188bbd7ea48c4a1bb1e6d608b4f131026512",
+          "url": "https://github.com/leanprover/hex-lll.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidtMathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "06acf34175d105ef322e24a60efeba1b0d8460bf",
+          "inputRev": "06acf34175d105ef322e24a60efeba1b0d8460bf",
+          "url": "https://github.com/leanprover/hex-gram-schmidt-mathlib.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6bae0c6ed6c19c44956dc69eb31487fc3596f01d",
+          "inputRev": "6bae0c6ed6c19c44956dc69eb31487fc3596f01d",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrixMathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "be15f40e4942fe78ed28f037c9407a94bc3c10ce",
+          "inputRev": "be15f40e4942fe78ed28f037c9407a94bc3c10ce",
+          "url": "https://github.com/leanprover/hex-matrix-mathlib.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d45bf749d6283726b8df43b5be9e6dde350666d6",
+          "inputRev": "d45bf749d6283726b8df43b5be9e6dde350666d6",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "aaedc74a09fbe1da58b11cf4d27806a6fa1a86eb",
+          "inputRev": "v4.32.0-rc1-patch1",
+          "url": "https://github.com/leanprover-community/mathlib4.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0317e62974acadbb68caf1f57defcc90cfe80b99",
+          "inputRev": "0317e62974acadbb68caf1f57defcc90cfe80b99",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "20f5785e9c85e9faa481d6b67c1382b6655b842e",
+          "inputRev": "20f5785e9c85e9faa481d6b67c1382b6655b842e",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a5b4db02cadc7a1e60e2ae7e085cb6facf415ee0",
+          "inputRev": "a5b4db02cadc7a1e60e2ae7e085cb6facf415ee0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareissMathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "2ef209e76b27450d272944609bc8ad85a756652e",
+          "inputRev": "2ef209e76b27450d272944609bc8ad85a756652e",
+          "url": "https://github.com/leanprover/hex-bareiss-mathlib.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminantMathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e5d646df54cbe693a2c8deb094770dd977875a7b",
+          "inputRev": "e5d646df54cbe693a2c8deb094770dd977875a7b",
+          "url": "https://github.com/leanprover/hex-determinant-mathlib.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduceMathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "942cae5488e05ddf293a7f0f3fd7ed095e34b64e",
+          "inputRev": "942cae5488e05ddf293a7f0f3fd7ed095e34b64e",
+          "url": "https://github.com/leanprover/hex-row-reduce-mathlib.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "f1580d28c2e9ff9e8d4d7cdef9dccbaa17780b03",
+          "inputRev": "f1580d28c2e9ff9e8d4d7cdef9dccbaa17780b03",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "f3c7bd5061bd81b4480295c524d4f245c8b7e4e2",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "LeanSearchClient",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/LeanSearchClient"
+        },
+        {
+          "type": "git",
+          "name": "importGraph",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "41f407a8e85b0fdc00910633a8f14754139b63f4",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/import-graph"
+        },
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e6518a674e62de322b8f79eebeda7bcae2a36bc3",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b5b9e2bb45ce91e4bc44eaa738c3a8910404ab82",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7a62bd13860cd39ac98da16ffc8c24d601353f69",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "77d3cc514f987c1f42f2bbd8a8d56855012dc115",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "406ebb8c8e2f7e852a1b47764b42494022ce652c",
+          "inputRev": "v4.32.0-rc1",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    }
+  ]
+}
