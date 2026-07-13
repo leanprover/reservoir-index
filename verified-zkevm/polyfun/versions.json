@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "04a12b67fa2048c9412fdd26ed9e446f25919d37",
-      "date": "2026-07-10T14:59:56Z",
+      "revision": "f1a4c4c2e8bbd3308cecc869a20f6ddefaff4e38",
+      "date": "2026-07-13T08:36:53Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "cslib",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8ea71c8df91acd63285515a04da952b23b78d266",
+          "inputRev": "v4.31.0",
+          "url": "https://github.com/leanprover/cslib"
+        },
         {
           "type": "git",
           "name": "mathlib",
