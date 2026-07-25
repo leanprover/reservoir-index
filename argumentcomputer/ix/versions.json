@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "41964fe99152d872f75230642578a3f1d34bb194",
-      "date": "2026-07-22T21:12:48Z",
+      "revision": "024c95113406e08d878feb916169029ba6a65de7",
+      "date": "2026-07-25T00:36:50Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.29.0",
       "platformIndependent": null,
@@ -12,6 +12,16 @@
       "licenseFiles": [],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "lean4lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8865b155abbf68d3a827fb3568bf6839780163c2",
+          "inputRev": "8865b155abbf68d3a827fb3568bf6839780163c2",
+          "url": "https://github.com/digama0/lean4lean"
+        },
         {
           "type": "git",
           "name": "batteries",
