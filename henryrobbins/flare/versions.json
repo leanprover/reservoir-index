@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "4da49b8663a6188ad6970cde4611f6b8133c4e0e",
-      "date": "2026-06-25T17:38:51Z",
+      "revision": "bcf271b946f079c3b6db6ee8be75a5368a939d57",
+      "date": "2026-07-22T06:15:09Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
@@ -13,14 +13,14 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "path",
+          "type": "git",
           "name": "FormulationBench",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
+          "rev": "fe2aaae2d2f3f1e3f37d3d0772b6faa8334921aa",
+          "inputRev": "main",
+          "url": "https://github.com/henryrobbins/formulation-bench"
         },
         {
           "type": "git",
