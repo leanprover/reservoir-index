@@ -3,14 +3,14 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "b85907ece026e977e6b8f659be41508bba1f6263",
-      "date": "2026-07-26T13:54:19Z",
+      "revision": "0b0e7ae1a01ebb9ba9c26c174db90ac3b10b132c",
+      "date": "2026-07-29T13:48:24Z",
       "tag": "latest",
-      "toolchain": "leanprover/lean4:v4.17.0-rc1",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "././LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -20,18 +20,18 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "512d7fa38234139a34c04e3b3438fc142b51bbee",
+          "rev": "d60e6444e6fd881dfa077ff36e96de75753afa28",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
           "name": "mdgen",
-          "scope": null,
+          "scope": "Seasawher",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "47f0ce028df42a72dc5d55e40bd4c1921a7f98bd",
-          "inputRev": "v1.11.1",
+          "rev": "c2207016610cf351bbe61a4856421b0ba4a9365e",
+          "inputRev": "main",
           "url": "https://github.com/Seasawher/mdgen"
         },
         {
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "c53b3371dd0fe5f3dd75a2df543c3550e246465a",
+          "rev": "da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli.git"
         }

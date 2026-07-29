@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "ce9a820880c5520cb72637e586658c480ae03f5a",
-      "date": "2026-07-26T13:37:57Z",
+      "revision": "0188cadd45bb98f65e05c4d15caf638304b5e14f",
+      "date": "2026-07-29T12:59:29Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.30.0-rc1",
       "platformIndependent": null,
@@ -23,6 +23,16 @@
           "rev": "e60d89a05065d2697d54edf3ca85f05ca920bbb4",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a7b8245c47cba20c8c1771c7b3a03e0eabb65342",
+          "inputRev": "v4.30.0-rc1",
+          "url": "https://github.com/leanprover/verso"
         },
         {
           "type": "git",
@@ -103,6 +113,26 @@
           "rev": "f7d0ca7c926cdde0562af20394dd25d028b839a5",
           "inputRev": "v4.30.0-rc1",
           "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6a3fb240133bcb7e1a066fdc784b3fdc304e3fc5",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "52b9dfbd2658408e37ae6e8b72601ddeaaa25a0c",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
         }
       ]
     }
