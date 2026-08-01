@@ -3,14 +3,16 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "c6ed6c236fc1ddcb9b35b37a41a414637f4a895b",
-      "date": "2026-07-29T18:28:51Z",
+      "revision": "bf70705a77242545d931db4923f2975cf7c9177d",
+      "date": "2026-07-30T18:03:32Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.33.0-rc1",
       "platformIndependent": null,
       "license": null,
-      "licenseFiles": [],
-      "readmeFile": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
       "dependencies": [
         {
           "type": "git",
@@ -18,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d99d52c36bea862ef9499bfaef386d0bcba9ea48",
-          "inputRev": "d99d52c36bea862ef9499bfaef386d0bcba9ea48",
+          "rev": "d4519b399018129db0a28eda3488eddfed9f73c4",
+          "inputRev": "d4519b399018129db0a28eda3488eddfed9f73c4",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
@@ -813,7 +815,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
