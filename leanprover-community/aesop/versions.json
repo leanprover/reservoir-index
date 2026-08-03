@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "57d3325be72a842920813bcb40f96a6f7393c185",
-      "date": "2026-07-15T15:16:32Z",
-      "tag": "v4.33.0-rc1",
-      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "revision": "7db8190085343afde2f5d2cdcc9bac719b6ec02c",
+      "date": "2026-08-03T13:19:14Z",
+      "tag": "v4.33.0-rc2",
+      "toolchain": "leanprover/lean4:v4.33.0-rc2",
       "platformIndependent": true,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "31a49105f960721073a9adfc82b261f5d0f2ce1e",
-          "inputRev": "v4.33.0-rc1",
+          "rev": "76e1c118b0700b4ceafe99532e887d6431625e1a",
+          "inputRev": "v4.33.0-rc2",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "7db8190085343afde2f5d2cdcc9bac719b6ec02c",
+      "date": "2026-08-03T13:19:14Z",
+      "tag": "v4.33.0-rc2",
+      "toolchain": "leanprover/lean4:v4.33.0-rc2",
+      "platformIndependent": true,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "76e1c118b0700b4ceafe99532e887d6431625e1a",
+          "inputRev": "v4.33.0-rc2",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -32,10 +57,10 @@
       "date": "2026-07-15T15:16:32Z",
       "tag": "v4.33.0-rc1",
       "toolchain": "leanprover/lean4:v4.33.0-rc1",
-      "platformIndependent": true,
+      "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
