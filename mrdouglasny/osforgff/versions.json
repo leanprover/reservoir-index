@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "60ab679e09b764de6dfe01767ae361ac1bea30b8",
-      "date": "2026-06-05T22:40:50Z",
+      "revision": "2f0965a42c90e66b55f8de9735c7e9e558fbe365",
+      "date": "2026-08-08T14:39:35Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.29.0",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6ef8cc2731780be866bf243afcb7732f4da5f406",
-          "inputRev": null,
+          "rev": "79d0395a1825a6264ad5d269e35e60537518955e",
+          "inputRev": "v4.33.0-rc1",
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
@@ -30,7 +30,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "36ae6dd2918e0c1811fca772d7b7670617fa1e4f",
+          "rev": "f2481cf3d6accc180b8ece629ac6b4681c1fe162",
           "inputRev": "main",
           "url": "https://github.com/mrdouglasny/gaussian-field.git"
         },
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "1b56973aff9b4e6ba761a6bd8af678e38bfd8d10",
+          "rev": "a5f46ec87477c666349408f6d77d43e3c0517355",
           "inputRev": "main",
           "url": "https://github.com/mrdouglasny/bochner.git"
         },
@@ -50,7 +50,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "d11647e94d22ea0d9c503af4a63d814f89ea0323",
+          "rev": "b1c4a69a7e247ab7df20460212001673d74f08c0",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -70,7 +70,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "48d5698bc464786347c1b0d859b18f938420f060",
+          "rev": "18a90119a5d316358fde6c86e0ca24e59212e32c",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
@@ -80,7 +80,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "00fe208b8e1364736cca3a9b9601c4fe865856af",
+          "rev": "b1436dc749e722c9920036b52cdc43b3451d0b69",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
@@ -90,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "7152850e7b216a0d409701617721b6e469d34bf6",
+          "rev": "57d3325be72a842920813bcb40f96a6f7393c185",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
@@ -100,7 +100,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "707efb56d0696634e9e965523a1bbe9ac6ce141d",
+          "rev": "ee41917ae11d38479fb8fb24745f7ca4bf0a784d",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
         },
@@ -110,19 +110,9 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "be1a02994ae681d2676c068ebac67a08bf708f96",
+          "rev": "31a49105f960721073a9adfc82b261f5d0f2ce1e",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": "leanprover",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "7802da01beb530bf051ab657443f9cd9bc3e1a29",
-          "inputRev": "v4.29.0",
-          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
@@ -130,9 +120,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "5ba9202142dfe04aca08c8da065229ae5df46324",
-          "inputRev": null,
-          "url": "https://github.com/remydegenne/kolmogorov_extension4.git"
+          "rev": "45b4694ce1f7cd0fb0f00079510cd83c94e35a68",
+          "inputRev": "45b4694",
+          "url": "https://github.com/mrdouglasny/kolmogorov_extension4.git"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "da07ca808b6718cb2aed14dba154e5a08b8f8ecf",
+          "inputRev": "v4.33.0-rc1",
+          "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
     }
