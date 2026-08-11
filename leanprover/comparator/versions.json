@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "789279735fe44c1c05dc54bb9f46ba4d9b8c7611",
-      "date": "2026-08-06T11:16:12Z",
+      "revision": "777e7f56119efc0fac34003db4efe831e0b53723",
+      "date": "2026-08-11T08:22:54Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.33.0-rc2",
+      "toolchain": "leanprover/lean4:v4.34.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,57 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "9fb131bb100eb32ccf6836f14e4f8328d13b6792",
+          "rev": "b18d673bd29b476466a51a3be1012df2ed322b10",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "revision": "011e9d35a10a054ed4b66d8379115ad870f2b0ce",
+      "date": "2026-08-10T18:15:12Z",
+      "tag": "v4.34.0-rc1",
+      "toolchain": "leanprover/lean4:v4.34.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b18d673bd29b476466a51a3be1012df2ed322b10",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "revision": "3927ad383f208ae977c340a91c48ac9b497d2097",
+      "date": "2026-08-10T06:47:41Z",
+      "tag": "v4.33.0",
+      "toolchain": "leanprover/lean4:v4.33.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "15f6055e299ad5b89345e533cc2192f4cc00f659",
           "inputRev": "master",
           "url": "https://github.com/leanprover/lean4export"
         }
