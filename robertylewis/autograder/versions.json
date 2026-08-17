@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "6949f27443678fb588a3c3bd5029e05e46cf39d9",
+      "date": "2026-08-11T14:34:42Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.33.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "comparator",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3927ad383f208ae977c340a91c48ac9b497d2097",
+          "inputRev": "v4.33.0",
+          "url": "https://github.com/leanprover/comparator"
+        },
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "15f6055e299ad5b89345e533cc2192f4cc00f659",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "672fa00568e4fe22294668de81557b246f7e1e0e",
+      "date": "2026-08-10T17:00:40Z",
+      "tag": "v4.33.0",
+      "toolchain": "leanprover/lean4:v4.33.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "comparator",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "75c730e9b6ef5c2c3b334fad7c3d51fe20624c88",
+          "inputRev": "v4.33.0-rc2",
+          "url": "https://github.com/leanprover/comparator"
+        },
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "9fb131bb100eb32ccf6836f14e4f8328d13b6792",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "cba6aeb0e146c1e7f52f142024cb3c7d5ded6ee4",
+      "date": "2026-08-06T20:43:02Z",
+      "tag": "v4.33.0-rc2",
+      "toolchain": "leanprover/lean4:v4.33.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "comparator",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "75c730e9b6ef5c2c3b334fad7c3d51fe20624c88",
+          "inputRev": "v4.33.0-rc2",
+          "url": "https://github.com/leanprover/comparator"
+        },
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "9fb131bb100eb32ccf6836f14e4f8328d13b6792",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        }
+      ]
+    }
+  ]
+}
