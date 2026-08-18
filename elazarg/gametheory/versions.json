@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "02898a2d8b918f9b106a683420ca78c99867560e",
-      "date": "2026-08-13T12:47:30Z",
-      "tag": "v1-final",
+      "revision": "c7828943dfa6b7f0585d242ce0f54f888d55857a",
+      "date": "2026-08-17T02:02:06Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.32.2",
       "platformIndependent": null,
       "license": null,
@@ -15,14 +15,14 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "path",
-          "name": "FixedPointTheorems",
+          "type": "git",
+          "name": "fixed-point-theorems",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
+          "rev": "9571dd7e0ff0af9c9e9becb2738a309cf48387c1",
+          "inputRev": "9571dd7e0ff0af9c9e9becb2738a309cf48387c1",
+          "url": "https://github.com/elazarg/fixed-point-theorems-lean4"
         },
         {
           "type": "git",
