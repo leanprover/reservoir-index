@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "05e552f29f90a61df60bd39f9c6c9b037e62fde4",
-      "date": "2026-08-19T11:55:56Z",
+      "revision": "df8f1117f112aeadc5203dc624f36c046fc19009",
+      "date": "2026-08-21T17:33:00Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.29.0",
+      "toolchain": "leanprover/lean4:v4.33.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [],
@@ -18,8 +18,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "5e5bb767b3491d21a71908d4c58bcbaa007283bb",
-          "inputRev": "5e5bb767b3491d21a71908d4c58bcbaa007283bb",
+          "rev": "4844eda4fe376a7ab7e23a4b9755189d3c2ffe5b",
+          "inputRev": "4844eda4fe376a7ab7e23a4b9755189d3c2ffe5b",
           "url": "https://github.com/argumentcomputer/lean4lean"
         },
         {
@@ -28,8 +28,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "756e3321fd3b02a85ffda19fef789916223e578c",
-          "inputRev": "v4.29.0",
+          "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+          "inputRev": "v4.33.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -38,8 +38,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "7802da01beb530bf051ab657443f9cd9bc3e1a29",
-          "inputRev": "v4.29.0",
+          "rev": "6130a47896ce867c6a4a55373441e59e565bad0f",
+          "inputRev": "v4.33.0",
           "url": "https://github.com/leanprover/lean4-cli"
         },
         {
@@ -48,8 +48,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "c6db090374cb3c3c717691beb6cd18bb08936598",
-          "inputRev": "c6db090374cb3c3c717691beb6cd18bb08936598",
+          "rev": "db25a8a21579d8211eec4347402721f5674bf2c1",
+          "inputRev": "db25a8a21579d8211eec4347402721f5674bf2c1",
           "url": "https://github.com/argumentcomputer/Blake3.lean"
         },
         {
@@ -58,9 +58,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d3c15b93a1dd4e7c8d5c0c3825c9555737e55c3e",
-          "inputRev": "d3c15b93a1dd4e7c8d5c0c3825c9555737e55c3e",
+          "rev": "e780f4188c9649aef988270f4d126651460ca9c4",
+          "inputRev": "e780f4188c9649aef988270f4d126651460ca9c4",
           "url": "https://github.com/argumentcomputer/LSpec"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+          "inputRev": "v4.33.0",
+          "url": "https://github.com/leanprover-community/plausible"
         }
       ]
     }

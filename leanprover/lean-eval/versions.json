@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7699436464052268e6c04b41554bfbc2c6908ec5",
-      "date": "2026-08-17T15:03:16Z",
+      "revision": "b91d4757aa0d7776c02540c9089df54fa0d0658a",
+      "date": "2026-08-22T07:57:24Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.33.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "lean-eval-generator",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "77373a539b31f8f304c852f288d7d8469cceebff",
+          "inputRev": "77373a539b31f8f304c852f288d7d8469cceebff",
+          "url": "https://github.com/leanprover/lean-eval-generator.git"
+        },
         {
           "type": "git",
           "name": "Cli",

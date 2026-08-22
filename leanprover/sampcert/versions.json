@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "6e2392c165652063fefc628d8f047b77ca393b0f",
-      "date": "2026-05-01T16:44:03Z",
+      "revision": "39a9056470deb2dd2c047f5fd158423725d3e5e2",
+      "date": "2026-08-20T19:12:43Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.29.0",
       "platformIndependent": null,
@@ -23,6 +23,16 @@
           "rev": "8a178386ffc0f5fef0b77738bb5449d50efeea95",
           "inputRev": "v4.29.0",
           "url": "https://github.com/leanprover-community/mathlib4.git"
+        },
+        {
+          "type": "git",
+          "name": "doc-gen4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aa4c3e4e14f5b31495b7c7238762ecceddd9f52c",
+          "inputRev": "v4.29.0",
+          "url": "https://github.com/leanprover/doc-gen4"
         },
         {
           "type": "git",
@@ -103,6 +113,46 @@
           "rev": "7802da01beb530bf051ab657443f9cd9bc3e1a29",
           "inputRev": "v4.29.0",
           "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "leansqlite",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d14544c72b593af6a66131bc34cdab16bf7c0940",
+          "inputRev": "suppress-reducibility-warning",
+          "url": "https://github.com/kim-em/leansqlite"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "9539e34e5cb2d52a6454d9b6218f6b6835cad071",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "5d31b64fb703c5d77f6ef4d1fb958f9bdf1ea539",
+          "inputRev": "nightly-testing",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6a3fb240133bcb7e1a066fdc784b3fdc304e3fc5",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
         }
       ]
     },

@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f0ba115d056625f333dbd303e71d774ffa38ccb3",
-      "date": "2026-07-15T19:30:57Z",
+      "revision": "ebbcdc33896df28e4cb5e5cc7161fe0188aa41e0",
+      "date": "2026-08-20T21:59:21Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.28.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "LSpec",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b76de469ebd3ae7a6ba494a36d34f713763623a6",
+          "inputRev": "b76de469ebd3ae7a6ba494a36d34f713763623a6",
+          "url": "https://github.com/argumentcomputer/LSpec.git"
+        },
         {
           "type": "git",
           "name": "mathlib",

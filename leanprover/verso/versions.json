@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "805cdb5a0feb2b2bf4d1d50963521f22660ec7ee",
-      "date": "2026-08-18T15:10:24Z",
+      "revision": "90c688db9db7280364c8bd7f8264c82a01582fd4",
+      "date": "2026-08-21T12:42:58Z",
       "tag": "latest",
-      "toolchain": "leanprover/lean4:v4.34.0-rc1",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "76f052847294d189dc9924a33466b4b677f47e67",
+          "rev": "6e558472c981dbee8cb9fcde92fa9593daf04228",
           "inputRev": "main",
           "url": "https://github.com/leanprover/illuminate"
         },
@@ -30,7 +30,62 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "38e9c3ce15cbb63c92e90bb9a92e4eb82131f669",
+          "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "847084e80500726e4331dded5f17007ddaf89c31",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "90c688db9db7280364c8bd7f8264c82a01582fd4",
+      "date": "2026-08-21T12:42:58Z",
+      "tag": "v4.34.0-rc2",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "illuminate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6e558472c981dbee8cb9fcde92fa9593daf04228",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/illuminate"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -65,7 +120,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -1110,7 +1165,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -1245,7 +1300,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
