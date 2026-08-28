@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "4779312c4e62afe7253c826271304ac51d0e0ed5",
-      "date": "2026-08-26T13:59:17Z",
+      "revision": "1dd60a943d3f3c4d8cf35f1840309366a8029c86",
+      "date": "2026-08-28T18:19:16Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.33.0",
       "platformIndependent": null,
@@ -15,14 +15,14 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "path",
-          "name": "out",
+          "type": "git",
+          "name": "riscv-zkvm",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": null,
-          "inputRev": null,
-          "url": null
+          "rev": "9356638a1c34cb2a8672223df78a1c76b9e4e9c3",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/Verified-zkEVM/riscv-zkvm"
         },
         {
           "type": "git",
