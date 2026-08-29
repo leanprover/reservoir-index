@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "ea0a890562875ac2bbcc389a4dc2f8f7e4ef14f3",
+      "date": "2026-08-28T15:47:21Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "comparator-autograder",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "cc63f4c810de77646a5692c516369c12af6224f8",
+          "inputRev": "v4.34.0-rc2",
+          "url": "https://github.com/plclub/comparator-autograder"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "v4.34.0-rc2",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "verso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "17c820e9726faeea24cbe6e6532b6b6e8452cc52",
+          "inputRev": "17c820e9726faeea24cbe6e6532b6b6e8452cc52",
+          "url": "https://github.com/leanprover/verso"
+        },
+        {
+          "type": "git",
+          "name": "comparator",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "9da7405d3b18a6fcb0dab26c823eba10401b1926",
+          "inputRev": "ignore-missing-4.34.0-rc2",
+          "url": "https://github.com/xhalo32/comparator"
+        },
+        {
+          "type": "git",
+          "name": "comparator-autograder-lib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b68d8b59812cf3a50d42f1e514a1d6a68330696c",
+          "inputRev": "v4.34.0-rc2",
+          "url": "https://github.com/plclub/comparator-autograder-lib"
+        },
+        {
+          "type": "git",
+          "name": "illuminate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6e558472c981dbee8cb9fcde92fa9593daf04228",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/illuminate"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fda188f7329fa18ce4b2e8cc96c9b0a8f0c78c46",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        },
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        }
+      ]
+    }
+  ]
+}
