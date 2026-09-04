@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "8c3c5a908a632759f3a72f76f5e5ec1249e3db0d",
-      "date": "2026-08-24T11:59:18Z",
+      "revision": "94a1d78956a348568c80975ec9005dc5762ab10a",
+      "date": "2026-09-01T21:30:14Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.0-rc2",
       "platformIndependent": null,
@@ -16,21 +16,11 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "checkdecls",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
-          "inputRev": "master",
-          "url": "https://github.com/PatrickMassot/checkdecls.git"
-        },
-        {
-          "type": "git",
           "name": "mathlib",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "dbb8420388ea9f85c0469a3f77d7180ba624e50a",
+          "rev": "1ed178f0ecb4003157c8dd82fd7b293603b4e083",
           "inputRev": null,
           "url": "https://github.com/leanprover-community/mathlib4.git"
         },
@@ -100,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "rev": "7e23602c91bc04586b2b06de2708a041853e4681",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },

@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "0a9c838b5fef7d48478493d2bfd64a9d2bf12bcf",
-      "date": "2026-08-30T13:19:12Z",
+      "revision": "406321848c1d9a8467a0c9892f71ed9a0cafca83",
+      "date": "2026-09-04T02:27:11Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.0-rc2",
       "platformIndependent": null,
@@ -30,9 +30,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fa30c2763cf523f3ac8e46dc3a1dad0845a40098",
+          "rev": "b583ddd7da895dabd3a6b2976a0292dbf42bc095",
           "inputRev": "master",
           "url": "https://github.com/kim-em/lean-bench.git"
+        },
+        {
+          "type": "git",
+          "name": "NautyFFI",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ec8597014d0ae82490a616b855d59a35e6bfa21f",
+          "inputRev": "ec8597014d0ae82490a616b855d59a35e6bfa21f",
+          "url": "https://github.com/leanprover/nauty-ffi.git"
         },
         {
           "type": "git",
