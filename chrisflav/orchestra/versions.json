@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "32ff06dfbbfbdf5758697792ca962ff0394281a3",
+      "date": "2026-09-06T13:58:18Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.31.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Taxis",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d029b06a912a39fef52734ef90f29537561c7785",
+          "inputRev": "d029b06a912a39fef52734ef90f29537561c7785",
+          "url": "https://github.com/chrisflav/taxis"
+        },
+        {
+          "type": "git",
+          "name": "Yaml",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "278306ce5603c5120adf51409cf71f3990ce6859",
+          "inputRev": "master",
+          "url": "https://github.com/chrisflav/lean-yaml"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "baf3e62fbb3502305076ca077e004aea78157c63",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        },
+        {
+          "type": "git",
+          "name": "leansqlite",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0be4df908d1a8e75b58961041e2b4973692623df",
+          "inputRev": "v4.31.0",
+          "url": "https://github.com/leanprover/leansqlite"
+        },
+        {
+          "type": "git",
+          "name": "Parser",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "bf30b2e6908d116223918daacb66477b4d62e20a",
+          "inputRev": null,
+          "url": "https://github.com/fgdorais/lean4-parser"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "cec0a48936f58f4dd77b9fdff7cd09f32104480b",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "460b61adc7d183e43db2b99ac6c1dede9f7a76df",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    }
+  ]
+}

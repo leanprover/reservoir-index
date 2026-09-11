@@ -3,9 +3,9 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a20c785be9fae260bd53b83a53f75055a49627b9",
-      "date": "2026-08-31T06:35:55Z",
-      "tag": "latest",
+      "revision": "27444dfe4a89c26b4ca8a29d73939b536e347162",
+      "date": "2026-09-11T11:29:19Z",
+      "tag": null,
       "toolchain": "leanprover/lean4:v4.34.0-rc2",
       "platformIndependent": null,
       "license": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "af8bc067a4cc6c6df472a68909a3f40b1c76c43e",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
         {
           "type": "git",
           "name": "illuminate",

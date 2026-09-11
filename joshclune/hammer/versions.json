@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f6d189d1d7cfb34d28d447c1a67a118539ab44f4",
-      "date": "2026-08-19T22:40:55Z",
+      "revision": "21886b7ffbdf32017655a9d6e699f98779046533",
+      "date": "2026-09-10T22:27:52Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.33.0",
       "platformIndependent": null,
@@ -16,23 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "Smt",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "1fbc840e0da8b26d23cb3ac9a652635f0d4bb86b",
-          "inputRev": "1fbc840e0da8b26d23cb3ac9a652635f0d4bb86b",
-          "url": "https://github.com/ufmg-smite/lean-smt.git"
-        },
-        {
-          "type": "git",
           "name": "Duper",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "845ba5f42dd94a547ab38eae0ea3b15b9f4ac026",
-          "inputRev": "v4.33.0",
+          "rev": "34f6d228626adf1921f9fb314b0b6bd02c1a82b5",
+          "inputRev": "34f6d228626adf1921f9fb314b0b6bd02c1a82b5",
           "url": "https://github.com/leanprover-community/duper.git"
+        },
+        {
+          "type": "git",
+          "name": "Smt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e87b5c9c88eaf669f3cb85c73a6e75972a9c1018",
+          "inputRev": "e87b5c9c88eaf669f3cb85c73a6e75972a9c1018",
+          "url": "https://github.com/ufmg-smite/lean-smt.git"
         },
         {
           "type": "git",
@@ -56,6 +56,26 @@
         },
         {
           "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+          "inputRev": "v4.33.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "eb9c694863439fb55800228bc4c7babe42b089bf",
+          "inputRev": "eb9c694863439fb55800228bc4c7babe42b089bf",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
+        },
+        {
+          "type": "git",
           "name": "quote4",
           "scope": null,
           "version": "0.0.0",
@@ -73,26 +93,6 @@
           "rev": "7e3365990661b697ccb30e92d6912f4cc6589322",
           "inputRev": "7e33659",
           "url": "https://github.com/abdoo8080/lean-cvc5.git"
-        },
-        {
-          "type": "git",
-          "name": "auto",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "a66de83d4eea7f2811613d7b24ce87cf46bb3ac2",
-          "inputRev": "v4.33.0",
-          "url": "https://github.com/leanprover-community/lean-auto.git"
-        },
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
-          "inputRev": "v4.33.0",
-          "url": "https://github.com/leanprover-community/batteries"
         }
       ]
     },
