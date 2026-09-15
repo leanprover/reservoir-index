@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "14f0afd1c8448a1159d7b02e1c6b6db3787c62c8",
-      "date": "2026-09-13T12:15:40Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "revision": "e928b72544873815af278d38681b31c0293588e3",
+      "date": "2026-09-14T14:17:13Z",
+      "tag": "v4.34.0",
+      "toolchain": "leanprover/lean4:v4.34.0",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
-          "inputRev": "v4.34.0-rc2",
+          "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+          "inputRev": "v4.34.0",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "e928b72544873815af278d38681b31c0293588e3",
+      "date": "2026-09-14T14:17:13Z",
+      "tag": "v4.34.0",
+      "toolchain": "leanprover/lean4:v4.34.0",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+          "inputRev": "v4.34.0",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
@@ -33,9 +58,9 @@
       "tag": "v4.34.0-rc2",
       "toolchain": "leanprover/lean4:v4.34.0-rc2",
       "platformIndependent": null,
-      "license": "Apache-2.0",
+      "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
