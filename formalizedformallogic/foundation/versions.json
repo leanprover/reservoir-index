@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "09edd4b33bae8b2fd3afc69a761ab3437dc487ec",
-      "date": "2026-09-16T12:45:15Z",
+      "revision": "2aefe2d8be30e07556098c898104be120e410a47",
+      "date": "2026-09-18T09:17:39Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.0",
       "platformIndependent": null,
@@ -16,13 +16,13 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "axiom-audit",
+          "name": "Forgive",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "827e715d39231df230cb5b1a200be07c151b323b",
-          "inputRev": "827e715d39231df230cb5b1a200be07c151b323b",
-          "url": "https://github.com/SnO2WMaN/axiom-audit"
+          "rev": "727e3a364c4228cf493761b64fcefc81e9933601",
+          "inputRev": "v4.34.0",
+          "url": "https://github.com/FormalizedFormalLogic/forgive"
         },
         {
           "type": "git",
@@ -43,6 +43,16 @@
           "rev": "a6521b2d0c93dcdf2d640089f95548df5dd8bf46",
           "inputRev": "v4.34.0",
           "url": "https://github.com/leanprover/doc-gen4"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+          "inputRev": "v4.34.0",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
@@ -123,16 +133,6 @@
           "rev": "f9cdb9eacb5c8b8ecc02ee9fd9e568d7d28c1416",
           "inputRev": "main",
           "url": "https://github.com/leanprover/leansqlite"
-        },
-        {
-          "type": "git",
-          "name": "Cli",
-          "scope": "leanprover",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
-          "inputRev": "v4.34.0",
-          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",

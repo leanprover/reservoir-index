@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.1",
-      "revision": "89b9e12139ef07cd820cee26189afb317110f4b0",
-      "date": "2026-07-05T17:06:19Z",
+      "revision": "d6e8ed7463aa62659c122e6fe4eb6a8242951fed",
+      "date": "2026-09-05T03:04:18Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.22.0",
       "platformIndependent": null,
@@ -16,6 +16,16 @@
       "dependencies": [
         {
           "type": "git",
+          "name": "Parser",
+          "scope": "fgdorais",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "617f4fa5c48f35076274d57546884261560f1285",
+          "inputRev": "617f4fa",
+          "url": "https://github.com/fgdorais/lean4-parser"
+        },
+        {
+          "type": "git",
           "name": "mathlib",
           "scope": "leanprover-community",
           "version": "0.0.0",
@@ -23,6 +33,26 @@
           "rev": "79e94a093aff4a60fb1b1f92d9681e407124c2ca",
           "inputRev": "v4.22.0",
           "url": "https://github.com/leanprover-community/mathlib4"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "92e7648d19f24127919bcf3ff86eb0a43388824c",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "1340120ec7a034c5d833a337197adfdb079ac56b",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",
@@ -83,16 +113,6 @@
           "rev": "917bfa5064b812b7fbd7112d018ea0b4def25ab3",
           "inputRev": "v4.22.0",
           "url": "https://github.com/leanprover-community/quote4"
-        },
-        {
-          "type": "git",
-          "name": "batteries",
-          "scope": "leanprover-community",
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "240676e9568c254a69be94801889d4b13f3b249f",
-          "inputRev": "v4.22.0",
-          "url": "https://github.com/leanprover-community/batteries"
         },
         {
           "type": "git",

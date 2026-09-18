@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "4e52845513a5a7f70927c96e094592db1bf124d1",
-      "date": "2026-07-07T02:46:52Z",
+      "revision": "fb7ae417609093f04cf0608dc92e9343550c2ae4",
+      "date": "2026-08-26T15:48:22Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.31.0",
+      "toolchain": "leanprover/lean4:v4.33.1",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -16,13 +16,23 @@
       "dependencies": [
         {
           "type": "git",
-          "name": "CompPoly",
+          "name": "HexMvPoly",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "e95ba1b1cac21ac3e980725abcfb2a0c707d1062",
-          "inputRev": "master",
-          "url": "https://github.com/Verified-zkEVM/CompPoly"
+          "rev": "e25a580e1c8ee59d66408031bcb74ed5aca05b95",
+          "inputRev": "e25a580e1c8ee59d66408031bcb74ed5aca05b95",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "mathlib",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+          "inputRev": "v4.33.1",
+          "url": "https://github.com/leanprover-community/mathlib4.git"
         },
         {
           "type": "git",
@@ -30,19 +40,29 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "22262a95b05ee1982daf826bfd94e07db5bb2828",
-          "inputRev": "main",
+          "rev": "eb41f276101847dd799c703e2378a544591aebf4",
+          "inputRev": "eb41f276101847dd799c703e2378a544591aebf4",
           "url": "https://github.com/leanprover/csdp-ffi"
         },
         {
           "type": "git",
-          "name": "mathlib",
-          "scope": "leanprover-community",
+          "name": "HexPoly",
+          "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
-          "inputRev": "v4.31.0",
-          "url": "https://github.com/leanprover-community/mathlib4"
+          "rev": "1ca97f372946ecc430fe4f3961ec4220f9bc7706",
+          "inputRev": "1ca97f372946ecc430fe4f3961ec4220f9bc7706",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "591c146eeee0ef301a110cd33c19cc0cf1e07352",
+          "inputRev": "591c146eeee0ef301a110cd33c19cc0cf1e07352",
+          "url": "https://github.com/leanprover/hex-basic.git"
         },
         {
           "type": "git",
@@ -50,7 +70,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "63045536fe95024e6c18fc7b48e03f506701c5bc",
+          "rev": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -60,7 +80,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+          "rev": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/LeanSearchClient"
         },
@@ -70,7 +90,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
+          "rev": "16f02aa7642864af59f1ff0e384a015994db9118",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/import-graph"
         },
@@ -80,7 +100,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "24b0d9dc081c5423f8eec7e866c441e5184f29d9",
+          "rev": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/ProofWidgets4"
         },
@@ -90,7 +110,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "e3cb2f741431ce31bf73549fb52316a57368b06f",
+          "rev": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/aesop"
         },
@@ -100,7 +120,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+          "rev": "92c15be17b7caf78c2ad767ec40f89052d908d81",
           "inputRev": "master",
           "url": "https://github.com/leanprover-community/quote4"
         },
@@ -110,7 +130,7 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+          "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/batteries"
         },
@@ -120,9 +140,889 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
-          "inputRev": "v4.31.0",
+          "rev": "6130a47896ce867c6a4a55373441e59e565bad0f",
+          "inputRev": "v4.33.0",
           "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.2.4",
+      "revision": "ea62b0a88edb3ced344d49de30584a07ec6c12d9",
+      "date": "2026-08-21T04:12:52Z",
+      "tag": "v0.2.4",
+      "toolchain": "leanprover/lean4:v4.34.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c3d5432e691a8a68cf856b1e88db74d69d091eb2",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1ca97f372946ecc430fe4f3961ec4220f9bc7706",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4017680d23f775876c0f5d0dfb4b8009587e6d4f",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "62376964507c2f8986e7e4e8dd69ef5bdbb61c0c",
+          "inputRev": "v0.1.2",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.3",
+      "revision": "3767501d8563a2afad7923e548c9e241328920ca",
+      "date": "2026-08-20T12:12:00Z",
+      "tag": "v0.2.3",
+      "toolchain": "leanprover/lean4:v4.34.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c3d5432e691a8a68cf856b1e88db74d69d091eb2",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1ca97f372946ecc430fe4f3961ec4220f9bc7706",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4017680d23f775876c0f5d0dfb4b8009587e6d4f",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "62376964507c2f8986e7e4e8dd69ef5bdbb61c0c",
+          "inputRev": "v0.1.2",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.2",
+      "revision": "f28f13b1fd775008655be7a3d03444e6dd2be885",
+      "date": "2026-08-20T08:23:39Z",
+      "tag": "v0.2.2",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c3d5432e691a8a68cf856b1e88db74d69d091eb2",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1ca97f372946ecc430fe4f3961ec4220f9bc7706",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4017680d23f775876c0f5d0dfb4b8009587e6d4f",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "eb41f276101847dd799c703e2378a544591aebf4",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "revision": "051f7e2e41e406ec25ed7419ed744e7a74671181",
+      "date": "2026-08-02T23:09:29Z",
+      "tag": "v0.2.1",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "eb41f276101847dd799c703e2378a544591aebf4",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "revision": "051f7e2e41e406ec25ed7419ed744e7a74671181",
+      "date": "2026-08-02T23:09:29Z",
+      "tag": "v0.2.1-mathlib-rc1",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "eb41f276101847dd799c703e2378a544591aebf4",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "8df67f4b45d49df6daa72a9bc7404159345d7686",
+      "date": "2026-08-02T10:15:40Z",
+      "tag": "v0.2.0",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "001e9c88696bf8678c9080aab5e75f30bd2198a3",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "8df67f4b45d49df6daa72a9bc7404159345d7686",
+      "date": "2026-08-02T10:15:40Z",
+      "tag": "v0.2.0-mathlib-rc10",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "001e9c88696bf8678c9080aab5e75f30bd2198a3",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "617e21ab0e7ac9503dc6255d5d424aba3c04b699",
+      "date": "2026-08-02T09:15:26Z",
+      "tag": "v0.2.0-mathlib-rc9",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "001e9c88696bf8678c9080aab5e75f30bd2198a3",
+          "inputRev": "v0.1.0-mathlib-rc11",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "163e1122bcfaa3d9ca94e13dc88044d80297ab03",
+      "date": "2026-08-02T09:09:10Z",
+      "tag": "v0.2.0-mathlib-rc8",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "001e9c88696bf8678c9080aab5e75f30bd2198a3",
+          "inputRev": "v0.1.0-mathlib-rc11",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "371e1a6910523d05f1cb206dba2b4e0b1bfc1b1f",
+      "date": "2026-08-02T01:30:27Z",
+      "tag": "v0.2.0-mathlib-rc7",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f166466bbaff34fe4fb62ea1e63c73e4db4a57c4",
+          "inputRev": "v0.1.0-mathlib-rc2",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "92a1aaea21e29c9b28f5ff7aa8f4262107b80dba",
+          "inputRev": "v0.1.0-mathlib-rc8",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "be78d3e13c73393a76c50b65373f2a65a2156467",
+      "date": "2026-08-01T18:46:36Z",
+      "tag": "v0.2.0-mathlib-rc6",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "03638c9b239d7bfbdf26ed439fd8c4f6971dc320",
+          "inputRev": "v0.1.0-mathlib-rc4",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "de6701b0f43a427da35d5e51cd6dc97591460658",
+      "date": "2026-08-01T17:46:28Z",
+      "tag": "v0.2.0-mathlib-rc5",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0ae9bc56dfd2f979a23bb568b7c26079204d5b67",
+          "inputRev": "v0.1.0-mathlib-rc3",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "d76a9cd0f0110294be9513b8ce9581a8449af99f",
+      "date": "2026-08-01T16:45:37Z",
+      "tag": "v0.2.0-mathlib-rc4",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "fd07c690d97e31f66f15cc3d5526bb643f2b38fe",
+          "inputRev": "v0.1.0-mathlib-rc2",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "50b120bda7e8d85e1fdb30802f5ea3faba04e44f",
+      "date": "2026-08-01T15:37:39Z",
+      "tag": "v0.2.0-mathlib-rc3",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ccad9e590136efc3db1ec136a9396468bd17ffb4",
+          "inputRev": "v0.1.0-mathlib-rc1",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "33432e9e5304fdf1a53936b9ddcc9e8bdac46cd6",
+      "date": "2026-08-01T15:23:55Z",
+      "tag": "v0.2.0-mathlib-rc2",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "010d49ad68446ae1638609269791ae8795be146a",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ccad9e590136efc3db1ec136a9396468bd17ffb4",
+          "inputRev": "ccad9e590136efc3db1ec136a9396468bd17ffb4",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "inputRev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "revision": "1331bae4b2894b388b17448e848f659fb6fb06c5",
+      "date": "2026-08-01T15:05:58Z",
+      "tag": "v0.2.0-mathlib-rc1",
+      "toolchain": "leanprover/lean4:v4.33.0-rc1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexMvPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "010d49ad68446ae1638609269791ae8795be146a",
+          "inputRev": "010d49ad68446ae1638609269791ae8795be146a",
+          "url": "https://github.com/leanprover/hex-mv-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "CSDP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2844bb8ff2af63fb977c949f4178e7e2e5c82f3d",
+          "inputRev": "2844bb8ff2af63fb977c949f4178e7e2e5c82f3d",
+          "url": "https://github.com/leanprover/csdp-ffi"
+        },
+        {
+          "type": "git",
+          "name": "HexPoly",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "inputRev": "6ca185f18509461bdec244ce3bb8d33eb6e24705",
+          "url": "https://github.com/leanprover/hex-poly.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "inputRev": "365881fb205210e8d27c5eb011f7ddb3fe020373",
+          "url": "https://github.com/leanprover/hex-basic.git"
         }
       ]
     },

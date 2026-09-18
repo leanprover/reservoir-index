@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "32ff06dfbbfbdf5758697792ca962ff0394281a3",
-      "date": "2026-09-06T13:58:18Z",
+      "revision": "555e192a62e6d65d2c575c651a2dfdcdcfac1485",
+      "date": "2026-09-15T19:29:15Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.31.0",
       "platformIndependent": null,
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "git",
+          "name": "db",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2361cf0994610ebb7ad32770ffa042c860338d0f",
+          "inputRev": "2361cf0994610ebb7ad32770ffa042c860338d0f",
+          "url": "https://github.com/chrisflav/db"
+        },
         {
           "type": "git",
           "name": "Taxis",
@@ -51,8 +61,18 @@
           "version": "0.0.0",
           "transitive": true,
           "rev": "0be4df908d1a8e75b58961041e2b4973692623df",
-          "inputRev": "v4.31.0",
+          "inputRev": "0be4df908d1a8e75b58961041e2b4973692623df",
           "url": "https://github.com/leanprover/leansqlite"
+        },
+        {
+          "type": "git",
+          "name": "quot4",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+          "inputRev": "v4.31.0",
+          "url": "https://github.com/leanprover-community/quote4"
         },
         {
           "type": "git",

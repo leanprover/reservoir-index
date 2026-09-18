@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "00be0f2bd683533a05f03fed1bb716cca485aa0b",
-      "date": "2026-08-16T15:05:45Z",
+      "revision": "16399902c5cfd5b7ef79ee6d998be41929783df8",
+      "date": "2026-08-21T21:34:34Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.0-rc1",
       "platformIndependent": null,
@@ -20,9 +20,9 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3fb9628a8c7e4e8dc8deefc5d7d9622003ab6e40",
-          "inputRev": "3fb9628",
-          "url": "https://github.com/srghma/LSpec"
+          "rev": "e780f4188c9649aef988270f4d126651460ca9c4",
+          "inputRev": "e780f41",
+          "url": "https://github.com/argumentcomputer/LSpec"
         },
         {
           "type": "git",
@@ -33,6 +33,16 @@
           "rev": "2dc62da310fcabae512387a6d451d71eac3a1045",
           "inputRev": "toolchain-nightly",
           "url": "https://github.com/KislyjKisel/lean4-alloy"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+          "inputRev": "v4.33.0",
+          "url": "https://github.com/leanprover-community/plausible"
         }
       ]
     }

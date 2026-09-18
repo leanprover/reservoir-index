@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "a3ab78e894932c14a59a5fcf5857b3ca7bad5f67",
-      "date": "2026-09-15T16:36:02Z",
-      "tag": "v4.35.0-rc1",
-      "toolchain": "leanprover/lean4:v4.35.0-rc1",
+      "revision": "9f8096e40b31715b1d8d5997f15a0bd832f7e37d",
+      "date": "2026-09-16T14:06:15Z",
+      "tag": "v4.35.0-rc2",
+      "toolchain": "leanprover/lean4:v4.35.0-rc2",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3c7ccd7060887fa478a55e555fae61bbf466c3ba",
+          "rev": "2842b9871b04862f944c032e34052cb9448ccb71",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         },
@@ -30,7 +30,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "b14a9f6e7286c7cdf08ddd4b805374762bede183",
+          "rev": "68a463c484e24708627b8761e8730e76b295d1e2",
           "inputRev": "main",
           "url": "https://github.com/leanprover/illuminate"
         },
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "16fe28ca7c2e01b71856f7a0a801ea844580f2d5",
+          "rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -60,7 +60,72 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "9b90b7f938d6169246325df002351014f49945ef",
+          "rev": "d047cb484b2f3598187450935dbcc84d078cb581",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/subverso"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "9f8096e40b31715b1d8d5997f15a0bd832f7e37d",
+      "date": "2026-09-16T14:06:15Z",
+      "tag": "v4.35.0-rc2",
+      "toolchain": "leanprover/lean4:v4.35.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "2842b9871b04862f944c032e34052cb9448ccb71",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "illuminate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "68a463c484e24708627b8761e8730e76b295d1e2",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/illuminate"
+        },
+        {
+          "type": "git",
+          "name": "plausible",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/plausible"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        },
+        {
+          "type": "git",
+          "name": "subverso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "d047cb484b2f3598187450935dbcc84d078cb581",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         }
@@ -75,7 +140,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

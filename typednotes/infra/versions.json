@@ -2,10 +2,35 @@
   "schemaVersion": "1.2.0",
   "data": [
     {
-      "version": "0.10.0",
-      "revision": "9ab609f5eb0f1e65dcf226b3d4b52cf1c1a5121a",
-      "date": "2026-09-11T21:45:00Z",
-      "tag": "v0.10.0",
+      "version": "0.10.1",
+      "revision": "a2ef412541ac4d36e35aee95159d81424760baed",
+      "date": "2026-09-14T15:22:31Z",
+      "tag": "v0.10.1",
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "linen",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "00f8f45c84a1f66341ba41cb873d614a8df6b04b",
+          "inputRev": "v0.19.1",
+          "url": "https://github.com/typednotes/linen"
+        }
+      ]
+    },
+    {
+      "version": "0.10.1",
+      "revision": "a2ef412541ac4d36e35aee95159d81424760baed",
+      "date": "2026-09-14T15:22:31Z",
+      "tag": "v0.10.1",
       "toolchain": "leanprover/lean4:v4.33.1",
       "platformIndependent": null,
       "license": "Apache-2.0",
