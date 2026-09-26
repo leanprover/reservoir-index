@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "973f63b29e0e218234a1d26c9f330fb0d7c84d01",
+      "date": "2026-09-18T09:01:55Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "json",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c7323a3eb8323fb16ee451de495ff91192453aa5",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/paulbutcher/lean-json"
+        },
+        {
+          "type": "git",
+          "name": "middleware-assets",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "fd50fac7da8c0b502568e5d1a1f0bff4d39e4f59",
+          "inputRev": "v0.16.0",
+          "url": "https://github.com/paulbutcher/lean-middleware"
+        },
+        {
+          "type": "git",
+          "name": "middleware-tracing",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "fd50fac7da8c0b502568e5d1a1f0bff4d39e4f59",
+          "inputRev": "v0.16.0",
+          "url": "https://github.com/paulbutcher/lean-middleware"
+        },
+        {
+          "type": "git",
+          "name": "middleware-cookiestore",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "fd50fac7da8c0b502568e5d1a1f0bff4d39e4f59",
+          "inputRev": "v0.16.0",
+          "url": "https://github.com/paulbutcher/lean-middleware"
+        },
+        {
+          "type": "git",
+          "name": "leanmigratePostgres",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7bc1ed7ffc713a27b4528cd12a8fafd501fa557f",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/paulbutcher/leanmigrate"
+        },
+        {
+          "type": "git",
+          "name": "authentication",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3d6ff9fec10a4556618383e2b1e468cc76f2de8f",
+          "inputRev": "v0.16.5",
+          "url": "https://github.com/paulbutcher/lean-authentication"
+        },
+        {
+          "type": "git",
+          "name": "middleware",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "fd50fac7da8c0b502568e5d1a1f0bff4d39e4f59",
+          "inputRev": "v0.16.0",
+          "url": "https://github.com/paulbutcher/lean-middleware"
+        },
+        {
+          "type": "git",
+          "name": "routing",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5b3091605deacb2a85d00131de75c6e46afbc6f6",
+          "inputRev": "v0.7.2",
+          "url": "https://github.com/paulbutcher/lean-routing"
+        },
+        {
+          "type": "git",
+          "name": "htmx",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "42cde56da0d5eeff70796973f1dafb561981e45a",
+          "inputRev": "v0.6.1",
+          "url": "https://github.com/paulbutcher/lean-htmx"
+        },
+        {
+          "type": "git",
+          "name": "leancrypto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9119ae98445fefbe4f29f0ec90a455c186da7a75",
+          "inputRev": "v0.4.1",
+          "url": "https://github.com/paulbutcher/leancrypto"
+        },
+        {
+          "type": "git",
+          "name": "MCP",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "35f52d0623fe386e1c32f92b55ae789518084369",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/paulbutcher/lean-mcp"
+        },
+        {
+          "type": "git",
+          "name": "LLMClient",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "957d4f5a5215bd9f12520f09199654acd60161f0",
+          "inputRev": "v0.9.3",
+          "url": "https://github.com/paulbutcher/lean-llmclient"
+        },
+        {
+          "type": "git",
+          "name": "markdown",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f3ab36c0ef434c507a934eee316571ca9a214963",
+          "inputRev": "v0.7.1",
+          "url": "https://github.com/paulbutcher/lean-markdown"
+        },
+        {
+          "type": "git",
+          "name": "html",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "9721f7888a8177f98096a570653e0e8ff0b0f9b0",
+          "inputRev": "v0.9.0",
+          "url": "https://github.com/paulbutcher/lean-html"
+        },
+        {
+          "type": "git",
+          "name": "telemetry",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "8f529b555fe07cf445eb18cb9fa2dbdac090b3eb",
+          "inputRev": "v0.5.1",
+          "url": "https://github.com/paulbutcher/lean-telemetry"
+        },
+        {
+          "type": "git",
+          "name": "leanpostgres",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "07d80ac4a96e28bd9cec516534d390bbecb04e06",
+          "inputRev": "v0.7.3",
+          "url": "https://github.com/paulbutcher/leanpostgres"
+        },
+        {
+          "type": "git",
+          "name": "awsLambda-http",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "91d0f9422d7b3075c8345baf9e5ab49105e4fa99",
+          "inputRev": "v0.4.1",
+          "url": "https://github.com/paulbutcher/lean-aws-lambda"
+        },
+        {
+          "type": "git",
+          "name": "lean-libcrypto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d246281419d8df65c9405a86c5351609535dfeda",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/paulbutcher/lean-libcrypto"
+        },
+        {
+          "type": "path",
+          "name": "leanmigrate",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
+        {
+          "type": "git",
+          "name": "leanaws",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "354b1bf5d948234eb8328f6c37e6910cf06f6b6f",
+          "inputRev": "v0.3.1",
+          "url": "https://github.com/paulbutcher/lean-aws"
+        },
+        {
+          "type": "git",
+          "name": "jose-libcrypto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d722d4a55c9dfebffe69dde58d8087ae3c004e09",
+          "inputRev": "v0.1.1",
+          "url": "https://github.com/paulbutcher/jose-libcrypto"
+        },
+        {
+          "type": "git",
+          "name": "jose",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "0a5699fba82ca6563958037e0ecde5dc98973c73",
+          "inputRev": "v0.2.1",
+          "url": "https://github.com/paulbutcher/lean-jose"
+        },
+        {
+          "type": "git",
+          "name": "leancurl",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "51509fc282616fbd13144381f2afbc3d70e4b5c3",
+          "inputRev": "v0.3.1",
+          "url": "https://github.com/paulbutcher/leancurl"
+        },
+        {
+          "type": "git",
+          "name": "leansqlite",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "6168b7549738a19bc837a1625c60c5d1e5dd8aeb",
+          "inputRev": "v4.33.0",
+          "url": "https://github.com/leanprover/leansqlite"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "bbb75c5c9b7f30d5e397f27bd099655aed7db410",
+          "inputRev": "bbb75c5c9b7f30d5e397f27bd099655aed7db410",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic.git"
+        },
+        {
+          "type": "path",
+          "name": "awsLambda",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        }
+      ]
+    }
+  ]
+}

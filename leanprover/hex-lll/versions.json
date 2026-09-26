@@ -1,0 +1,575 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.0.0",
+      "revision": "ca30af2c6d5d846327a66268b8258b780dde5a91",
+      "date": "2026-09-12T10:08:34Z",
+      "tag": "v0.6.0",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a7de08cb8ff56c86e43ddb909e16df78e672a303",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aceb0e9b1a15d7cca887327cdafca33f243107c3",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "887323f57cf55b6be3fad6f7cd6f36db8f8e2df5",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "83fd6ddb3de5027234cb90a0a6c28d622146023f",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "869ebb42b0b3d764d2385dc511fa71654452c81d",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a3603e6de658f436223827dbcebe1ecd9cc7a2fe",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "HexArith",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "4976aa3805cdbc1cbbb3853bcdb784467a754249",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-arith.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "ca30af2c6d5d846327a66268b8258b780dde5a91",
+      "date": "2026-09-12T10:08:34Z",
+      "tag": "v0.6.0",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a7de08cb8ff56c86e43ddb909e16df78e672a303",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "aceb0e9b1a15d7cca887327cdafca33f243107c3",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "887323f57cf55b6be3fad6f7cd6f36db8f8e2df5",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "83fd6ddb3de5027234cb90a0a6c28d622146023f",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "869ebb42b0b3d764d2385dc511fa71654452c81d",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "a3603e6de658f436223827dbcebe1ecd9cc7a2fe",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "HexArith",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "4976aa3805cdbc1cbbb3853bcdb784467a754249",
+          "inputRev": "v0.6.0",
+          "url": "https://github.com/leanprover/hex-arith.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "5676b60afa8401aea99c77091e94152d07e9c222",
+      "date": "2026-09-08T10:42:56Z",
+      "tag": "v0.5.0",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "38d0794d2a3dae4ca080b40e0694d212cc357f33",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b429e7229f1af397373da1da5ad1b06c8f9a8287",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3ce0f3dcaf3b51a23af13aa15f8524f387aa015f",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fea7d537c14531b3a699530f5c7776f69f0ed9a9",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "dedc6f2f05b28ebeb66bb74c6d50f8975a67fa2e",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e0457cf4a48eecc7c78922cef6f5f8616f0e9a42",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "HexArith",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "28ee623fae982665bc46301eaa50057c1ead224a",
+          "inputRev": "v0.5.0",
+          "url": "https://github.com/leanprover/hex-arith.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "17c8454e3627985128064e3a2d720b9aca738a38",
+      "date": "2026-09-08T09:55:57Z",
+      "tag": "v0.4.0",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "38d0794d2a3dae4ca080b40e0694d212cc357f33",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e1b5c5867103e8b72ad46901ce3a27203f2d1035",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "5059f0b8bc50b402e5909f5324f36d1a97ff26b0",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d1aa8ccf18320c9f57e15019a471b93a70322069",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "ee236cce694f1e9814c1bb4a1a41b44d84679c96",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "28b5fe612bc16afb75885f26bb7d77e9b3472ac9",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "HexArith",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "28ee623fae982665bc46301eaa50057c1ead224a",
+          "inputRev": "v0.4.0",
+          "url": "https://github.com/leanprover/hex-arith.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "de46c02eadc78ab0dc5ea6ee3de3246347f7dbe9",
+      "date": "2026-09-08T07:17:37Z",
+      "tag": "v0.3.0",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "38d0794d2a3dae4ca080b40e0694d212cc357f33",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f1ef484945ca8ef10347d1a07c8878df5b555aea",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "6412caf264333d780e05ec683bdb0bfc5e17c5da",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d52355274d1deb16ef91a673c1bd88c710df4858",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "96fb843706a58a360eec8717c56d238e75becc32",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "2489c5c80b73b90e4f591f6c99a06610bbf98d37",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "HexArith",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "28ee623fae982665bc46301eaa50057c1ead224a",
+          "inputRev": "v0.3.0",
+          "url": "https://github.com/leanprover/hex-arith.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "4e7150b39cd565426774df6edfc0a88a51f19e27",
+      "date": "2026-09-08T03:52:44Z",
+      "tag": "v0.2.0",
+      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "HexBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "38d0794d2a3dae4ca080b40e0694d212cc357f33",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-basic.git"
+        },
+        {
+          "type": "git",
+          "name": "HexGramSchmidt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "93e0b2739afbc7de49d553e631cac28c40758861",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-gram-schmidt.git"
+        },
+        {
+          "type": "git",
+          "name": "HexMatrix",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "663a1e667162faebfa327241668fe31cb2b980f6",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-matrix.git"
+        },
+        {
+          "type": "git",
+          "name": "HexBareiss",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "7f78a30d72049ca45edf8144c4c5e493e078e36a",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-bareiss.git"
+        },
+        {
+          "type": "git",
+          "name": "HexDeterminant",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "91a2e1af43fed191683873c97c2c8f57b74bdaca",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-determinant.git"
+        },
+        {
+          "type": "git",
+          "name": "HexRowReduce",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "fdf9d0fe785d3b1c53518d2d636828f43922b225",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-row-reduce.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover-community/batteries.git"
+        },
+        {
+          "type": "git",
+          "name": "HexArith",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "28ee623fae982665bc46301eaa50057c1ead224a",
+          "inputRev": "v0.2.0",
+          "url": "https://github.com/leanprover/hex-arith.git"
+        }
+      ]
+    }
+  ]
+}
