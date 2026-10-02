@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "75d936c7af167cc93fac0d31237682fc2204591d",
-      "date": "2026-09-16T13:50:11Z",
-      "tag": "v4.35.0-rc2",
-      "toolchain": "leanprover/lean4:v4.35.0-rc2",
+      "revision": "36cb0105a76ff3de70add8ae91afb6cfc57fafe3",
+      "date": "2026-10-02T06:54:29Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.35.0-rc3",
       "platformIndependent": true,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
-          "inputRev": "v4.35.0-rc2",
+          "rev": "3b7c8101932390d60e92a3f3d917901d5b5a773b",
+          "inputRev": "v4.35.0-rc3",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "a90fbf7b02ff06a0deebf74088dff9e5fe02c9ea",
+      "date": "2026-09-24T22:04:59Z",
+      "tag": "v4.35.0-rc3",
+      "toolchain": "leanprover/lean4:v4.35.0-rc3",
+      "platformIndependent": true,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3b7c8101932390d60e92a3f3d917901d5b5a773b",
+          "inputRev": "v4.35.0-rc3",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -32,10 +57,10 @@
       "date": "2026-09-16T13:50:11Z",
       "tag": "v4.35.0-rc2",
       "toolchain": "leanprover/lean4:v4.35.0-rc2",
-      "platformIndependent": true,
+      "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -82,10 +107,10 @@
       "date": "2026-09-14T14:25:47Z",
       "tag": "v4.34.0",
       "toolchain": "leanprover/lean4:v4.34.0",
-      "platformIndependent": true,
+      "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
@@ -657,10 +682,10 @@
       "date": "2026-01-26T06:47:47Z",
       "tag": "v4.28.0-rc1",
       "toolchain": "leanprover/lean4:v4.28.0-rc1",
-      "platformIndependent": null,
+      "platformIndependent": true,
       "license": null,
       "licenseFiles": [
-        "LICENSE"
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
