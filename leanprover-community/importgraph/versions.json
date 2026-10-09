@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "7ad9f2e325aa6cec3dacaa97c2653a98032750eb",
-      "date": "2026-10-02T06:50:33Z",
+      "revision": "80a81552bef492cc13d69cc7abddb61c29abbba3",
+      "date": "2026-10-09T08:25:42Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.35.0-rc3",
+      "toolchain": "leanprover/lean4:v4.35.0-rc4",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "843844fa601dd56767b1eb22b7ada5b64d5e567a",
-          "inputRev": "v4.35.0-rc3",
+          "rev": "82c11b9717083154aefc5fe8d4cba4bbf046298f",
+          "inputRev": "v4.35.0-rc4",
+          "url": "https://github.com/leanprover/lean4-cli"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "579f558774c4ac6840e715ba60dabf3030619349",
+      "date": "2026-10-06T14:16:21Z",
+      "tag": "v4.35.0-rc4",
+      "toolchain": "leanprover/lean4:v4.35.0-rc4",
+      "platformIndependent": null,
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "82c11b9717083154aefc5fe8d4cba4bbf046298f",
+          "inputRev": "v4.35.0-rc4",
           "url": "https://github.com/leanprover/lean4-cli"
         }
       ]
@@ -33,9 +58,9 @@
       "tag": "v4.35.0-rc3",
       "toolchain": "leanprover/lean4:v4.35.0-rc3",
       "platformIndependent": null,
-      "license": "Apache-2.0",
+      "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

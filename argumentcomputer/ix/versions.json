@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "209699b9b1b415e12c329a3b88818a44ddd292f9",
-      "date": "2026-10-02T20:03:22Z",
+      "revision": "91348190f091d53ab0838440eaeaf0cb36f2737f",
+      "date": "2026-10-07T17:32:09Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.1",
       "platformIndependent": null,
@@ -13,14 +13,14 @@
       "readmeFile": "README.md",
       "dependencies": [
         {
-          "type": "git",
-          "name": "lean4lean",
+          "type": "path",
+          "name": "ix-kernel",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "a5621ecfe6416360d4e310c0ed40f3e79ae0710e",
-          "inputRev": "a5621ecfe6416360d4e310c0ed40f3e79ae0710e",
-          "url": "https://github.com/argumentcomputer/lean4ix"
+          "rev": null,
+          "inputRev": null,
+          "url": null
         },
         {
           "type": "git",

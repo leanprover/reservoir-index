@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "e82c09071cfa48c94ee298a2e1fed31ea13115a8",
-      "date": "2026-10-03T21:39:36Z",
+      "revision": "0a747c8ea951aaba34c801de065b544b547492a8",
+      "date": "2026-10-09T13:17:14Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.32.0",
       "platformIndependent": null,
@@ -43,6 +43,16 @@
           "rev": "023ce7d62a0531e22a5331e20b587817a80d49ff",
           "inputRev": "v4.32.0",
           "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "VerifiedHAMT",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "cf6ee753ee223be0d23ba82e21feecbd0833819f",
+          "inputRev": "cf6ee753ee223be0d23ba82e21feecbd0833819f",
+          "url": "https://github.com/verse-lab/VerifiedHAMT.git"
         },
         {
           "type": "git",

@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "cca1873e069f0de4fc7d53879a4bf68ca0fe59f5",
-      "date": "2026-10-04T07:59:25Z",
+      "revision": "e411c6e89692e83bc67fe451302ae7f82cf39b10",
+      "date": "2026-10-09T10:02:06Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.1",
       "platformIndependent": null,
@@ -23,16 +23,6 @@
           "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
           "inputRev": "v4.34.1",
           "url": "https://github.com/leanprover-community/mathlib4.git"
-        },
-        {
-          "type": "git",
-          "name": "doc-gen4",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "953c8992d174b4e56955e01e101d46668c68f2bb",
-          "inputRev": "v4.34.1",
-          "url": "https://github.com/leanprover/doc-gen4"
         },
         {
           "type": "git",
@@ -106,16 +96,6 @@
         },
         {
           "type": "git",
-          "name": "leansqlite",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "f9cdb9eacb5c8b8ecc02ee9fd9e568d7d28c1416",
-          "inputRev": "main",
-          "url": "https://github.com/leanprover/leansqlite"
-        },
-        {
-          "type": "git",
           "name": "Cli",
           "scope": "leanprover",
           "version": "0.0.0",
@@ -123,36 +103,6 @@
           "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
           "inputRev": "v4.34.0",
           "url": "https://github.com/leanprover/lean4-cli"
-        },
-        {
-          "type": "git",
-          "name": "UnicodeBasic",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "0e569d08b6443ce0908d356884c765397253e2f0",
-          "inputRev": "main",
-          "url": "https://github.com/fgdorais/lean4-unicode-basic"
-        },
-        {
-          "type": "git",
-          "name": "BibtexQuery",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "4d8616fd4870d0a3453d845770833eac7951fe1c",
-          "inputRev": "master",
-          "url": "https://github.com/dupuisf/BibtexQuery"
-        },
-        {
-          "type": "git",
-          "name": "MD4Lean",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": true,
-          "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
-          "inputRev": "main",
-          "url": "https://github.com/acmepjz/md4lean"
         }
       ]
     },

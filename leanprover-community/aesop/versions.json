@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "36cb0105a76ff3de70add8ae91afb6cfc57fafe3",
-      "date": "2026-10-02T06:54:29Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.35.0-rc3",
+      "revision": "04879b1e1de744d5c9777c8cf63fa55a8f652e5e",
+      "date": "2026-10-06T14:16:18Z",
+      "tag": "v4.35.0-rc4",
+      "toolchain": "leanprover/lean4:v4.35.0-rc4",
       "platformIndependent": true,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,33 @@
           "scope": "leanprover-community",
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3b7c8101932390d60e92a3f3d917901d5b5a773b",
-          "inputRev": "v4.35.0-rc3",
+          "rev": "b71aaf60877e673fdb921f06f20987d12ee8a290",
+          "inputRev": "v4.35.0-rc4",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "04879b1e1de744d5c9777c8cf63fa55a8f652e5e",
+      "date": "2026-10-06T14:16:18Z",
+      "tag": "v4.35.0-rc4",
+      "toolchain": "leanprover/lean4:v4.35.0-rc4",
+      "platformIndependent": true,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b71aaf60877e673fdb921f06f20987d12ee8a290",
+          "inputRev": "v4.35.0-rc4",
           "url": "https://github.com/leanprover-community/batteries"
         }
       ]
@@ -32,10 +57,10 @@
       "date": "2026-09-24T22:04:59Z",
       "tag": "v4.35.0-rc3",
       "toolchain": "leanprover/lean4:v4.35.0-rc3",
-      "platformIndependent": true,
+      "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

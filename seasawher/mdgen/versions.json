@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "106e237c74d5b2e1d8a384ed26718c5c7da45116",
-      "date": "2026-09-26T04:44:51Z",
-      "tag": "v4.35.0-rc3",
-      "toolchain": "leanprover/lean4:v4.35.0-rc3",
+      "revision": "fc8cfea2df8d5f6a0f9c3f46ce6d27a28a624620",
+      "date": "2026-10-08T13:50:06Z",
+      "tag": "v4.35.0-rc4",
+      "toolchain": "leanprover/lean4:v4.35.0-rc4",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "843844fa601dd56767b1eb22b7ada5b64d5e567a",
+          "rev": "82c11b9717083154aefc5fe8d4cba4bbf046298f",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli.git"
         }
@@ -153,6 +153,31 @@
     },
     {
       "version": "0.0.0",
+      "revision": "fc8cfea2df8d5f6a0f9c3f46ce6d27a28a624620",
+      "date": "2026-10-08T13:50:06Z",
+      "tag": "v4.35.0-rc4",
+      "toolchain": "leanprover/lean4:v4.35.0-rc4",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "82c11b9717083154aefc5fe8d4cba4bbf046298f",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
       "revision": "106e237c74d5b2e1d8a384ed26718c5c7da45116",
       "date": "2026-09-26T04:44:51Z",
       "tag": "v4.35.0-rc3",
@@ -160,7 +185,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [
