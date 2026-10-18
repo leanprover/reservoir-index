@@ -3,10 +3,65 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "8bdbc8e588330e65c5c0998b90035983270ba887",
-      "date": "2026-06-15T15:47:20Z",
-      "tag": "v4.31.0",
-      "toolchain": "leanprover/lean4:v4.31.0",
+      "revision": "5ac3ea900bb985f4e05bf2e676e152a16696b770",
+      "date": "2026-10-16T07:04:55Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "ParseIt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "e411c02b878b2149bb632575762648432189068b",
+          "inputRev": "e411c02b878b2149bb632575762648432189068b",
+          "url": "https://github.com/fgdorais/lean4-parseit"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeData",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "24e9b668a6550ec02ad625c92ae5835918a46246",
+          "inputRev": "24e9b668a6550ec02ad625c92ae5835918a46246",
+          "url": "https://github.com/fgdorais/lean4-unicode-data"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "afbe10dee514370d62f2458411bccefa44734c35",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "fdf4f09a09708438c165512080dfea29568c1634",
+      "date": "2026-10-13T14:02:10Z",
+      "tag": "v4.35.0",
+      "toolchain": "leanprover/lean4:v4.35.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,9 +75,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "bf30b2e6908d116223918daacb66477b4d62e20a",
-          "inputRev": "bf30b2e6908d116223918daacb66477b4d62e20a",
+          "rev": "84ccc0c95c822851244587834be29044f96a236f",
+          "inputRev": "84ccc0c95c822851244587834be29044f96a236f",
           "url": "https://github.com/fgdorais/lean4-parser"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeData",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "53840add82007699215462d8a6ef0a19c0f8e9dc",
+          "inputRev": "53840add82007699215462d8a6ef0a19c0f8e9dc",
+          "url": "https://github.com/fgdorais/lean4-unicode-data"
         },
         {
           "type": "git",
@@ -30,8 +95,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
-          "inputRev": "v4.31.0",
+          "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+          "inputRev": "v4.35.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -39,9 +104,9 @@
           "name": "UnicodeBasic",
           "scope": null,
           "version": "0.0.0",
-          "transitive": false,
-          "rev": "a2e430a4c9d3ad24078b8581fe0162fc5b0c9a6c",
-          "inputRev": "a2e430a4c9d3ad24078b8581fe0162fc5b0c9a6c",
+          "transitive": true,
+          "rev": "5c111e052694134530204b962af3cfd6e41eea2b",
+          "inputRev": "main",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
         }
       ]
