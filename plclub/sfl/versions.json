@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "e5626ab5e464b04580aff937b8badeabee375609",
-      "date": "2026-10-16T11:57:01Z",
+      "revision": "4a017bfb68c3e32b8b40677c0be0b0cfb75063c3",
+      "date": "2026-10-25T13:52:02Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.34.0-rc2",
+      "toolchain": "leanprover/lean4:v4.34.0",
       "platformIndependent": null,
       "license": "Apache-2.0",
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "cc63f4c810de77646a5692c516369c12af6224f8",
-          "inputRev": "v4.34.0-rc2",
+          "rev": "facc6c7498298d2286f18c9fc5eb5e902551b6aa",
+          "inputRev": "v4.34.0",
           "url": "https://github.com/plclub/comparator-autograder"
         },
         {
@@ -30,8 +30,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d54dddc581e08be364c278052863524bff7a99a9",
-          "inputRev": "v4.34.0-rc2",
+          "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+          "inputRev": "v4.34.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -40,8 +40,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "17c820e9726faeea24cbe6e6532b6b6e8452cc52",
-          "inputRev": "17c820e9726faeea24cbe6e6532b6b6e8452cc52",
+          "rev": "cad4b633e75ea769b851f12f9ca3b4f0dfcc625f",
+          "inputRev": "v4.34.0",
           "url": "https://github.com/leanprover/verso"
         },
         {
@@ -50,8 +50,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "9da7405d3b18a6fcb0dab26c823eba10401b1926",
-          "inputRev": "ignore-missing-4.34.0-rc2",
+          "rev": "a6cc98304bd7f3ad3d030fc37a75e4b872342da6",
+          "inputRev": "ignore-missing-4.34.0",
           "url": "https://github.com/xhalo32/comparator"
         },
         {
@@ -60,9 +60,19 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "b68d8b59812cf3a50d42f1e514a1d6a68330696c",
-          "inputRev": "v4.34.0-rc2",
+          "rev": "57f6879141b701cc02fe99d7a7e834c38409a6bc",
+          "inputRev": "v4.34.0",
           "url": "https://github.com/plclub/comparator-autograder-lib"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
         },
         {
           "type": "git",
@@ -70,7 +80,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "6e558472c981dbee8cb9fcde92fa9593daf04228",
+          "rev": "a1a61c9678da010e958ed24cdfa6f635b85f172a",
           "inputRev": "main",
           "url": "https://github.com/leanprover/illuminate"
         },
@@ -80,7 +90,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+          "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
           "inputRev": "main",
           "url": "https://github.com/leanprover-community/plausible"
         },
@@ -100,7 +110,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": true,
-          "rev": "fda188f7329fa18ce4b2e8cc96c9b0a8f0c78c46",
+          "rev": "9b90b7f938d6169246325df002351014f49945ef",
           "inputRev": "main",
           "url": "https://github.com/leanprover/subverso"
         },
@@ -110,7 +120,7 @@
           "scope": "leanprover",
           "version": "0.0.0",
           "transitive": true,
-          "rev": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+          "rev": "076e8e57707e813375e8f9da8bf989799ace9680",
           "inputRev": "master",
           "url": "https://github.com/leanprover/lean4export"
         }
