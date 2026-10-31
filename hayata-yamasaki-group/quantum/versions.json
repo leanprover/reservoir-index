@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "bf1c4f6aaec84948f1a1c76c0728432813404a0f",
-      "date": "2026-08-28T07:14:11Z",
+      "revision": "a1256b75b8df99c8b2112a771f5a470d5e06648e",
+      "date": "2026-10-27T23:20:27Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.29.0-rc6",
       "platformIndependent": null,
@@ -14,16 +14,6 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
-        {
-          "type": "git",
-          "name": "checkdecls",
-          "scope": null,
-          "version": "0.0.0",
-          "transitive": false,
-          "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
-          "inputRev": null,
-          "url": "https://github.com/PatrickMassot/checkdecls.git"
-        },
         {
           "type": "git",
           "name": "mathlib",
@@ -113,6 +103,36 @@
           "rev": "3de531c1135f5e3a01f3ac04830996fda476b28e",
           "inputRev": "v4.29.0-rc6",
           "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "Comparator",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a4f696825c583ed8a5b4060d9a0faa5b882d365b",
+          "inputRev": "v4.29.0-rc6",
+          "url": "https://github.com/leanprover/comparator.git"
+        },
+        {
+          "type": "git",
+          "name": "lean4export",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "048394e1afeeb52b0fa27bcf3f1ade2ff0f0ab6d",
+          "inputRev": "master",
+          "url": "https://github.com/leanprover/lean4export"
+        },
+        {
+          "type": "git",
+          "name": "Lean4Checker",
+          "scope": "leanprover",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "b7398199245524275543dec6113229c9bb4902e5",
+          "inputRev": "b7398199245524275543dec6113229c9bb4902e5",
+          "url": "https://github.com/leanprover/lean4checker"
         }
       ]
     }

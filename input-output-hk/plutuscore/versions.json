@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "747a2184bb1871f8955c5931f8bf592077cd5890",
-      "date": "2026-10-20T08:11:18Z",
+      "revision": "1c23de8f35fdc5decf6f126c7b56ed6649e4a57f",
+      "date": "2026-10-30T11:02:54Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.24.0",
       "platformIndependent": null,
@@ -13,7 +13,18 @@
         "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "Blaster",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "bc03bb402ce702984875bbf8ba51216bd6f843d7",
+          "inputRev": "bc03bb402ce702984875bbf8ba51216bd6f843d7",
+          "url": "https://github.com/input-output-hk/Lean-blaster"
+        }
+      ]
     }
   ]
 }

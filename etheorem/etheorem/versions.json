@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "54a3683a4c616b93cacd5990978ecb89c78bf0e7",
-      "date": "2026-10-16T00:55:18Z",
+      "revision": "07a174c1dc9b39c51b30f0626f627584d380276f",
+      "date": "2026-10-31T11:00:13Z",
       "tag": null,
-      "toolchain": "leanprover/lean4:v4.29.1",
+      "toolchain": "leanprover/lean4:v4.34.1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -14,6 +14,16 @@
       ],
       "readmeFile": "README.md",
       "dependencies": [
+        {
+          "type": "path",
+          "name": "LeanRlp",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": null,
+          "inputRev": null,
+          "url": null
+        },
         {
           "type": "path",
           "name": "LeanPoseidon",

@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "96754a37e739270ac5bb8fe7deaeafef6964b688",
-      "date": "2026-10-24T21:29:02Z",
+      "revision": "aae1c9cbd6c00311091d691b74f2d0032d76d9bd",
+      "date": "2026-10-30T14:37:21Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.35.0",
       "platformIndependent": null,
@@ -26,12 +26,22 @@
         },
         {
           "type": "git",
+          "name": "QuantumFoundations",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "901aaab7967ceecd2240d0b38bbde7cf3e2c14ac",
+          "inputRev": "901aaab7967ceecd2240d0b38bbde7cf3e2c14ac",
+          "url": "https://github.com/lean-crypto-foundations/QuantumFoundations"
+        },
+        {
+          "type": "git",
           "name": "PolyFun",
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "ecac686fd8a3b4763d3df2e738c91947bdec40d6",
-          "inputRev": "ecac686fd8a3b4763d3df2e738c91947bdec40d6",
+          "rev": "4181c82238142d9b73403fbf4c4b13e1a801e400",
+          "inputRev": "4181c82238142d9b73403fbf4c4b13e1a801e400",
           "url": "https://github.com/Verified-zkEVM/PolyFun"
         },
         {
