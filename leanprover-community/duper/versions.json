@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "5940907b9581beb2fd08b9d0b0682c2b0c9c15b8",
-      "date": "2026-09-28T04:58:10Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.34.1",
+      "revision": "0e593cc2cbf9ed8052d2f64ca9b4921d0155a85a",
+      "date": "2026-11-03T00:39:56Z",
+      "tag": "v4.35.0",
+      "toolchain": "leanprover/lean4:v4.35.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,8 +20,8 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
-          "inputRev": "v4.34.0",
+          "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+          "inputRev": "v4.35.0",
           "url": "https://github.com/leanprover-community/batteries"
         },
         {
@@ -30,8 +30,43 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "6b2774cde4d1cb7ac4d48ac61c34e950e0588d69",
-          "inputRev": "v4.34.1",
+          "rev": "30f46ddb9a68d6878f5a1337eb2565ba4e70126b",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "0e593cc2cbf9ed8052d2f64ca9b4921d0155a85a",
+      "date": "2026-11-03T00:39:56Z",
+      "tag": "v4.35.0",
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "30f46ddb9a68d6878f5a1337eb2565ba4e70126b",
+          "inputRev": "v4.35.0",
           "url": "https://github.com/leanprover-community/lean-auto.git"
         }
       ]
