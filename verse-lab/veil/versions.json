@@ -3,9 +3,134 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "57447722e7f25f06c75cff8735d10d41697afc14",
-      "date": "2026-11-06T22:15:53Z",
+      "revision": "1287c31d0d62e7ae069993845fe7e5d9736b8fba",
+      "date": "2026-11-12T16:50:04Z",
       "tag": null,
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "proofwidgets",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+          "inputRev": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+          "url": "https://github.com/leanprover-community/ProofWidgets4"
+        },
+        {
+          "type": "git",
+          "name": "aesop",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "4a174c490d8707121c4a9290800489f105d85e07",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/aesop"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        },
+        {
+          "type": "git",
+          "name": "lentil",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "1ddf1fc16138371cae6687db2698770533c4058a",
+          "inputRev": "1ddf1fc16138371cae6687db2698770533c4058a",
+          "url": "https://github.com/verse-lab/Lentil.git"
+        },
+        {
+          "type": "git",
+          "name": "Lasso",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "342cf40c1934ada5a6eec3a0163a8a16fe0ac7d6",
+          "inputRev": "342cf40c1934ada5a6eec3a0163a8a16fe0ac7d6",
+          "url": "https://github.com/verse-lab/Lasso.git"
+        },
+        {
+          "type": "git",
+          "name": "VerifiedHAMT",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "244601f8deb02c0d6d8f855bebc4bbe368ad0c98",
+          "inputRev": "244601f8deb02c0d6d8f855bebc4bbe368ad0c98",
+          "url": "https://github.com/verse-lab/VerifiedHAMT.git"
+        },
+        {
+          "type": "git",
+          "name": "Loom",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "0014017c0de11030b450268ee0b58bfb9ecf2089",
+          "inputRev": "0014017c0de11030b450268ee0b58bfb9ecf2089",
+          "url": "https://github.com/verse-lab/loom.git"
+        },
+        {
+          "type": "git",
+          "name": "smt",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "293dab6cf91febf02d952a37b8268ea9953bb07c",
+          "inputRev": "v4.35.0-veil-no-mathlib",
+          "url": "https://github.com/verse-lab/lean-smt.git"
+        },
+        {
+          "type": "git",
+          "name": "Qq",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/quote4"
+        },
+        {
+          "type": "git",
+          "name": "cvc5",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "d19a134c237ec7f0cb86c2027062eedeb577a9a9",
+          "inputRev": "d19a134",
+          "url": "https://github.com/abdoo8080/lean-cvc5.git"
+        },
+        {
+          "type": "git",
+          "name": "auto",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "30f46ddb9a68d6878f5a1337eb2565ba4e70126b",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/lean-auto.git"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "00a1f980bd46bf3f039d355db141183d05797e9f",
+      "date": "2026-11-07T14:42:06Z",
+      "tag": "v4.35.0",
       "toolchain": "leanprover/lean4:v4.35.0",
       "platformIndependent": null,
       "license": null,

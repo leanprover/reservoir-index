@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "dbe3efd835966183950084845b5af94cb956e33c",
+      "date": "2026-11-07T14:45:08Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": null,
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "LeanPoo",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "b29ea0d9d2ffeed0c13b66794fc6d418fd5b0393",
+          "inputRev": "v0.1.2",
+          "url": "https://github.com/tao3k/lean-poo.git"
+        },
+        {
+          "type": "git",
+          "name": "Cedar",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "ac201c127d31cff4bea784c87d3e3d3e8fb8bfe9",
+          "inputRev": "ac201c127d31cff4bea784c87d3e3d3e8fb8bfe9",
+          "url": "https://github.com/cedar-policy/cedar-spec.git"
+        },
+        {
+          "type": "git",
+          "name": "batteries",
+          "scope": "leanprover-community",
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+          "inputRev": "v4.35.0",
+          "url": "https://github.com/leanprover-community/batteries"
+        }
+      ]
+    }
+  ]
+}
