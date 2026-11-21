@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.2.0",
+  "data": [
+    {
+      "version": "0.1.0",
+      "revision": "0ab87f003faa756e5dd75c7832d7a4f788f0b931",
+      "date": "2026-11-01T10:41:14Z",
+      "tag": null,
+      "toolchain": "leanprover/lean4:v4.35.0",
+      "platformIndependent": null,
+      "license": "MIT",
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "lean_eff",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "7adc93de965c30d02b8a8035c2c7efd0dcc75337",
+          "inputRev": "7adc93de965c30d02b8a8035c2c7efd0dcc75337",
+          "url": "https://github.com/palladin/lean-eff.git"
+        },
+        {
+          "type": "git",
+          "name": "leansqlite",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": true,
+          "rev": "4f69cfe63060a8bf6e1080b610f88c7b295629bf",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/leansqlite.git"
+        }
+      ]
+    }
+  ]
+}
