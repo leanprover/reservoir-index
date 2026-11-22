@@ -3,10 +3,10 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "3d5648598d9aa8c0251650e980cae4612f67a936",
-      "date": "2026-11-17T09:47:35Z",
-      "tag": null,
-      "toolchain": "leanprover/lean4:v4.36.0",
+      "revision": "43c98922de00e9f215d2f3fe027cd2f99873212f",
+      "date": "2026-11-18T14:38:44Z",
+      "tag": "v4.37.0-rc1",
+      "toolchain": "leanprover/lean4:v4.37.0-rc1",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
@@ -20,7 +20,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "fed8102bf2d68d7eb1b1ec6c784cc1e0126584b7",
+          "rev": "f70f98332fcc304da5f19ad6097a0f25d0ea18fb",
           "inputRev": "main",
           "url": "https://github.com/leanprover/leansqlite"
         },
@@ -30,7 +30,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "50810f72af7618bee62fe9800dc26e806c188703",
+          "rev": "c830de39b67d5d447d854a4e390fff9bb0a9c897",
           "inputRev": "main",
           "url": "https://github.com/leanprover/lean4-cli"
         },
@@ -40,7 +40,7 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "3a0e60a84c672431415e2cf664b6fc143f10e930",
+          "rev": "27be2261f203ec722a662fcf6b4be2c8e6fb7de8",
           "inputRev": "main",
           "url": "https://github.com/fgdorais/lean4-unicode-basic"
         },
@@ -50,7 +50,72 @@
           "scope": null,
           "version": "0.0.0",
           "transitive": false,
-          "rev": "d5c536c4c75f197ed5e164120c86aa858767fb1c",
+          "rev": "72b116a13f22320bc7d1845da9bd6eaaaf52119c",
+          "inputRev": "master",
+          "url": "https://github.com/dupuisf/BibtexQuery"
+        },
+        {
+          "type": "git",
+          "name": "MD4Lean",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
+          "inputRev": "main",
+          "url": "https://github.com/acmepjz/md4lean"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "43c98922de00e9f215d2f3fe027cd2f99873212f",
+      "date": "2026-11-18T14:38:44Z",
+      "tag": "v4.37.0-rc1",
+      "toolchain": "leanprover/lean4:v4.37.0-rc1",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "leansqlite",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f70f98332fcc304da5f19ad6097a0f25d0ea18fb",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/leansqlite"
+        },
+        {
+          "type": "git",
+          "name": "Cli",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "c830de39b67d5d447d854a4e390fff9bb0a9c897",
+          "inputRev": "main",
+          "url": "https://github.com/leanprover/lean4-cli"
+        },
+        {
+          "type": "git",
+          "name": "UnicodeBasic",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "27be2261f203ec722a662fcf6b4be2c8e6fb7de8",
+          "inputRev": "main",
+          "url": "https://github.com/fgdorais/lean4-unicode-basic"
+        },
+        {
+          "type": "git",
+          "name": "BibtexQuery",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "72b116a13f22320bc7d1845da9bd6eaaaf52119c",
           "inputRev": "master",
           "url": "https://github.com/dupuisf/BibtexQuery"
         },
@@ -75,7 +140,7 @@
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
-        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+        "LICENSE"
       ],
       "readmeFile": "README.md",
       "dependencies": [

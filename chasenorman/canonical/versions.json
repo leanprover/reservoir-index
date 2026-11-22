@@ -3,22 +3,58 @@
   "data": [
     {
       "version": "0.0.0",
-      "revision": "f51f82abb4192e7fdd249b489eb5a682fc2be364",
-      "date": "2026-11-12T23:53:28Z",
-      "tag": "v4.35.0",
-      "toolchain": "leanprover/lean4:v4.35.0",
+      "revision": "69a8b7cdb2022ce3ce65e8203289f27949affe85",
+      "date": "2026-11-22T01:12:23Z",
+      "tag": "v4.36.0",
+      "toolchain": "leanprover/lean4:v4.36.0",
       "platformIndependent": null,
       "license": null,
       "licenseFiles": [
         "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "PremiseSelection",
+          "scope": "chasenorman",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3dc6a0f8634259b4e3da3a7dd1549b4e222b7a36",
+          "inputRev": "master",
+          "url": "https://github.com/chasenorman/PremiseSelection"
+        }
+      ]
     },
     {
       "version": "0.0.0",
-      "revision": "f51f82abb4192e7fdd249b489eb5a682fc2be364",
-      "date": "2026-11-12T23:53:28Z",
+      "revision": "69a8b7cdb2022ce3ce65e8203289f27949affe85",
+      "date": "2026-11-22T01:12:23Z",
+      "tag": "v4.36.0",
+      "toolchain": "leanprover/lean4:v4.36.0",
+      "platformIndependent": null,
+      "license": null,
+      "licenseFiles": [
+        "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
+      ],
+      "readmeFile": "README.md",
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "PremiseSelection",
+          "scope": "chasenorman",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "3dc6a0f8634259b4e3da3a7dd1549b4e222b7a36",
+          "inputRev": "master",
+          "url": "https://github.com/chasenorman/PremiseSelection"
+        }
+      ]
+    },
+    {
+      "version": "0.0.0",
+      "revision": "1747ddf9b6b04cb4f0fdd58669c22003e816959b",
+      "date": "2026-11-21T23:39:26Z",
       "tag": "v4.35.0",
       "toolchain": "leanprover/lean4:v4.35.0",
       "platformIndependent": null,
@@ -27,7 +63,18 @@
         "/home/runner/work/reservoir/reservoir/testbed/repo/LICENSE"
       ],
       "readmeFile": "README.md",
-      "dependencies": []
+      "dependencies": [
+        {
+          "type": "git",
+          "name": "PremiseSelection",
+          "scope": "chasenorman",
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "f7e4584ddf3fce0ed1cfaa73340ad24eb303ca75",
+          "inputRev": "master",
+          "url": "https://github.com/chasenorman/PremiseSelection"
+        }
+      ]
     },
     {
       "version": "0.0.0",
