@@ -3,8 +3,8 @@
   "data": [
     {
       "version": "0.1.0",
-      "revision": "993c477cc1aaabf95d1b219826710a9cdecd1e03",
-      "date": "2026-11-22T21:42:06Z",
+      "revision": "5cb576130e368f3427a7ebe46b0ba8118f09f7dd",
+      "date": "2026-11-25T01:52:33Z",
       "tag": null,
       "toolchain": "leanprover/lean4:v4.34.1",
       "platformIndependent": null,
@@ -63,6 +63,26 @@
           "url": "https://github.com/argumentcomputer/LSpec"
         },
         {
+          "type": "git",
+          "name": "certifri-proofs",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a835ba93059df440df04570298103a591abb9573",
+          "inputRev": "a835ba93059df440df04570298103a591abb9573",
+          "url": "https://github.com/argumentcomputer/CertiFRI"
+        },
+        {
+          "type": "git",
+          "name": "certifri",
+          "scope": null,
+          "version": "0.0.0",
+          "transitive": false,
+          "rev": "a835ba93059df440df04570298103a591abb9573",
+          "inputRev": "a835ba93059df440df04570298103a591abb9573",
+          "url": "https://github.com/argumentcomputer/CertiFRI"
+        },
+        {
           "type": "path",
           "name": "multiStark",
           "scope": null,
@@ -105,7 +125,7 @@
         {
           "type": "git",
           "name": "mathlib",
-          "scope": "leanprover-community",
+          "scope": null,
           "version": "0.0.0",
           "transitive": true,
           "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
